@@ -4,7 +4,7 @@
 
 [![License: CC BY 4.0 (annotations)](https://img.shields.io/badge/Annotations-CC--BY--4.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Code: MIT](https://img.shields.io/badge/Code-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Validate corpus](https://github.com/<org>/<repo>/actions/workflows/validate.yml/badge.svg)](https://github.com/<org>/<repo>/actions/workflows/validate.yml)
+[![Validate corpus](https://github.com/smadjid/RhetConnect/actions/workflows/validate.yml/badge.svg)](https://github.com/smadjid/RhetConnect/actions/workflows/validate.yml)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
 
 **[Browse the corpus interactively &rarr;](https://<org>.github.io/<repo>/)**
