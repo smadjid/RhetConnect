@@ -162,16 +162,6 @@ introduces it (see `CITATION.cff` for machine-readable metadata, and
 Madjid Sadallah
 madjid.sadallah@univ-lyon1.fr
 
-## Getting a DOI (Zenodo)
-
-This README references a Zenodo DOI badge as a placeholder. To activate it:
-
-1. Log into [zenodo.org](https://zenodo.org) with GitHub, enable this repository under GitHub &rarr; Settings.
-2. Cut a GitHub release (e.g. `v1.0`) — Zenodo automatically archives it and mints a DOI.
-3. Replace `zenodo.XXXXXXX` in the badge above and the DOI field in `CITATION.cff` with the real one.
-
-Every future release gets its own DOI automatically; use the "concept DOI" from Zenodo if you want one link that always resolves to the latest version.
-
 ## Version history
 
 - **v1.0** (2026-07) — 40 documents, 10 domains, all three structural
