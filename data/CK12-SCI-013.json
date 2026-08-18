@@ -1,0 +1,243 @@
+{
+  "doc_id": "CK12-SCI-013",
+  "doc_title": "Balancing Chemical Equations",
+  "source": "CK-12 Chemistry Concepts Intermediate, Section 10.1, CC-BY-NC",
+  "source_url": "https://flexbooks.ck12.org/cbook/ck-12-chemistry-concepts-intermediate/section/10.1/",
+  "domain": "chemistry",
+  "annotator": "Sadallah M. (AI-assisted)",
+  "annotation_date": "2026-07-10",
+  "notes": "Class B document (13 units). Fourth chemistry document. Covers conservation of mass and the balancing procedure with a worked example. One ECU for the worked example.",
+  "units": [
+    {
+      "id": "CK12-SCI-013-U001",
+      "label": "Title: Balancing Chemical Equations",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Lesson title"
+    },
+    {
+      "id": "CK12-SCI-013-U002",
+      "label": "Hook: unbalanced scale image (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Photo of an unbalanced two-pan scale, one side heavier than the other. Caption: 'A chemical equation is like a scale — both sides must balance.'"
+    },
+    {
+      "id": "CK12-SCI-013-U003",
+      "label": "Learning Objectives (text)",
+      "type": "text",
+      "duration": 15.0,
+      "content_summary": "Objectives: state the law of conservation of mass; identify reactants and products in an equation; balance a simple chemical equation using coefficients."
+    },
+    {
+      "id": "CK12-SCI-013-U004",
+      "label": "Law of conservation of mass (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Matter cannot be created or destroyed in a chemical reaction — the total mass of reactants equals the total mass of products. This means the number of atoms of each element must be the same on both sides of the equation."
+    },
+    {
+      "id": "CK12-SCI-013-U005",
+      "label": "Anatomy of an equation (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Reactants (starting substances) on the left, products (resulting substances) on the right, separated by an arrow. Coefficients (numbers in front of formulas) show how many molecules of each substance react/form; subscripts show atoms within a molecule and cannot be changed."
+    },
+    {
+      "id": "CK12-SCI-013-U006",
+      "label": "Equation anatomy diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Labeled diagram of the equation 2H2 + O2 → 2H2O, with arrows pointing out 'coefficient', 'reactants', 'products', and 'subscript' on the relevant parts."
+    },
+    {
+      "id": "CK12-SCI-013-U007",
+      "label": "Balancing procedure (text)",
+      "type": "text",
+      "duration": 30.0,
+      "content_summary": "Step-by-step procedure: (1) count atoms of each element on both sides; (2) add coefficients (never change subscripts) to make counts equal; (3) start with the most complex molecule; (4) recheck all elements after each change."
+    },
+    {
+      "id": "CK12-SCI-013-U008",
+      "label": "Worked example: methane combustion (text)",
+      "type": "text",
+      "duration": 36.0,
+      "content_summary": "Balance: CH4 + O2 → CO2 + H2O. Step-by-step: C balances (1=1); H needs 4 on right → 2H2O; O now needs 4 on left → 2O2. Final balanced equation: CH4 + 2O2 → CO2 + 2H2O. Verified atom-by-atom."
+    },
+    {
+      "id": "CK12-SCI-013-U009",
+      "label": "Worked example atom-count table (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Before/after table showing atom counts for C, H, O on each side of the methane combustion equation, confirming all counts match after balancing."
+    },
+    {
+      "id": "CK12-SCI-013-U010",
+      "label": "Video: balancing walkthrough (video)",
+      "type": "video",
+      "duration": 90.0,
+      "content_summary": "Video walking through balancing a second example (photosynthesis equation) step by step, showing coefficient adjustments and atom recounts in real time."
+    },
+    {
+      "id": "CK12-SCI-013-U011",
+      "label": "Common mistakes (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Common errors: changing subscripts instead of adding coefficients (this changes the substance's identity, not just its quantity); forgetting to recheck all elements after each adjustment."
+    },
+    {
+      "id": "CK12-SCI-013-U012",
+      "label": "Practice problems (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Four unbalanced equations to balance: H2 + O2 → H2O; Fe + O2 → Fe2O3; N2 + H2 → NH3; Na + Cl2 → NaCl."
+    },
+    {
+      "id": "CK12-SCI-013-U013",
+      "label": "Lesson root: Balancing Equations lesson",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Top-level document container."
+    }
+  ],
+  "ecus": [
+    {
+      "id": "CK12-SCI-013-ECU01",
+      "label": "Worked Example Block",
+      "members": [
+        "CK12-SCI-013-U008",
+        "CK12-SCI-013-U009"
+      ],
+      "main_unit_id": "CK12-SCI-013-U008"
+    }
+  ],
+  "relations": [
+    {
+      "id": "R001",
+      "type": "mononuclear",
+      "relation_name": "Identification",
+      "nucleus_id": "CK12-SCI-013-U013",
+      "satellite_id": "CK12-SCI-013-U001",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R002",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-SCI-013-U013",
+      "satellite_id": "CK12-SCI-013-U002",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R003",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-SCI-013-U013",
+      "satellite_id": "CK12-SCI-013-U003",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R004",
+      "type": "mononuclear",
+      "relation_name": "Background",
+      "nucleus_id": "CK12-SCI-013-U013",
+      "satellite_id": "CK12-SCI-013-U004",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R005",
+      "type": "mononuclear",
+      "relation_name": "Elaboration",
+      "nucleus_id": "CK12-SCI-013-U004",
+      "satellite_id": "CK12-SCI-013-U005",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R006",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "CK12-SCI-013-U005",
+      "satellite_id": "CK12-SCI-013-U006",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R007",
+      "type": "mononuclear",
+      "relation_name": "Elaboration",
+      "nucleus_id": "CK12-SCI-013-U013",
+      "satellite_id": "CK12-SCI-013-U007",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R008",
+      "type": "mononuclear",
+      "relation_name": "Demonstration",
+      "nucleus_id": "CK12-SCI-013-U007",
+      "satellite_id": "CK12-SCI-013-ECU01",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R009",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "CK12-SCI-013-U007",
+      "satellite_id": "CK12-SCI-013-U010",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R010",
+      "type": "mononuclear",
+      "relation_name": "Annotation",
+      "nucleus_id": "CK12-SCI-013-U007",
+      "satellite_id": "CK12-SCI-013-U011",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R011",
+      "type": "mononuclear",
+      "relation_name": "Reinforcement",
+      "nucleus_id": "CK12-SCI-013-U013",
+      "satellite_id": "CK12-SCI-013-U012",
+      "satellite_orbit": 0
+    }
+  ],
+  "root_unit_id": "CK12-SCI-013-U013",
+  "computed": {
+    "weights": {
+      "CK12-SCI-013-U013": 3.0,
+      "CK12-SCI-013-U001": 2.0,
+      "CK12-SCI-013-U002": 2.0,
+      "CK12-SCI-013-U003": 1.5,
+      "CK12-SCI-013-U004": 2.0,
+      "CK12-SCI-013-U005": 0.95,
+      "CK12-SCI-013-U006": -0.05,
+      "CK12-SCI-013-U007": 2.0,
+      "CK12-SCI-013-ECU01": 1.0,
+      "CK12-SCI-013-U008": 1.0,
+      "CK12-SCI-013-U010": 0.95,
+      "CK12-SCI-013-U011": 0.95,
+      "CK12-SCI-013-U012": 2.0,
+      "CK12-SCI-013-U009": 0.0
+    },
+    "levels": {
+      "CK12-SCI-013-U013": 1,
+      "CK12-SCI-013-U001": 2,
+      "CK12-SCI-013-U002": 2,
+      "CK12-SCI-013-U003": 2,
+      "CK12-SCI-013-U004": 2,
+      "CK12-SCI-013-U007": 2,
+      "CK12-SCI-013-U012": 2,
+      "CK12-SCI-013-U005": 3,
+      "CK12-SCI-013-ECU01": 3,
+      "CK12-SCI-013-U008": 3,
+      "CK12-SCI-013-U010": 3,
+      "CK12-SCI-013-U011": 3,
+      "CK12-SCI-013-U006": 4
+    },
+    "max_orbit": 2,
+    "total_duration": 306.0,
+    "n_units": 13,
+    "n_ecus": 1,
+    "n_relations": 11
+  }
+}

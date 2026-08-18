@@ -1,0 +1,530 @@
+{
+  "doc_id": "BUILT-002",
+  "doc_title": "Projectile Motion",
+  "source": "Constructed document — based on AP Physics 1 / IB Physics curriculum",
+  "source_url": "N/A",
+  "domain": "physics",
+  "annotator": "Sadallah M. (AI-assisted)",
+  "annotation_date": "2026-06-22",
+  "notes": "Constructed Class C document (25 units, 9 ECUs, nesting depth 3, max orbit 2). Covers horizontal/vertical component decomposition, equations of motion for each axis, range/time-of-flight formulas, symmetry of trajectory, two worked examples (horizontal launch and angled launch), real-world applications (basketball, artillery), video, and a rich exercise set. Multiple multinuclear Sequence relations for stepwise derivations.",
+  "units": [
+    {
+      "id": "BUILT-002-U001",
+      "label": "Title: Projectile Motion",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Lesson title"
+    },
+    {
+      "id": "BUILT-002-U002",
+      "label": "Hook: basketball free throw (video)",
+      "type": "video",
+      "duration": 30.0,
+      "content_summary": "Slow-motion video of a basketball free throw showing the parabolic arc. Trajectory path traced in red. Question: 'What determines whether the ball goes in?' Sets up the need for projectile motion analysis."
+    },
+    {
+      "id": "BUILT-002-U003",
+      "label": "Learning Objectives (text)",
+      "type": "text",
+      "duration": 15.0,
+      "content_summary": "Objectives: decompose projectile motion into independent horizontal and vertical components; apply kinematic equations to each axis; calculate range, max height, and time of flight; analyse the effect of launch angle on range."
+    },
+    {
+      "id": "BUILT-002-U004",
+      "label": "Key concept: independence of components (text)",
+      "type": "text",
+      "duration": 30.0,
+      "content_summary": "Horizontal and vertical motions are independent. Horizontal: constant velocity (no air resistance), ax=0, x=v₀cosθ·t. Vertical: constant acceleration due to gravity, ay=-g=-9.8m/s², vy=v₀sinθ-gt. A bullet fired horizontally hits the ground at the same time as one dropped from the same height — they share the same vertical motion."
+    },
+    {
+      "id": "BUILT-002-U005",
+      "label": "Component independence diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Strobe-light diagram showing a ball thrown horizontally (projectile) alongside a ball dropped vertically. Horizontal positions are equally spaced (constant vx). Vertical positions match exactly (same ay). Proves independence of components."
+    },
+    {
+      "id": "BUILT-002-U006",
+      "label": "Vector decomposition diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Diagram of initial velocity vector v₀ at angle θ to horizontal, decomposed into vx=v₀cosθ (horizontal component) and vy=v₀sinθ (vertical component). Trigonometry labels shown. Right triangle formed by components and resultant."
+    },
+    {
+      "id": "BUILT-002-U007",
+      "label": "Horizontal motion equations (text)",
+      "type": "text",
+      "duration": 20.0,
+      "content_summary": "Horizontal (x-axis): ax=0 (no horizontal force, ignoring air resistance). vx = v₀cosθ = constant (unchanged throughout flight). x = vx·t = v₀cosθ·t. Horizontal motion is uniform — object moves equal distances in equal time intervals."
+    },
+    {
+      "id": "BUILT-002-U008",
+      "label": "Vertical motion equations (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Vertical (y-axis): ay = -g = -9.8 m/s². vy = v₀sinθ - gt. y = v₀sinθ·t - ½gt². At maximum height: vy=0 → t_top = v₀sinθ/g. Max height: H = (v₀sinθ)²/(2g). Vertical motion is uniformly accelerated."
+    },
+    {
+      "id": "BUILT-002-U009",
+      "label": "Equations summary table (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Two-column table: Horizontal | Vertical. Rows: Initial velocity (vx=v₀cosθ | vy₀=v₀sinθ), Acceleration (ax=0 | ay=-g), Velocity at time t (vx=const | vy=v₀sinθ-gt), Position at time t (x=vxt | y=v₀sinθ·t-½gt²). Compact reference."
+    },
+    {
+      "id": "BUILT-002-U010",
+      "label": "Trajectory equation derivation (text)",
+      "type": "text",
+      "duration": 30.0,
+      "content_summary": "Eliminate t between x and y equations: t=x/vx; substitute: y = tanθ·x - gx²/(2v₀²cos²θ). This is the trajectory equation — parabola in the form y = ax - bx². Confirms that projectile paths are parabolic. Symmetry: the descent mirrors the ascent."
+    },
+    {
+      "id": "BUILT-002-U011",
+      "label": "Parabolic trajectory diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Graph showing parabolic trajectory with key points labeled: launch point (0,0), maximum height H at x=R/2, landing point (R,0). Symmetry axis shown at x=R/2. Angle of launch and landing marked as equal (45° case shown). Range R labeled."
+    },
+    {
+      "id": "BUILT-002-U012",
+      "label": "Range formula and optimum angle (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Total time of flight: T = 2v₀sinθ/g. Horizontal range: R = v₀cosθ·T = v₀²sin2θ/g. Maximum range occurs when sin2θ=1 → 2θ=90° → θ=45°. Complementary angles give same range: θ=30° and θ=60° both give R=v₀²sin60°/g. Important result for targeting problems."
+    },
+    {
+      "id": "BUILT-002-U013",
+      "label": "Range vs angle graph (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Graph of range R vs launch angle θ from 0° to 90°. Symmetric curve peaking at θ=45°. Points at 30° and 60° are marked, showing they give identical R values. Confirms the complementary angle theorem."
+    },
+    {
+      "id": "BUILT-002-U014",
+      "label": "Worked Example 1: horizontal launch from cliff (text)",
+      "type": "text",
+      "duration": 36.0,
+      "content_summary": "Problem: ball launched horizontally at 20 m/s from cliff 45m high. Find: (a) time to hit ground, (b) horizontal distance, (c) speed at impact. Solution: (a) 45=½(9.8)t² → t=3.03s; (b) x=20×3.03=60.6m; (c) vx=20, vy=9.8×3.03=29.7; v=√(400+882)=35.8m/s. All steps shown."
+    },
+    {
+      "id": "BUILT-002-U015",
+      "label": "Worked Example 1 trajectory diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Scale diagram of cliff (45m) with parabolic trajectory curving down to landing point 60.6m from cliff base. Velocity vectors shown at three points: launch (horizontal), midpoint (diagonal), impact (steep diagonal). All values labeled."
+    },
+    {
+      "id": "BUILT-002-U016",
+      "label": "Worked Example 2: angled launch (text)",
+      "type": "text",
+      "duration": 42.0,
+      "content_summary": "Problem: ball launched at 30 m/s at 40° above horizontal from ground. Find: (a) max height, (b) time of flight, (c) range. Solution: vx=30cos40°=23.0, vy₀=30sin40°=19.3; (a) H=vy₀²/(2g)=19.0m; (b) T=2×19.3/9.8=3.94s; (c) R=23.0×3.94=90.6m. Full working."
+    },
+    {
+      "id": "BUILT-002-U017",
+      "label": "Worked Example 2 full trajectory diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Annotated parabola for Example 2: shows max height H=19.0m at midpoint, range R=90.6m, launch angle 40°. Horizontal and vertical velocity components shown as arrows at multiple points along trajectory."
+    },
+    {
+      "id": "BUILT-002-U018",
+      "label": "Symmetry of projectile motion (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "The trajectory is symmetric about the maximum height. Time to reach max height = time to fall from max height. Speed at launch equals speed at landing (same height). The angle below horizontal at landing equals the launch angle. Useful for simplifying calculations."
+    },
+    {
+      "id": "BUILT-002-U019",
+      "label": "Real-world: basketball shot analysis (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "For a free throw: rim is at 3.05m, launch height ~2.0m, horizontal distance ~4.6m. Net height gain = 1.05m. At 45° launch angle: required v₀ ≈ 7.0m/s. However, a slightly steeper angle (52°) gives a wider entry window into the rim. Explains why basketball coaches say 'shoot with arc.'"
+    },
+    {
+      "id": "BUILT-002-U020",
+      "label": "Real-world: artillery and air resistance (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Artillery shells follow projectile paths but air resistance reduces range significantly — actual optimum angle is less than 45° (≈38° for typical artillery). Long-range missiles must account for Earth's curvature. Real-world projectiles deviate from ideal parabola at high speeds/distances."
+    },
+    {
+      "id": "BUILT-002-U021",
+      "label": "Air resistance effect diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Overlay of two trajectories at 45°: ideal parabola (blue, no air resistance) vs realistic trajectory (red, with air resistance). Realistic trajectory is shorter, asymmetric (steeper descent than ascent), and peak is shifted left."
+    },
+    {
+      "id": "BUILT-002-U022",
+      "label": "Video: projectile motion simulation (video)",
+      "type": "video",
+      "duration": 120.0,
+      "content_summary": "PhET simulation video showing a projectile launcher at variable angles and speeds. Student adjusts angle from 0° to 90° and observes range changes, confirming the 45° maximum and complementary angle result. Can toggle air resistance on/off."
+    },
+    {
+      "id": "BUILT-002-U023",
+      "label": "Practice problems: basic calculations (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Four basic problems: horizontal launch from height; angled launch finding max height; find angle given range and initial speed; find initial speed given range and angle. Each requires setting up equations from scratch."
+    },
+    {
+      "id": "BUILT-002-U024",
+      "label": "Practice problems: multi-step challenge (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Two challenge problems: (1) Two projectiles launched simultaneously from the same point at different angles — do they ever meet? (2) A ball is kicked toward a wall 10m away at v₀=15 m/s, θ=35°. At what height does it hit the wall? Requires multiple kinematic equations."
+    },
+    {
+      "id": "BUILT-002-U025",
+      "label": "Lesson root: Projectile Motion lesson",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Top-level document container."
+    }
+  ],
+  "ecus": [
+    {
+      "id": "BUILT-002-ECU01",
+      "label": "Components Block",
+      "members": [
+        "BUILT-002-U004",
+        "BUILT-002-U005",
+        "BUILT-002-U006"
+      ],
+      "main_unit_id": "BUILT-002-U004"
+    },
+    {
+      "id": "BUILT-002-ECU02",
+      "label": "Horizontal Equations Block",
+      "members": [
+        "BUILT-002-U007",
+        "BUILT-002-U008",
+        "BUILT-002-U009"
+      ],
+      "main_unit_id": "BUILT-002-U007"
+    },
+    {
+      "id": "BUILT-002-ECU03",
+      "label": "Trajectory Block",
+      "members": [
+        "BUILT-002-U010",
+        "BUILT-002-U011",
+        "BUILT-002-U012",
+        "BUILT-002-U013"
+      ],
+      "main_unit_id": "BUILT-002-U010"
+    },
+    {
+      "id": "BUILT-002-ECU04",
+      "label": "Theory Block",
+      "members": [
+        "BUILT-002-ECU01",
+        "BUILT-002-ECU02",
+        "BUILT-002-ECU03"
+      ],
+      "main_unit_id": "BUILT-002-ECU01"
+    },
+    {
+      "id": "BUILT-002-ECU05",
+      "label": "Example 1 Block",
+      "members": [
+        "BUILT-002-U014",
+        "BUILT-002-U015"
+      ],
+      "main_unit_id": "BUILT-002-U014"
+    },
+    {
+      "id": "BUILT-002-ECU06",
+      "label": "Example 2 Block",
+      "members": [
+        "BUILT-002-U016",
+        "BUILT-002-U017"
+      ],
+      "main_unit_id": "BUILT-002-U016"
+    },
+    {
+      "id": "BUILT-002-ECU07",
+      "label": "Examples Block",
+      "members": [
+        "BUILT-002-ECU05",
+        "BUILT-002-ECU06"
+      ],
+      "main_unit_id": "BUILT-002-ECU05"
+    },
+    {
+      "id": "BUILT-002-ECU08",
+      "label": "Applications Block",
+      "members": [
+        "BUILT-002-U019",
+        "BUILT-002-U020",
+        "BUILT-002-U021"
+      ],
+      "main_unit_id": "BUILT-002-U019"
+    },
+    {
+      "id": "BUILT-002-ECU09",
+      "label": "Practice Block",
+      "members": [
+        "BUILT-002-U023",
+        "BUILT-002-U024"
+      ],
+      "main_unit_id": "BUILT-002-U023"
+    }
+  ],
+  "relations": [
+    {
+      "id": "R001",
+      "type": "mononuclear",
+      "relation_name": "Identification",
+      "nucleus_id": "BUILT-002-U025",
+      "satellite_id": "BUILT-002-U001",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R002",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "BUILT-002-U025",
+      "satellite_id": "BUILT-002-U002",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R003",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "BUILT-002-U025",
+      "satellite_id": "BUILT-002-U003",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R004",
+      "type": "multinuclear",
+      "relation_name": "Joint",
+      "co_nuclei_ids": [
+        "BUILT-002-U025",
+        "BUILT-002-ECU04",
+        "BUILT-002-ECU07",
+        "BUILT-002-U018",
+        "BUILT-002-ECU08",
+        "BUILT-002-U022",
+        "BUILT-002-ECU09"
+      ]
+    },
+    {
+      "id": "R005",
+      "type": "multinuclear",
+      "relation_name": "Sequence",
+      "co_nuclei_ids": [
+        "BUILT-002-ECU01",
+        "BUILT-002-ECU02",
+        "BUILT-002-ECU03"
+      ]
+    },
+    {
+      "id": "R006",
+      "type": "mononuclear",
+      "relation_name": "Evidence",
+      "nucleus_id": "BUILT-002-U004",
+      "satellite_id": "BUILT-002-U005",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R007",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "BUILT-002-U004",
+      "satellite_id": "BUILT-002-U006",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R008",
+      "type": "multinuclear",
+      "relation_name": "List",
+      "co_nuclei_ids": [
+        "BUILT-002-U007",
+        "BUILT-002-U008"
+      ]
+    },
+    {
+      "id": "R009",
+      "type": "mononuclear",
+      "relation_name": "Annotation",
+      "nucleus_id": "BUILT-002-ECU02",
+      "satellite_id": "BUILT-002-U009",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R010",
+      "type": "mononuclear",
+      "relation_name": "Evidence",
+      "nucleus_id": "BUILT-002-U010",
+      "satellite_id": "BUILT-002-U011",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R011",
+      "type": "mononuclear",
+      "relation_name": "Elaboration",
+      "nucleus_id": "BUILT-002-ECU03",
+      "satellite_id": "BUILT-002-U012",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R012",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "BUILT-002-U012",
+      "satellite_id": "BUILT-002-U013",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R013",
+      "type": "multinuclear",
+      "relation_name": "Enumeration",
+      "co_nuclei_ids": [
+        "BUILT-002-ECU05",
+        "BUILT-002-ECU06"
+      ]
+    },
+    {
+      "id": "R014",
+      "type": "mononuclear",
+      "relation_name": "Demonstration",
+      "nucleus_id": "BUILT-002-U014",
+      "satellite_id": "BUILT-002-U015",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R015",
+      "type": "mononuclear",
+      "relation_name": "Demonstration",
+      "nucleus_id": "BUILT-002-U016",
+      "satellite_id": "BUILT-002-U017",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R016",
+      "type": "mononuclear",
+      "relation_name": "Annotation",
+      "nucleus_id": "BUILT-002-ECU07",
+      "satellite_id": "BUILT-002-U018",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R017",
+      "type": "multinuclear",
+      "relation_name": "List",
+      "co_nuclei_ids": [
+        "BUILT-002-U019",
+        "BUILT-002-U020"
+      ]
+    },
+    {
+      "id": "R018",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "BUILT-002-U020",
+      "satellite_id": "BUILT-002-U021",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R019",
+      "type": "multinuclear",
+      "relation_name": "Sequence",
+      "co_nuclei_ids": [
+        "BUILT-002-U023",
+        "BUILT-002-U024"
+      ]
+    },
+    {
+      "id": "R020",
+      "type": "mononuclear",
+      "relation_name": "Motivation",
+      "nucleus_id": "BUILT-002-ECU08",
+      "satellite_id": "BUILT-002-U002",
+      "satellite_orbit": 2
+    }
+  ],
+  "root_unit_id": "BUILT-002-U025",
+  "computed": {
+    "weights": {
+      "BUILT-002-U025": 3.0,
+      "BUILT-002-U001": 2.0,
+      "BUILT-002-U002": 2.0,
+      "BUILT-002-U003": 1.6667,
+      "BUILT-002-ECU04": 3.0,
+      "BUILT-002-ECU01": 3.0,
+      "BUILT-002-U004": 3.0,
+      "BUILT-002-U005": 2.0,
+      "BUILT-002-U006": 1.6667,
+      "BUILT-002-ECU02": 3.0,
+      "BUILT-002-U007": 3.0,
+      "BUILT-002-U008": 3.0,
+      "BUILT-002-U009": 2.0,
+      "BUILT-002-ECU03": 3.0,
+      "BUILT-002-U010": 3.0,
+      "BUILT-002-U011": 2.0,
+      "BUILT-002-U012": 2.0,
+      "BUILT-002-U013": 1.0,
+      "BUILT-002-ECU07": 3.0,
+      "BUILT-002-ECU05": 3.0,
+      "BUILT-002-U014": 3.0,
+      "BUILT-002-U015": 2.0,
+      "BUILT-002-ECU06": 3.0,
+      "BUILT-002-U016": 3.0,
+      "BUILT-002-U017": 2.0,
+      "BUILT-002-U018": 2.0,
+      "BUILT-002-ECU08": 2.0,
+      "BUILT-002-U019": 2.0,
+      "BUILT-002-U020": 2.0,
+      "BUILT-002-U021": 1.0,
+      "BUILT-002-U022": 2.0,
+      "BUILT-002-ECU09": 2.0,
+      "BUILT-002-U023": 2.0,
+      "BUILT-002-U024": 2.0
+    },
+    "levels": {
+      "BUILT-002-U025": 1,
+      "BUILT-002-U001": 2,
+      "BUILT-002-U002": 2,
+      "BUILT-002-U003": 2,
+      "BUILT-002-ECU04": 1,
+      "BUILT-002-ECU07": 1,
+      "BUILT-002-U018": 1,
+      "BUILT-002-ECU08": 1,
+      "BUILT-002-U022": 1,
+      "BUILT-002-ECU09": 1,
+      "BUILT-002-ECU01": 1,
+      "BUILT-002-ECU05": 1,
+      "BUILT-002-U019": 1,
+      "BUILT-002-U023": 1,
+      "BUILT-002-U004": 1,
+      "BUILT-002-ECU02": 1,
+      "BUILT-002-ECU03": 1,
+      "BUILT-002-U014": 1,
+      "BUILT-002-ECU06": 1,
+      "BUILT-002-U020": 1,
+      "BUILT-002-U024": 1,
+      "BUILT-002-U005": 2,
+      "BUILT-002-U006": 2,
+      "BUILT-002-U009": 2,
+      "BUILT-002-U007": 1,
+      "BUILT-002-U012": 2,
+      "BUILT-002-U010": 1,
+      "BUILT-002-U015": 2,
+      "BUILT-002-U016": 1,
+      "BUILT-002-U021": 2,
+      "BUILT-002-U008": 1,
+      "BUILT-002-U013": 3,
+      "BUILT-002-U011": 2,
+      "BUILT-002-U017": 2
+    },
+    "max_orbit": 3,
+    "total_duration": 599.0,
+    "n_units": 25,
+    "n_ecus": 9,
+    "n_relations": 20
+  }
+}

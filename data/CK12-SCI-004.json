@@ -1,0 +1,369 @@
+{
+  "doc_id": "CK12-SCI-004",
+  "doc_title": "Cell Structure and Function",
+  "source": "CK-12 Life Science Concepts, CC-BY-NC",
+  "source_url": "https://flexbooks.ck12.org/cbook/ck-12-life-science-concepts-for-middle-school/section/3.1/",
+  "domain": "biology",
+  "annotator": "Sadallah M. (AI-assisted)",
+  "annotation_date": "2026-06-22",
+  "notes": "Lesson on cell theory and organelles. Structure: hook (cork microscopy history) → cell theory statement → prokaryotic vs eukaryotic comparison → plant vs animal cell diagram → key organelles × 6 with function descriptions → video → practice. Image-rich lesson.",
+  "units": [
+    {
+      "id": "CK12-SCI-004-U001",
+      "label": "Title: Cell Structure and Function",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Lesson title"
+    },
+    {
+      "id": "CK12-SCI-004-U002",
+      "label": "Hook: Robert Hooke and cork microscopy (text + image)",
+      "type": "text",
+      "duration": 30.0,
+      "content_summary": "Robert Hooke (1665) observed cork under microscope and named the compartments 'cells' because they resembled monk's cells. Historical context establishing the discovery of cells."
+    },
+    {
+      "id": "CK12-SCI-004-U003",
+      "label": "Hooke's original cork microscopy drawing (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Reproduction of Hooke's original drawing of cork cells from Micrographia (1665). Shows grid-like structure of dead cork cells."
+    },
+    {
+      "id": "CK12-SCI-004-U004",
+      "label": "Cell Theory: 3 principles (text)",
+      "type": "text",
+      "duration": 30.0,
+      "content_summary": "The Cell Theory: (1) all living things are made of cells; (2) the cell is the basic unit of life; (3) all cells come from existing cells. Credited to Schleiden, Schwann, Virchow."
+    },
+    {
+      "id": "CK12-SCI-004-U005",
+      "label": "Learning Objectives (text)",
+      "type": "text",
+      "duration": 15.0,
+      "content_summary": "Objectives: state cell theory; compare prokaryotic and eukaryotic cells; identify key organelles and their functions; distinguish plant and animal cells."
+    },
+    {
+      "id": "CK12-SCI-004-U006",
+      "label": "Prokaryotic vs Eukaryotic comparison diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Side-by-side diagram: prokaryotic cell (no nucleus, single circular chromosome, no membrane-bound organelles, example: bacteria) vs eukaryotic cell (true nucleus, complex organelles, example: animal/plant cells)."
+    },
+    {
+      "id": "CK12-SCI-004-U007",
+      "label": "Prokaryotic vs Eukaryotic explanation (text)",
+      "type": "text",
+      "duration": 36.0,
+      "content_summary": "Defines prokaryotic (pro=before, karyon=nucleus) and eukaryotic (eu=true, karyon=nucleus). Describes key differences: nuclear membrane, organelles, size, complexity. Gives examples of each type."
+    },
+    {
+      "id": "CK12-SCI-004-U008",
+      "label": "Plant cell diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Labeled diagram of a plant cell showing: cell wall, cell membrane, nucleus, chloroplast, mitochondria, vacuole, endoplasmic reticulum, ribosomes. Color-coded for clarity."
+    },
+    {
+      "id": "CK12-SCI-004-U009",
+      "label": "Animal cell diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Labeled diagram of an animal cell showing: cell membrane, nucleus, mitochondria, ribosomes, Golgi apparatus, lysosomes, centrioles. Notably absent: cell wall, chloroplasts, large central vacuole."
+    },
+    {
+      "id": "CK12-SCI-004-U010",
+      "label": "Organelle 1: Nucleus function (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "The nucleus is the control center of the cell. Contains DNA (genetic information). Surrounded by nuclear envelope with pores. Nucleolus inside makes ribosomes. Found in all eukaryotic cells."
+    },
+    {
+      "id": "CK12-SCI-004-U011",
+      "label": "Organelle 2: Mitochondria function (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Mitochondria are the powerhouse of the cell. Perform cellular respiration converting glucose + oxygen → ATP energy. Double-membrane structure. More numerous in cells with high energy demands."
+    },
+    {
+      "id": "CK12-SCI-004-U012",
+      "label": "Organelle 3: Chloroplast function (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Chloroplasts perform photosynthesis: light + CO2 + water → glucose + oxygen. Contain chlorophyll (green pigment). Found only in plant cells and algae. Double membrane with thylakoid stacks."
+    },
+    {
+      "id": "CK12-SCI-004-U013",
+      "label": "Organelle 4: Cell membrane function (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "The cell membrane is the selective barrier controlling what enters and exits the cell. Composed of phospholipid bilayer with embedded proteins. All cells have a cell membrane."
+    },
+    {
+      "id": "CK12-SCI-004-U014",
+      "label": "Organelle 5: Cell wall function (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "The cell wall provides rigid structural support. Made of cellulose in plants, chitin in fungi, peptidoglycan in bacteria. Found in plant, fungal, and bacterial cells — NOT in animal cells."
+    },
+    {
+      "id": "CK12-SCI-004-U015",
+      "label": "Organelle 6: Vacuole function (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Vacuoles store water, nutrients, waste products. Plant cells have one large central vacuole maintaining turgor pressure. Animal cells have small, temporary vacuoles. Important for plant structure."
+    },
+    {
+      "id": "CK12-SCI-004-U016",
+      "label": "Video: cell organelles tour (video)",
+      "type": "video",
+      "duration": 180.0,
+      "content_summary": "Animated 3-minute tour of an animal cell showing each organelle in context, describing its structure and function. Transitions between organelles with smooth animation."
+    },
+    {
+      "id": "CK12-SCI-004-U017",
+      "label": "Plant vs Animal cell: key differences table (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Comparison table: structures present in plant cells (cell wall, chloroplasts, large central vacuole) vs those absent in animal cells. Three-column format: Structure | Plant Cell | Animal Cell."
+    },
+    {
+      "id": "CK12-SCI-004-U018",
+      "label": "Practice: organelle function matching (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Six matching questions: match each organelle to its function. Covers nucleus, mitochondria, chloroplast, cell membrane, cell wall, vacuole."
+    },
+    {
+      "id": "CK12-SCI-004-U019",
+      "label": "Practice: plant vs animal cell identification (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Two unlabeled cell diagrams. Students identify which is plant and which is animal based on presence/absence of key structures, and label 4 organelles in each."
+    },
+    {
+      "id": "CK12-SCI-004-U020",
+      "label": "Lesson root: Cell Structure lesson",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Top-level document container."
+    }
+  ],
+  "ecus": [
+    {
+      "id": "CK12-SCI-004-ECU01",
+      "label": "Hook Block",
+      "members": [
+        "CK12-SCI-004-U002",
+        "CK12-SCI-004-U003"
+      ],
+      "main_unit_id": "CK12-SCI-004-U002"
+    },
+    {
+      "id": "CK12-SCI-004-ECU02",
+      "label": "Prokaryote-Eukaryote Block",
+      "members": [
+        "CK12-SCI-004-U007",
+        "CK12-SCI-004-U006"
+      ],
+      "main_unit_id": "CK12-SCI-004-U007"
+    },
+    {
+      "id": "CK12-SCI-004-ECU03",
+      "label": "Cell Diagrams Block",
+      "members": [
+        "CK12-SCI-004-U008",
+        "CK12-SCI-004-U009",
+        "CK12-SCI-004-U017"
+      ],
+      "main_unit_id": "CK12-SCI-004-U008"
+    },
+    {
+      "id": "CK12-SCI-004-ECU04",
+      "label": "Organelles Block",
+      "members": [
+        "CK12-SCI-004-U010",
+        "CK12-SCI-004-U011",
+        "CK12-SCI-004-U012",
+        "CK12-SCI-004-U013",
+        "CK12-SCI-004-U014",
+        "CK12-SCI-004-U015",
+        "CK12-SCI-004-U016"
+      ],
+      "main_unit_id": "CK12-SCI-004-U010"
+    },
+    {
+      "id": "CK12-SCI-004-ECU05",
+      "label": "Practice Block",
+      "members": [
+        "CK12-SCI-004-U018",
+        "CK12-SCI-004-U019"
+      ],
+      "main_unit_id": "CK12-SCI-004-U018"
+    }
+  ],
+  "relations": [
+    {
+      "id": "R001",
+      "type": "mononuclear",
+      "relation_name": "Identification",
+      "nucleus_id": "CK12-SCI-004-U020",
+      "satellite_id": "CK12-SCI-004-U001",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R002",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-SCI-004-U020",
+      "satellite_id": "CK12-SCI-004-ECU01",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R003",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-SCI-004-U020",
+      "satellite_id": "CK12-SCI-004-U005",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R004",
+      "type": "multinuclear",
+      "relation_name": "Joint",
+      "co_nuclei_ids": [
+        "CK12-SCI-004-U020",
+        "CK12-SCI-004-U004",
+        "CK12-SCI-004-ECU02",
+        "CK12-SCI-004-ECU03",
+        "CK12-SCI-004-ECU04",
+        "CK12-SCI-004-ECU05"
+      ]
+    },
+    {
+      "id": "R005",
+      "type": "mononuclear",
+      "relation_name": "Elaboration",
+      "nucleus_id": "CK12-SCI-004-ECU01",
+      "satellite_id": "CK12-SCI-004-U003",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R006",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "CK12-SCI-004-ECU02",
+      "satellite_id": "CK12-SCI-004-U006",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R007",
+      "type": "multinuclear",
+      "relation_name": "List",
+      "co_nuclei_ids": [
+        "CK12-SCI-004-U008",
+        "CK12-SCI-004-U009"
+      ]
+    },
+    {
+      "id": "R008",
+      "type": "mononuclear",
+      "relation_name": "Elaboration",
+      "nucleus_id": "CK12-SCI-004-ECU03",
+      "satellite_id": "CK12-SCI-004-U017",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R009",
+      "type": "multinuclear",
+      "relation_name": "List",
+      "co_nuclei_ids": [
+        "CK12-SCI-004-U010",
+        "CK12-SCI-004-U011",
+        "CK12-SCI-004-U012",
+        "CK12-SCI-004-U013",
+        "CK12-SCI-004-U014",
+        "CK12-SCI-004-U015"
+      ]
+    },
+    {
+      "id": "R010",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "CK12-SCI-004-ECU04",
+      "satellite_id": "CK12-SCI-004-U016",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R011",
+      "type": "multinuclear",
+      "relation_name": "List",
+      "co_nuclei_ids": [
+        "CK12-SCI-004-U018",
+        "CK12-SCI-004-U019"
+      ]
+    }
+  ],
+  "root_unit_id": "CK12-SCI-004-U020",
+  "computed": {
+    "weights": {
+      "CK12-SCI-004-U020": 3.0,
+      "CK12-SCI-004-U001": 2.0,
+      "CK12-SCI-004-ECU01": 2.0,
+      "CK12-SCI-004-U002": 2.0,
+      "CK12-SCI-004-U003": 1.0,
+      "CK12-SCI-004-U005": 1.5,
+      "CK12-SCI-004-U004": 3.0,
+      "CK12-SCI-004-ECU02": 3.0,
+      "CK12-SCI-004-U007": 3.0,
+      "CK12-SCI-004-U006": 2.0,
+      "CK12-SCI-004-ECU03": 3.0,
+      "CK12-SCI-004-U008": 3.0,
+      "CK12-SCI-004-U009": 3.0,
+      "CK12-SCI-004-U017": 2.0,
+      "CK12-SCI-004-ECU04": 3.0,
+      "CK12-SCI-004-U010": 3.0,
+      "CK12-SCI-004-U011": 3.0,
+      "CK12-SCI-004-U012": 3.0,
+      "CK12-SCI-004-U013": 3.0,
+      "CK12-SCI-004-U014": 3.0,
+      "CK12-SCI-004-U015": 3.0,
+      "CK12-SCI-004-U016": 2.0,
+      "CK12-SCI-004-ECU05": 3.0,
+      "CK12-SCI-004-U018": 3.0,
+      "CK12-SCI-004-U019": 3.0
+    },
+    "levels": {
+      "CK12-SCI-004-U020": 1,
+      "CK12-SCI-004-U001": 2,
+      "CK12-SCI-004-ECU01": 2,
+      "CK12-SCI-004-U002": 2,
+      "CK12-SCI-004-U005": 2,
+      "CK12-SCI-004-U004": 1,
+      "CK12-SCI-004-ECU02": 1,
+      "CK12-SCI-004-ECU03": 1,
+      "CK12-SCI-004-ECU04": 1,
+      "CK12-SCI-004-ECU05": 1,
+      "CK12-SCI-004-U003": 3,
+      "CK12-SCI-004-U006": 2,
+      "CK12-SCI-004-U007": 1,
+      "CK12-SCI-004-U017": 2,
+      "CK12-SCI-004-U008": 1,
+      "CK12-SCI-004-U016": 2,
+      "CK12-SCI-004-U010": 1,
+      "CK12-SCI-004-U018": 1,
+      "CK12-SCI-004-U009": 1,
+      "CK12-SCI-004-U011": 1,
+      "CK12-SCI-004-U012": 1,
+      "CK12-SCI-004-U013": 1,
+      "CK12-SCI-004-U014": 1,
+      "CK12-SCI-004-U015": 1,
+      "CK12-SCI-004-U019": 1
+    },
+    "max_orbit": 2,
+    "total_duration": 531.0,
+    "n_units": 20,
+    "n_ecus": 5,
+    "n_relations": 11
+  }
+}

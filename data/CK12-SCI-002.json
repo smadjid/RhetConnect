@@ -1,0 +1,351 @@
+{
+  "doc_id": "CK12-SCI-002",
+  "doc_title": "Refraction of Light",
+  "source": "CK-12 Physical Science Concepts for Middle School, CC-BY-NC",
+  "source_url": "https://flexbooks.ck12.org/cbook/ck-12-physical-science-concepts-for-middle-school/section/16.4/",
+  "domain": "physics",
+  "annotator": "Sadallah M. (AI-assisted)",
+  "annotation_date": "2026-06-22",
+  "notes": "Lesson on light bending at media boundaries. Structure: hook (straw-in-glass illusion) → definition of refraction → Snell's Law → index of refraction → diagram → examples (prism, lens) → video → practice.",
+  "units": [
+    {
+      "id": "CK12-SCI-002-U001",
+      "label": "Title: Refraction of Light",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Lesson title"
+    },
+    {
+      "id": "CK12-SCI-002-U002",
+      "label": "Hook: straw in glass of water (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Photograph of a straw in a glass of water appearing bent/broken at the water surface. Caption: 'Why does the straw appear to bend?'"
+    },
+    {
+      "id": "CK12-SCI-002-U003",
+      "label": "Hook explanation (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Explains that the straw appears bent because light changes speed when it moves from water to air, causing it to bend — this is refraction. Sets up the concept to be explored."
+    },
+    {
+      "id": "CK12-SCI-002-U004",
+      "label": "Learning Objectives (text)",
+      "type": "text",
+      "duration": 15.0,
+      "content_summary": "Objectives: define refraction; state Snell's Law; calculate index of refraction; explain how lenses and prisms use refraction; give real-world examples."
+    },
+    {
+      "id": "CK12-SCI-002-U005",
+      "label": "Definition: refraction (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Refraction is the bending of light as it passes from one medium to another due to a change in speed. Light travels fastest in a vacuum (3×10⁸ m/s) and slower in denser media (glass, water). The change in speed causes the direction of light to change."
+    },
+    {
+      "id": "CK12-SCI-002-U006",
+      "label": "Refraction diagram: light ray bending (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Diagram showing a light ray traveling from air into glass. Shows incident ray, normal line, refracted ray, angle of incidence (θ₁) and angle of refraction (θ₂). Ray bends toward normal when entering denser medium."
+    },
+    {
+      "id": "CK12-SCI-002-U007",
+      "label": "Index of refraction definition (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Index of refraction n = c/v, where c is speed of light in vacuum and v is speed in the medium. Higher n = denser medium = more bending. Table of n values: vacuum=1.0, air≈1.0, water=1.33, glass=1.5, diamond=2.42."
+    },
+    {
+      "id": "CK12-SCI-002-U008",
+      "label": "Index of refraction table (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Data table listing substances and their index of refraction values: vacuum(1.00), air(1.0003), water(1.33), glass(1.50), diamond(2.42). Sorted by increasing n value."
+    },
+    {
+      "id": "CK12-SCI-002-U009",
+      "label": "Snell's Law statement (text)",
+      "type": "text",
+      "duration": 30.0,
+      "content_summary": "Snell's Law: n₁ sin(θ₁) = n₂ sin(θ₂). Relates the angles of incidence and refraction to the indices of refraction of the two media. When going from less dense to more dense: ray bends toward normal. Reverse: bends away."
+    },
+    {
+      "id": "CK12-SCI-002-U010",
+      "label": "Worked Example: Snell's Law calculation (text)",
+      "type": "text",
+      "duration": 36.0,
+      "content_summary": "Problem: light travels from air (n=1.0) into glass (n=1.5) with angle of incidence 30°. Find angle of refraction. Solution: 1.0 × sin(30°) = 1.5 × sin(θ₂); sin(θ₂) = 0.5/1.5 = 0.333; θ₂ = 19.5°. Ray bends toward normal."
+    },
+    {
+      "id": "CK12-SCI-002-U011",
+      "label": "Application: prism and white light (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "A glass prism separates white light into a spectrum (rainbow of colours) because different wavelengths refract at slightly different angles. Violet refracts most, red least. Newton's prism experiment (1666)."
+    },
+    {
+      "id": "CK12-SCI-002-U012",
+      "label": "Prism dispersion diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Diagram of white light entering a triangular prism and emerging as a spectrum (red, orange, yellow, green, blue, violet). Angles of refraction shown for red and violet. Classic dispersion illustration."
+    },
+    {
+      "id": "CK12-SCI-002-U013",
+      "label": "Application: converging and diverging lenses (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Lenses use refraction to focus or diverge light. Converging (convex) lens: bends rays toward focal point — used in magnifying glasses, cameras, eyes. Diverging (concave) lens: spreads rays — used to correct nearsightedness."
+    },
+    {
+      "id": "CK12-SCI-002-U014",
+      "label": "Lens diagrams (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Two diagrams: (1) converging lens with parallel rays bending to focal point F; (2) diverging lens with parallel rays bending outward, appearing to come from focal point F on same side as incoming light."
+    },
+    {
+      "id": "CK12-SCI-002-U015",
+      "label": "Video: refraction demonstrations (video)",
+      "type": "video",
+      "duration": 90.0,
+      "content_summary": "Video showing three refraction demonstrations: (1) laser in water tank bending; (2) coin disappearing/reappearing in water; (3) pencil-in-water trick explained with slow-motion ray tracing."
+    },
+    {
+      "id": "CK12-SCI-002-U016",
+      "label": "Practice problems (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Four problems: (1) calculate angle of refraction using Snell's Law; (2) identify medium from n value; (3) determine type of lens for correcting vision; (4) explain why a swimming pool appears shallower than it is."
+    },
+    {
+      "id": "CK12-SCI-002-U017",
+      "label": "Lesson root: Refraction lesson",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Top-level document container."
+    }
+  ],
+  "ecus": [
+    {
+      "id": "CK12-SCI-002-ECU01",
+      "label": "Hook Block",
+      "members": [
+        "CK12-SCI-002-U002",
+        "CK12-SCI-002-U003"
+      ],
+      "main_unit_id": "CK12-SCI-002-U003"
+    },
+    {
+      "id": "CK12-SCI-002-ECU02",
+      "label": "Refraction Concept Block",
+      "members": [
+        "CK12-SCI-002-U005",
+        "CK12-SCI-002-U006"
+      ],
+      "main_unit_id": "CK12-SCI-002-U005"
+    },
+    {
+      "id": "CK12-SCI-002-ECU03",
+      "label": "Index Block",
+      "members": [
+        "CK12-SCI-002-U007",
+        "CK12-SCI-002-U008"
+      ],
+      "main_unit_id": "CK12-SCI-002-U007"
+    },
+    {
+      "id": "CK12-SCI-002-ECU04",
+      "label": "Snell's Law Block",
+      "members": [
+        "CK12-SCI-002-U009",
+        "CK12-SCI-002-U010"
+      ],
+      "main_unit_id": "CK12-SCI-002-U009"
+    },
+    {
+      "id": "CK12-SCI-002-ECU05",
+      "label": "Prism Application Block",
+      "members": [
+        "CK12-SCI-002-U011",
+        "CK12-SCI-002-U012"
+      ],
+      "main_unit_id": "CK12-SCI-002-U011"
+    },
+    {
+      "id": "CK12-SCI-002-ECU06",
+      "label": "Lens Application Block",
+      "members": [
+        "CK12-SCI-002-U013",
+        "CK12-SCI-002-U014"
+      ],
+      "main_unit_id": "CK12-SCI-002-U013"
+    }
+  ],
+  "relations": [
+    {
+      "id": "R001",
+      "type": "mononuclear",
+      "relation_name": "Identification",
+      "nucleus_id": "CK12-SCI-002-U017",
+      "satellite_id": "CK12-SCI-002-U001",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R002",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-SCI-002-U017",
+      "satellite_id": "CK12-SCI-002-ECU01",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R003",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-SCI-002-U017",
+      "satellite_id": "CK12-SCI-002-U004",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R004",
+      "type": "multinuclear",
+      "relation_name": "Joint",
+      "co_nuclei_ids": [
+        "CK12-SCI-002-U017",
+        "CK12-SCI-002-ECU02",
+        "CK12-SCI-002-ECU03",
+        "CK12-SCI-002-ECU04",
+        "CK12-SCI-002-ECU05",
+        "CK12-SCI-002-ECU06",
+        "CK12-SCI-002-U015",
+        "CK12-SCI-002-U016"
+      ]
+    },
+    {
+      "id": "R005",
+      "type": "mononuclear",
+      "relation_name": "Elaboration",
+      "nucleus_id": "CK12-SCI-002-ECU01",
+      "satellite_id": "CK12-SCI-002-U002",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R006",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "CK12-SCI-002-ECU02",
+      "satellite_id": "CK12-SCI-002-U006",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R007",
+      "type": "mononuclear",
+      "relation_name": "Elaboration",
+      "nucleus_id": "CK12-SCI-002-ECU03",
+      "satellite_id": "CK12-SCI-002-U008",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R008",
+      "type": "mononuclear",
+      "relation_name": "Demonstration",
+      "nucleus_id": "CK12-SCI-002-U009",
+      "satellite_id": "CK12-SCI-002-U010",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R009",
+      "type": "mononuclear",
+      "relation_name": "Elaboration",
+      "nucleus_id": "CK12-SCI-002-ECU05",
+      "satellite_id": "CK12-SCI-002-U012",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R010",
+      "type": "mononuclear",
+      "relation_name": "Elaboration",
+      "nucleus_id": "CK12-SCI-002-ECU06",
+      "satellite_id": "CK12-SCI-002-U014",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R011",
+      "type": "multinuclear",
+      "relation_name": "Joint",
+      "co_nuclei_ids": [
+        "CK12-SCI-002-ECU05",
+        "CK12-SCI-002-ECU06"
+      ]
+    },
+    {
+      "id": "R012",
+      "type": "mononuclear",
+      "relation_name": "Motivation",
+      "nucleus_id": "CK12-SCI-002-ECU04",
+      "satellite_id": "CK12-SCI-002-ECU03",
+      "satellite_orbit": 0
+    }
+  ],
+  "root_unit_id": "CK12-SCI-002-U017",
+  "computed": {
+    "weights": {
+      "CK12-SCI-002-U017": 3.0,
+      "CK12-SCI-002-U001": 2.0,
+      "CK12-SCI-002-ECU01": 2.0,
+      "CK12-SCI-002-U003": 2.0,
+      "CK12-SCI-002-U002": 1.0,
+      "CK12-SCI-002-U004": 1.5,
+      "CK12-SCI-002-ECU02": 3.0,
+      "CK12-SCI-002-U005": 3.0,
+      "CK12-SCI-002-U006": 2.0,
+      "CK12-SCI-002-ECU03": 3.0,
+      "CK12-SCI-002-U007": 3.0,
+      "CK12-SCI-002-U008": 2.0,
+      "CK12-SCI-002-ECU04": 3.0,
+      "CK12-SCI-002-U009": 3.0,
+      "CK12-SCI-002-U010": 2.0,
+      "CK12-SCI-002-ECU05": 3.0,
+      "CK12-SCI-002-U011": 3.0,
+      "CK12-SCI-002-U012": 2.0,
+      "CK12-SCI-002-ECU06": 3.0,
+      "CK12-SCI-002-U013": 3.0,
+      "CK12-SCI-002-U014": 2.0,
+      "CK12-SCI-002-U015": 3.0,
+      "CK12-SCI-002-U016": 3.0
+    },
+    "levels": {
+      "CK12-SCI-002-U017": 1,
+      "CK12-SCI-002-U001": 2,
+      "CK12-SCI-002-ECU01": 2,
+      "CK12-SCI-002-U003": 2,
+      "CK12-SCI-002-U004": 2,
+      "CK12-SCI-002-ECU02": 1,
+      "CK12-SCI-002-ECU03": 1,
+      "CK12-SCI-002-ECU04": 1,
+      "CK12-SCI-002-ECU05": 1,
+      "CK12-SCI-002-ECU06": 1,
+      "CK12-SCI-002-U015": 1,
+      "CK12-SCI-002-U016": 1,
+      "CK12-SCI-002-U002": 3,
+      "CK12-SCI-002-U006": 2,
+      "CK12-SCI-002-U005": 1,
+      "CK12-SCI-002-U008": 2,
+      "CK12-SCI-002-U007": 1,
+      "CK12-SCI-002-U009": 1,
+      "CK12-SCI-002-U012": 2,
+      "CK12-SCI-002-U011": 1,
+      "CK12-SCI-002-U014": 2,
+      "CK12-SCI-002-U013": 1,
+      "CK12-SCI-002-U010": 2
+    },
+    "max_orbit": 2,
+    "total_duration": 384.0,
+    "n_units": 17,
+    "n_ecus": 6,
+    "n_relations": 12
+  }
+}

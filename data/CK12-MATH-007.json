@@ -1,0 +1,238 @@
+{
+  "doc_id": "CK12-MATH-007",
+  "doc_title": "Solving Linear Equations",
+  "source": "CK-12 Middle School Math Grade 7, Section 6.2, CC-BY-NC",
+  "source_url": "https://flexbooks.ck12.org/cbook/ck-12-middle-school-math-concepts-grade-7/section/6.2/",
+  "domain": "mathematics",
+  "annotator": "Sadallah M. (AI-assisted)",
+  "annotation_date": "2026-07-10",
+  "notes": "Class B document (13 units). Eighth mathematics document, final document to bring the corpus to 40. Covers the balance method for solving one-variable linear equations with a two-part worked example. One ECU.",
+  "units": [
+    {
+      "id": "CK12-MATH-007-U001",
+      "label": "Title: Solving Linear Equations",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Lesson title"
+    },
+    {
+      "id": "CK12-MATH-007-U002",
+      "label": "Hook: balance scale analogy (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Illustration of a balance scale with unknown weight 'x' plus 3kg on one side and 10kg on the other, perfectly level. Caption: 'An equation is a balance — whatever you do to one side, do to the other.'"
+    },
+    {
+      "id": "CK12-MATH-007-U003",
+      "label": "Learning Objectives (text)",
+      "type": "text",
+      "duration": 15.0,
+      "content_summary": "Objectives: apply inverse operations to isolate a variable; solve one-step and two-step linear equations; check a solution by substitution."
+    },
+    {
+      "id": "CK12-MATH-007-U004",
+      "label": "The balance principle (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "To solve an equation, isolate the variable by performing the same inverse operation on both sides, keeping the equation balanced. Addition undoes subtraction; multiplication undoes division, and vice versa."
+    },
+    {
+      "id": "CK12-MATH-007-U005",
+      "label": "One-step equation example (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Solve x + 3 = 10: subtract 3 from both sides → x = 7. Solve 4x = 20: divide both sides by 4 → x = 5. Both shown with the inverse operation applied to both sides simultaneously."
+    },
+    {
+      "id": "CK12-MATH-007-U006",
+      "label": "Two-step equation procedure (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "For equations like 2x + 3 = 11: first undo addition/subtraction (subtract 3: 2x=8), then undo multiplication/division (divide by 2: x=4). Order matters — reverse the order of operations."
+    },
+    {
+      "id": "CK12-MATH-007-U007",
+      "label": "Two-step diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Step-by-step visual showing 2x+3=11 with each transformation shown on a balance scale: removing 3 from both sides, then splitting into two equal groups."
+    },
+    {
+      "id": "CK12-MATH-007-U008",
+      "label": "Worked example: 3x - 5 = 16 (text)",
+      "type": "text",
+      "duration": 36.0,
+      "content_summary": "Full worked solution: 3x-5=16 → add 5 to both sides → 3x=21 → divide both sides by 3 → x=7. Check: 3(7)-5=21-5=16 ✓. Every step shown with justification."
+    },
+    {
+      "id": "CK12-MATH-007-U009",
+      "label": "Worked example verification diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Diagram showing the check step: substituting x=7 back into the original equation 3x-5=16, computing both sides, confirming they match."
+    },
+    {
+      "id": "CK12-MATH-007-U010",
+      "label": "Checking your solution (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Always verify a solution by substituting it back into the ORIGINAL equation (not an intermediate step). If both sides are equal, the solution is correct."
+    },
+    {
+      "id": "CK12-MATH-007-U011",
+      "label": "Video: solving equations practice (video)",
+      "type": "video",
+      "duration": 90.0,
+      "content_summary": "Video working through three additional two-step equations at increasing difficulty, narrating the inverse-operation reasoning at each step."
+    },
+    {
+      "id": "CK12-MATH-007-U012",
+      "label": "Practice problems (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Five equations to solve: x-4=9; 5x=35; 2x+7=19; 4x-3=17; x/3+2=6. Each requiring identification of the correct inverse operations."
+    },
+    {
+      "id": "CK12-MATH-007-U013",
+      "label": "Lesson root: Solving Linear Equations",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Top-level document container."
+    }
+  ],
+  "ecus": [
+    {
+      "id": "CK12-MATH-007-ECU01",
+      "label": "Worked Example Block",
+      "members": [
+        "CK12-MATH-007-U008",
+        "CK12-MATH-007-U009"
+      ],
+      "main_unit_id": "CK12-MATH-007-U008"
+    }
+  ],
+  "relations": [
+    {
+      "id": "R001",
+      "type": "mononuclear",
+      "relation_name": "Identification",
+      "nucleus_id": "CK12-MATH-007-U013",
+      "satellite_id": "CK12-MATH-007-U001",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R002",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-MATH-007-U013",
+      "satellite_id": "CK12-MATH-007-U002",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R003",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-MATH-007-U013",
+      "satellite_id": "CK12-MATH-007-U003",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R004",
+      "type": "mononuclear",
+      "relation_name": "Background",
+      "nucleus_id": "CK12-MATH-007-U013",
+      "satellite_id": "CK12-MATH-007-U004",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R005",
+      "type": "multinuclear",
+      "relation_name": "Sequence",
+      "co_nuclei_ids": [
+        "CK12-MATH-007-U005",
+        "CK12-MATH-007-U006"
+      ]
+    },
+    {
+      "id": "R006",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "CK12-MATH-007-U006",
+      "satellite_id": "CK12-MATH-007-U007",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R007",
+      "type": "mononuclear",
+      "relation_name": "Demonstration",
+      "nucleus_id": "CK12-MATH-007-U006",
+      "satellite_id": "CK12-MATH-007-ECU01",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R008",
+      "type": "mononuclear",
+      "relation_name": "Elaboration",
+      "nucleus_id": "CK12-MATH-007-U008",
+      "satellite_id": "CK12-MATH-007-U009",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R009",
+      "type": "mononuclear",
+      "relation_name": "Annotation",
+      "nucleus_id": "CK12-MATH-007-ECU01",
+      "satellite_id": "CK12-MATH-007-U010",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R010",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "CK12-MATH-007-U013",
+      "satellite_id": "CK12-MATH-007-U011",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R011",
+      "type": "mononuclear",
+      "relation_name": "Reinforcement",
+      "nucleus_id": "CK12-MATH-007-U013",
+      "satellite_id": "CK12-MATH-007-U012",
+      "satellite_orbit": 0
+    }
+  ],
+  "root_unit_id": "CK12-MATH-007-U013",
+  "computed": {
+    "weights": {
+      "CK12-MATH-007-U013": 3.0,
+      "CK12-MATH-007-U001": 2.0,
+      "CK12-MATH-007-U002": 2.0,
+      "CK12-MATH-007-U003": 1.5,
+      "CK12-MATH-007-U004": 2.0,
+      "CK12-MATH-007-U011": 1.5,
+      "CK12-MATH-007-U012": 2.0,
+      "CK12-MATH-007-ECU01": 0.0,
+      "CK12-MATH-007-U007": 0.0,
+      "CK12-MATH-007-U009": 0.0,
+      "CK12-MATH-007-U010": 0.0,
+      "CK12-MATH-007-U005": 0.0,
+      "CK12-MATH-007-U008": 0.0,
+      "CK12-MATH-007-U006": 0.0
+    },
+    "levels": {
+      "CK12-MATH-007-U013": 1,
+      "CK12-MATH-007-U001": 2,
+      "CK12-MATH-007-U002": 2,
+      "CK12-MATH-007-U003": 2,
+      "CK12-MATH-007-U004": 2,
+      "CK12-MATH-007-U011": 2,
+      "CK12-MATH-007-U012": 2
+    },
+    "max_orbit": 2,
+    "total_duration": 300.0,
+    "n_units": 13,
+    "n_ecus": 1,
+    "n_relations": 11
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "doc_id": "CK12-ECON-001",
+  "doc_title": "Supply and Demand",
+  "source": "CK-12 Economics Concepts, Section 3.1, CC-BY-NC",
+  "source_url": "https://flexbooks.ck12.org/cbook/ck-12-economics-concepts/section/3.1/",
+  "domain": "economics",
+  "annotator": "Sadallah M. (AI-assisted)",
+  "annotation_date": "2026-07-10",
+  "notes": "New domain added to the corpus (economics, previously absent). Class B document (14 units). Covers supply/demand curves and equilibrium. One ECU for the worked example.",
+  "units": [
+    {
+      "id": "CK12-ECON-001-U001",
+      "label": "Title: Supply and Demand",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Lesson title"
+    },
+    {
+      "id": "CK12-ECON-001-U002",
+      "label": "Hook: concert ticket prices (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Why do concert tickets for a popular artist cost $200 while a local band's show costs $10? The answer lies in supply and demand — the two forces that determine prices in a market economy."
+    },
+    {
+      "id": "CK12-ECON-001-U003",
+      "label": "Learning Objectives (text)",
+      "type": "text",
+      "duration": 15.0,
+      "content_summary": "Objectives: define supply and demand; read supply and demand curves; identify market equilibrium; explain what happens when supply or demand shifts."
+    },
+    {
+      "id": "CK12-ECON-001-U004",
+      "label": "Demand definition and law (text)",
+      "type": "text",
+      "duration": 30.0,
+      "content_summary": "Demand is the quantity of a good buyers are willing to purchase at various prices. The Law of Demand: as price increases, quantity demanded decreases (all else equal) — buyers want more of something when it's cheaper."
+    },
+    {
+      "id": "CK12-ECON-001-U005",
+      "label": "Demand curve diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Downward-sloping demand curve on a price (y-axis) vs quantity (x-axis) graph, showing that as price falls, quantity demanded rises."
+    },
+    {
+      "id": "CK12-ECON-001-U006",
+      "label": "Supply definition and law (text)",
+      "type": "text",
+      "duration": 30.0,
+      "content_summary": "Supply is the quantity of a good sellers are willing to produce at various prices. The Law of Supply: as price increases, quantity supplied increases (all else equal) — sellers want to produce more when they can earn more per unit."
+    },
+    {
+      "id": "CK12-ECON-001-U007",
+      "label": "Supply curve diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Upward-sloping supply curve on the same price vs quantity graph, showing that as price rises, quantity supplied rises."
+    },
+    {
+      "id": "CK12-ECON-001-U008",
+      "label": "Market equilibrium (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Equilibrium occurs where the supply and demand curves intersect — the price at which quantity supplied equals quantity demanded. At this point, there is no surplus (excess supply) or shortage (excess demand)."
+    },
+    {
+      "id": "CK12-ECON-001-U009",
+      "label": "Combined supply-demand graph (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Both curves plotted on the same graph, intersecting at the equilibrium point, with equilibrium price and quantity labeled on the axes."
+    },
+    {
+      "id": "CK12-ECON-001-U010",
+      "label": "Worked example: concert tickets (text)",
+      "type": "text",
+      "duration": 36.0,
+      "content_summary": "Applying the model to the opening hook: a popular artist has low supply (limited venue seats) and high demand (many fans), pushing equilibrium price up to $200. The local band has similar supply but far lower demand, so equilibrium price is only $10."
+    },
+    {
+      "id": "CK12-ECON-001-U011",
+      "label": "Worked example graph comparison (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Two side-by-side supply-demand graphs: one for the popular artist (demand curve far right, high equilibrium price) and one for the local band (demand curve near origin, low equilibrium price)."
+    },
+    {
+      "id": "CK12-ECON-001-U012",
+      "label": "Shifts in supply and demand (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "External factors shift entire curves (not just movement along them): increased income shifts demand right; a new competitor shifts supply right. A shift changes the equilibrium price and quantity."
+    },
+    {
+      "id": "CK12-ECON-001-U013",
+      "label": "Practice problems (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Four problems: identify whether a scenario shifts supply or demand; predict the effect on equilibrium price; read equilibrium price/quantity off a given graph; explain a real-world price change using the model."
+    },
+    {
+      "id": "CK12-ECON-001-U014",
+      "label": "Lesson root: Supply and Demand lesson",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Top-level document container."
+    }
+  ],
+  "ecus": [
+    {
+      "id": "CK12-ECON-001-ECU01",
+      "label": "Worked Example Block",
+      "members": [
+        "CK12-ECON-001-U010",
+        "CK12-ECON-001-U011"
+      ],
+      "main_unit_id": "CK12-ECON-001-U010"
+    }
+  ],
+  "relations": [
+    {
+      "id": "R001",
+      "type": "mononuclear",
+      "relation_name": "Identification",
+      "nucleus_id": "CK12-ECON-001-U014",
+      "satellite_id": "CK12-ECON-001-U001",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R002",
+      "type": "mononuclear",
+      "relation_name": "Motivation",
+      "nucleus_id": "CK12-ECON-001-U014",
+      "satellite_id": "CK12-ECON-001-U002",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R003",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-ECON-001-U014",
+      "satellite_id": "CK12-ECON-001-U003",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R004",
+      "type": "multinuclear",
+      "relation_name": "Joint",
+      "co_nuclei_ids": [
+        "CK12-ECON-001-U014",
+        "CK12-ECON-001-U004",
+        "CK12-ECON-001-U006",
+        "CK12-ECON-001-U008",
+        "CK12-ECON-001-ECU01",
+        "CK12-ECON-001-U012",
+        "CK12-ECON-001-U013"
+      ]
+    },
+    {
+      "id": "R005",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "CK12-ECON-001-U004",
+      "satellite_id": "CK12-ECON-001-U005",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R006",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "CK12-ECON-001-U006",
+      "satellite_id": "CK12-ECON-001-U007",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R007",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "CK12-ECON-001-U008",
+      "satellite_id": "CK12-ECON-001-U009",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R008",
+      "type": "mononuclear",
+      "relation_name": "Elaboration",
+      "nucleus_id": "CK12-ECON-001-U010",
+      "satellite_id": "CK12-ECON-001-U011",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R009",
+      "type": "mononuclear",
+      "relation_name": "Demonstration",
+      "nucleus_id": "CK12-ECON-001-U008",
+      "satellite_id": "CK12-ECON-001-ECU01",
+      "satellite_orbit": 1
+    }
+  ],
+  "root_unit_id": "CK12-ECON-001-U014",
+  "computed": {
+    "weights": {
+      "CK12-ECON-001-U014": 3.0,
+      "CK12-ECON-001-U001": 2.0,
+      "CK12-ECON-001-U002": 2.0,
+      "CK12-ECON-001-U003": 1.5,
+      "CK12-ECON-001-U004": 3.0,
+      "CK12-ECON-001-U005": 2.0,
+      "CK12-ECON-001-U006": 3.0,
+      "CK12-ECON-001-U007": 2.0,
+      "CK12-ECON-001-U008": 3.0,
+      "CK12-ECON-001-U009": 2.0,
+      "CK12-ECON-001-ECU01": 1.5,
+      "CK12-ECON-001-U010": 1.5,
+      "CK12-ECON-001-U011": 0.5,
+      "CK12-ECON-001-U012": 1.5,
+      "CK12-ECON-001-U013": 1.5
+    },
+    "levels": {
+      "CK12-ECON-001-U014": 1,
+      "CK12-ECON-001-U001": 2,
+      "CK12-ECON-001-U002": 2,
+      "CK12-ECON-001-U003": 2,
+      "CK12-ECON-001-U004": 1,
+      "CK12-ECON-001-U006": 1,
+      "CK12-ECON-001-U008": 1,
+      "CK12-ECON-001-ECU01": 1,
+      "CK12-ECON-001-U012": 1,
+      "CK12-ECON-001-U013": 1,
+      "CK12-ECON-001-U005": 2,
+      "CK12-ECON-001-U007": 2,
+      "CK12-ECON-001-U009": 2,
+      "CK12-ECON-001-U010": 2,
+      "CK12-ECON-001-U011": 3
+    },
+    "max_orbit": 2,
+    "total_duration": 267.0,
+    "n_units": 14,
+    "n_ecus": 1,
+    "n_relations": 9
+  }
+}

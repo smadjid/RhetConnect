@@ -1,0 +1,343 @@
+{
+  "doc_id": "CK12-LANG-001",
+  "doc_title": "Narrative Writing: Story Structure",
+  "source": "CK-12 Language Arts Grade 7 Concepts, CC-BY-NC",
+  "source_url": "https://flexbooks.ck12.org/cbook/ck-12-language-arts-grade-7-concepts/section/4.1/",
+  "domain": "language_arts",
+  "annotator": "Sadallah M. (AI-assisted)",
+  "annotation_date": "2026-06-22",
+  "notes": "Language arts lesson — different rhetorical structure from STEM. Hook: short story excerpt. Plot diagram (Freytag's pyramid). Story elements. Show-don't-tell principle. Writing process steps. Student example analysis. More Motivation/Reinforcement relations, fewer Demonstration. Class B complexity (17 units, 5 ECUs).",
+  "units": [
+    {
+      "id": "CK12-LANG-001-U001",
+      "label": "Title: Narrative Writing: Story Structure",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Lesson title"
+    },
+    {
+      "id": "CK12-LANG-001-U002",
+      "label": "Opening story excerpt: The Last Climb (text)",
+      "type": "text",
+      "duration": 45.0,
+      "content_summary": "Short narrative excerpt (approx 200 words) about a girl named Mia facing her fear to climb a rock wall. Ends on a cliffhanger at the moment of decision. Demonstrates good narrative writing in action before analysis."
+    },
+    {
+      "id": "CK12-LANG-001-U003",
+      "label": "Learning Objectives (text)",
+      "type": "text",
+      "duration": 15.0,
+      "content_summary": "Objectives: identify the five elements of plot; apply Freytag's pyramid to analyse a story; use show-don't-tell in writing; write a short narrative with clear rising action, climax, and resolution."
+    },
+    {
+      "id": "CK12-LANG-001-U004",
+      "label": "Story elements overview (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "The six elements of narrative: (1) Characters — who the story is about; (2) Setting — when and where; (3) Conflict — the central problem (person vs person/nature/self/society); (4) Plot — sequence of events; (5) Theme — the underlying message; (6) Point of view — who narrates."
+    },
+    {
+      "id": "CK12-LANG-001-U005",
+      "label": "Freytag's Pyramid diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Classic Freytag's Pyramid (mountain shape): Exposition (left base), Rising Action (ascending slope), Climax (peak), Falling Action (descending slope), Resolution/Denouement (right base). Five stages labeled with brief descriptions."
+    },
+    {
+      "id": "CK12-LANG-001-U006",
+      "label": "Exposition: setting the stage (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Exposition introduces characters, setting, and initial situation. Should engage reader immediately. Techniques: start in medias res (in the middle of action), introduce compelling character, pose a mystery. Common mistake: too much backstory before action begins."
+    },
+    {
+      "id": "CK12-LANG-001-U007",
+      "label": "Rising Action: building tension (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Rising action consists of events that build toward the climax. Each event should increase tension, reveal character, or deepen conflict. Effective rising action makes readers unable to put the story down. Three to five rising action events is typical."
+    },
+    {
+      "id": "CK12-LANG-001-U008",
+      "label": "Climax: the turning point (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "The climax is the moment of highest tension — when the conflict is directly faced. The protagonist makes a crucial decision or action. Everything before led to this; everything after results from it. Should be emotionally satisfying after the build-up."
+    },
+    {
+      "id": "CK12-LANG-001-U009",
+      "label": "Falling Action and Resolution (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Falling action shows the aftermath of the climax as loose ends are tied up. Resolution (denouement) restores equilibrium — but not necessarily the same as before. The character has changed. Stories can have closed (all resolved) or open (some ambiguity) endings."
+    },
+    {
+      "id": "CK12-LANG-001-U010",
+      "label": "Show-don't-tell: principle (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "'Show, don't tell' means conveying emotion and character through action, dialogue, and sensory detail rather than direct statement. Telling: 'She was nervous.' Showing: 'Her hands shook as she gripped the rope, and she couldn't stop glancing at the crowd below.' Always prefer showing."
+    },
+    {
+      "id": "CK12-LANG-001-U011",
+      "label": "Show-don't-tell: before/after examples (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Side-by-side table: four 'Telling' sentences on left (He was angry; The room was old; She was excited; It was scary) paired with 'Showing' rewrites on right demonstrating specific sensory and action details that convey the same meaning more vividly."
+    },
+    {
+      "id": "CK12-LANG-001-U012",
+      "label": "Writing process: planning your narrative (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Five-step writing process: (1) Plan — character, setting, conflict, plot outline; (2) Draft — write without stopping to edit; (3) Revise — improve structure, pacing, word choice; (4) Edit — fix grammar, punctuation, spelling; (5) Publish — share your final draft."
+    },
+    {
+      "id": "CK12-LANG-001-U013",
+      "label": "Story map planning template (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Graphic organiser for narrative planning: boxes for Characters, Setting, Conflict, and five Plot stages (Exposition, Rising Action ×3, Climax, Resolution). Students fill in this template before drafting."
+    },
+    {
+      "id": "CK12-LANG-001-U014",
+      "label": "Student example analysis: The Last Climb annotated (text)",
+      "type": "text",
+      "duration": 36.0,
+      "content_summary": "Returns to the opening excerpt. Annotates each paragraph: [Exposition — introduces Mia and the wall]; [Rising Action — internal conflict building]; [Rising Action — external pressure from friends]; [Climax — moment of decision]. Shows how the excerpt maps to Freytag's pyramid."
+    },
+    {
+      "id": "CK12-LANG-001-U015",
+      "label": "Student example annotated image (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "The opening excerpt shown with colour-coded highlighting and margin annotations: yellow=exposition, orange=rising action, red=climax. Each section labeled with the Freytag stage it represents."
+    },
+    {
+      "id": "CK12-LANG-001-U016",
+      "label": "Practice: narrative writing task (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Writing task: write a 300-400 word narrative with a clear structure. Checklist: exposition, at least two rising action events, clear climax, resolution, at least one show-don't-tell moment, dialogue. Peer review using story map template."
+    },
+    {
+      "id": "CK12-LANG-001-U017",
+      "label": "Lesson root: Narrative Writing lesson",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Top-level document container."
+    }
+  ],
+  "ecus": [
+    {
+      "id": "CK12-LANG-001-ECU01",
+      "label": "Story Elements Block",
+      "members": [
+        "CK12-LANG-001-U004",
+        "CK12-LANG-001-U005"
+      ],
+      "main_unit_id": "CK12-LANG-001-U004"
+    },
+    {
+      "id": "CK12-LANG-001-ECU02",
+      "label": "Plot Stages Block",
+      "members": [
+        "CK12-LANG-001-U006",
+        "CK12-LANG-001-U007",
+        "CK12-LANG-001-U008",
+        "CK12-LANG-001-U009"
+      ],
+      "main_unit_id": "CK12-LANG-001-U006"
+    },
+    {
+      "id": "CK12-LANG-001-ECU03",
+      "label": "Show-Don't-Tell Block",
+      "members": [
+        "CK12-LANG-001-U010",
+        "CK12-LANG-001-U011"
+      ],
+      "main_unit_id": "CK12-LANG-001-U010"
+    },
+    {
+      "id": "CK12-LANG-001-ECU04",
+      "label": "Writing Process Block",
+      "members": [
+        "CK12-LANG-001-U012",
+        "CK12-LANG-001-U013"
+      ],
+      "main_unit_id": "CK12-LANG-001-U012"
+    },
+    {
+      "id": "CK12-LANG-001-ECU05",
+      "label": "Example Analysis Block",
+      "members": [
+        "CK12-LANG-001-U014",
+        "CK12-LANG-001-U015"
+      ],
+      "main_unit_id": "CK12-LANG-001-U014"
+    }
+  ],
+  "relations": [
+    {
+      "id": "R001",
+      "type": "mononuclear",
+      "relation_name": "Identification",
+      "nucleus_id": "CK12-LANG-001-U017",
+      "satellite_id": "CK12-LANG-001-U001",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R002",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-LANG-001-U017",
+      "satellite_id": "CK12-LANG-001-U002",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R003",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-LANG-001-U017",
+      "satellite_id": "CK12-LANG-001-U003",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R004",
+      "type": "multinuclear",
+      "relation_name": "Joint",
+      "co_nuclei_ids": [
+        "CK12-LANG-001-U017",
+        "CK12-LANG-001-ECU01",
+        "CK12-LANG-001-ECU02",
+        "CK12-LANG-001-ECU03",
+        "CK12-LANG-001-ECU04",
+        "CK12-LANG-001-ECU05",
+        "CK12-LANG-001-U016"
+      ]
+    },
+    {
+      "id": "R005",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "CK12-LANG-001-ECU01",
+      "satellite_id": "CK12-LANG-001-U005",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R006",
+      "type": "multinuclear",
+      "relation_name": "Sequence",
+      "co_nuclei_ids": [
+        "CK12-LANG-001-U006",
+        "CK12-LANG-001-U007",
+        "CK12-LANG-001-U008",
+        "CK12-LANG-001-U009"
+      ]
+    },
+    {
+      "id": "R007",
+      "type": "mononuclear",
+      "relation_name": "Motivation",
+      "nucleus_id": "CK12-LANG-001-ECU02",
+      "satellite_id": "CK12-LANG-001-ECU01",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R008",
+      "type": "mononuclear",
+      "relation_name": "Demonstration",
+      "nucleus_id": "CK12-LANG-001-ECU03",
+      "satellite_id": "CK12-LANG-001-U011",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R009",
+      "type": "mononuclear",
+      "relation_name": "Elaboration",
+      "nucleus_id": "CK12-LANG-001-ECU04",
+      "satellite_id": "CK12-LANG-001-U013",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R010",
+      "type": "mononuclear",
+      "relation_name": "Evidence",
+      "nucleus_id": "CK12-LANG-001-ECU05",
+      "satellite_id": "CK12-LANG-001-U015",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R011",
+      "type": "mononuclear",
+      "relation_name": "Reinforcement",
+      "nucleus_id": "CK12-LANG-001-ECU02",
+      "satellite_id": "CK12-LANG-001-ECU05",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R012",
+      "type": "mononuclear",
+      "relation_name": "Reinforcement",
+      "nucleus_id": "CK12-LANG-001-U017",
+      "satellite_id": "CK12-LANG-001-U016",
+      "satellite_orbit": 0
+    }
+  ],
+  "root_unit_id": "CK12-LANG-001-U017",
+  "computed": {
+    "weights": {
+      "CK12-LANG-001-U017": 3.0,
+      "CK12-LANG-001-U001": 2.0,
+      "CK12-LANG-001-U002": 2.0,
+      "CK12-LANG-001-U003": 1.5,
+      "CK12-LANG-001-U016": 2.0,
+      "CK12-LANG-001-ECU01": 2.0,
+      "CK12-LANG-001-U004": 2.0,
+      "CK12-LANG-001-U005": 1.0,
+      "CK12-LANG-001-ECU02": 2.0,
+      "CK12-LANG-001-U006": 2.0,
+      "CK12-LANG-001-U007": 2.0,
+      "CK12-LANG-001-U008": 2.0,
+      "CK12-LANG-001-U009": 2.0,
+      "CK12-LANG-001-ECU05": 0.5,
+      "CK12-LANG-001-U014": 0.5,
+      "CK12-LANG-001-U015": -0.5,
+      "CK12-LANG-001-ECU03": 0.5,
+      "CK12-LANG-001-U010": 0.5,
+      "CK12-LANG-001-U011": -0.5,
+      "CK12-LANG-001-ECU04": 0.5,
+      "CK12-LANG-001-U012": 0.5,
+      "CK12-LANG-001-U013": -0.5
+    },
+    "levels": {
+      "CK12-LANG-001-U017": 1,
+      "CK12-LANG-001-U001": 2,
+      "CK12-LANG-001-U002": 2,
+      "CK12-LANG-001-U003": 2,
+      "CK12-LANG-001-U016": 2,
+      "CK12-LANG-001-ECU01": 1,
+      "CK12-LANG-001-ECU02": 1,
+      "CK12-LANG-001-ECU03": 1,
+      "CK12-LANG-001-ECU04": 1,
+      "CK12-LANG-001-ECU05": 1,
+      "CK12-LANG-001-U005": 2,
+      "CK12-LANG-001-U004": 1,
+      "CK12-LANG-001-U014": 2,
+      "CK12-LANG-001-U006": 1,
+      "CK12-LANG-001-U011": 2,
+      "CK12-LANG-001-U010": 1,
+      "CK12-LANG-001-U013": 2,
+      "CK12-LANG-001-U012": 1,
+      "CK12-LANG-001-U015": 2,
+      "CK12-LANG-001-U007": 1,
+      "CK12-LANG-001-U008": 1,
+      "CK12-LANG-001-U009": 1
+    },
+    "max_orbit": 2,
+    "total_duration": 324.0,
+    "n_units": 17,
+    "n_ecus": 5,
+    "n_relations": 12
+  }
+}

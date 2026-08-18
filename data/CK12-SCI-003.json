@@ -1,0 +1,325 @@
+{
+  "doc_id": "CK12-SCI-003",
+  "doc_title": "Kinetic and Potential Energy",
+  "source": "CK-12 Physical Science Concepts for Middle School, CC-BY-NC",
+  "source_url": "https://flexbooks.ck12.org/cbook/ck-12-physical-science-concepts-for-middle-school/section/14.1/",
+  "domain": "physics",
+  "annotator": "Sadallah M. (AI-assisted)",
+  "annotation_date": "2026-06-22",
+  "notes": "Lesson on mechanical energy forms. Hook: roller coaster. Defines KE=½mv², PE=mgh. Energy conservation law. Worked examples both types. Roller coaster energy transfer video. Practice problems. Moderate complexity (17 units, 5 ECUs).",
+  "units": [
+    {
+      "id": "CK12-SCI-003-U001",
+      "label": "Title: Kinetic and Potential Energy",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Lesson title"
+    },
+    {
+      "id": "CK12-SCI-003-U002",
+      "label": "Hook: roller coaster (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Photo of a roller coaster at the top of a large hill. Caption: 'Where does the roller coaster get the energy to speed down the hill?'"
+    },
+    {
+      "id": "CK12-SCI-003-U003",
+      "label": "Learning Objectives (text)",
+      "type": "text",
+      "duration": 15.0,
+      "content_summary": "Objectives: define kinetic energy and calculate KE=½mv²; define gravitational potential energy and calculate PE=mgh; explain the law of conservation of energy; describe energy transfers in systems."
+    },
+    {
+      "id": "CK12-SCI-003-U004",
+      "label": "Definition: energy (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Energy is the ability to do work. Measured in Joules (J). Can exist in many forms: mechanical, thermal, electrical, chemical, nuclear. Mechanical energy = KE + PE."
+    },
+    {
+      "id": "CK12-SCI-003-U005",
+      "label": "Kinetic energy: definition and formula (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Kinetic energy (KE) is the energy of motion. KE = ½mv² where m = mass (kg) and v = velocity (m/s). KE depends on both mass and velocity; doubling velocity quadruples KE. Unit: Joule (J)."
+    },
+    {
+      "id": "CK12-SCI-003-U006",
+      "label": "KE formula visualisation (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Two diagrams side by side: (1) truck (large m, moderate v) vs bicycle (small m, same v) showing truck has more KE; (2) same truck at two speeds showing KE quadruples when speed doubles. Illustrates dependence on m and v²."
+    },
+    {
+      "id": "CK12-SCI-003-U007",
+      "label": "Potential energy: definition and formula (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Gravitational potential energy (PE) is stored energy due to position/height. PE = mgh where m = mass (kg), g = 9.8 m/s² (gravitational acceleration), h = height above reference point (m). Unit: Joule (J)."
+    },
+    {
+      "id": "CK12-SCI-003-U008",
+      "label": "PE height diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Diagram showing three positions of a ball: ground (PE=0), halfway up (PE=½mgh), top (PE=mgh). Arrow shows PE increases with height. Reference level labeled at ground."
+    },
+    {
+      "id": "CK12-SCI-003-U009",
+      "label": "Law of Conservation of Energy (text)",
+      "type": "text",
+      "duration": 30.0,
+      "content_summary": "Energy cannot be created or destroyed, only transformed from one form to another. Total mechanical energy (KE+PE) remains constant in the absence of friction. KE+PE = constant. This is why the roller coaster can convert PE at the top to KE at the bottom."
+    },
+    {
+      "id": "CK12-SCI-003-U010",
+      "label": "Energy conservation roller coaster diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Side-view diagram of roller coaster track showing energy bars at five positions. At top of hill: PE maximum, KE minimum. At bottom: PE minimum, KE maximum. Total bar height constant throughout."
+    },
+    {
+      "id": "CK12-SCI-003-U011",
+      "label": "Worked Example 1: calculate KE of a car (text)",
+      "type": "text",
+      "duration": 36.0,
+      "content_summary": "Problem: car of mass 1000 kg travels at 20 m/s. Find KE. Solution: KE = ½ × 1000 × 20² = ½ × 1000 × 400 = 200,000 J = 200 kJ. Unit analysis included."
+    },
+    {
+      "id": "CK12-SCI-003-U012",
+      "label": "Worked Example 2: calculate PE of a rock (text)",
+      "type": "text",
+      "duration": 30.0,
+      "content_summary": "Problem: rock of mass 5 kg held 3 m above ground. Find PE. Solution: PE = 5 × 9.8 × 3 = 147 J. If released, all PE converts to KE just before hitting ground (energy conservation)."
+    },
+    {
+      "id": "CK12-SCI-003-U013",
+      "label": "Video: roller coaster energy transfer (video)",
+      "type": "video",
+      "duration": 90.0,
+      "content_summary": "Animation showing a roller coaster car moving through hills and valleys. Energy bar graphs update in real time showing PE decreasing and KE increasing on downslopes, and vice versa. Demonstrates conservation with and without friction."
+    },
+    {
+      "id": "CK12-SCI-003-U014",
+      "label": "Real-world application: hydroelectric dam (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Water stored at height in a reservoir has gravitational PE. When released, PE converts to KE of falling water, which spins turbines to generate electrical energy. Illustrates multiple energy transformations in sequence."
+    },
+    {
+      "id": "CK12-SCI-003-U015",
+      "label": "Hydroelectric dam diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Cross-section diagram of a dam showing reservoir (high PE), water falling through penstock (PE→KE), turbine (KE→electrical energy), and power lines carrying electricity. Labels show each energy transformation."
+    },
+    {
+      "id": "CK12-SCI-003-U016",
+      "label": "Practice problems (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Five problems: calculate KE given m and v; calculate PE given m and h; find speed at bottom of ramp given height; compare KE of two objects; describe energy transformations in a pendulum."
+    },
+    {
+      "id": "CK12-SCI-003-U017",
+      "label": "Lesson root: KE and PE lesson",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Top-level document container."
+    }
+  ],
+  "ecus": [
+    {
+      "id": "CK12-SCI-003-ECU01",
+      "label": "KE Block",
+      "members": [
+        "CK12-SCI-003-U005",
+        "CK12-SCI-003-U006"
+      ],
+      "main_unit_id": "CK12-SCI-003-U005"
+    },
+    {
+      "id": "CK12-SCI-003-ECU02",
+      "label": "PE Block",
+      "members": [
+        "CK12-SCI-003-U007",
+        "CK12-SCI-003-U008"
+      ],
+      "main_unit_id": "CK12-SCI-003-U007"
+    },
+    {
+      "id": "CK12-SCI-003-ECU03",
+      "label": "Conservation Block",
+      "members": [
+        "CK12-SCI-003-U009",
+        "CK12-SCI-003-U010"
+      ],
+      "main_unit_id": "CK12-SCI-003-U009"
+    },
+    {
+      "id": "CK12-SCI-003-ECU04",
+      "label": "Worked Examples Block",
+      "members": [
+        "CK12-SCI-003-U011",
+        "CK12-SCI-003-U012"
+      ],
+      "main_unit_id": "CK12-SCI-003-U011"
+    },
+    {
+      "id": "CK12-SCI-003-ECU05",
+      "label": "Application Block",
+      "members": [
+        "CK12-SCI-003-U014",
+        "CK12-SCI-003-U015"
+      ],
+      "main_unit_id": "CK12-SCI-003-U014"
+    }
+  ],
+  "relations": [
+    {
+      "id": "R001",
+      "type": "mononuclear",
+      "relation_name": "Identification",
+      "nucleus_id": "CK12-SCI-003-U017",
+      "satellite_id": "CK12-SCI-003-U001",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R002",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-SCI-003-U017",
+      "satellite_id": "CK12-SCI-003-U002",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R003",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-SCI-003-U017",
+      "satellite_id": "CK12-SCI-003-U003",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R004",
+      "type": "multinuclear",
+      "relation_name": "Joint",
+      "co_nuclei_ids": [
+        "CK12-SCI-003-U017",
+        "CK12-SCI-003-U004",
+        "CK12-SCI-003-ECU01",
+        "CK12-SCI-003-ECU02",
+        "CK12-SCI-003-ECU03",
+        "CK12-SCI-003-ECU04",
+        "CK12-SCI-003-U013",
+        "CK12-SCI-003-ECU05",
+        "CK12-SCI-003-U016"
+      ]
+    },
+    {
+      "id": "R005",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "CK12-SCI-003-ECU01",
+      "satellite_id": "CK12-SCI-003-U006",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R006",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "CK12-SCI-003-ECU02",
+      "satellite_id": "CK12-SCI-003-U008",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R007",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "CK12-SCI-003-ECU03",
+      "satellite_id": "CK12-SCI-003-U010",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R008",
+      "type": "multinuclear",
+      "relation_name": "Enumeration",
+      "co_nuclei_ids": [
+        "CK12-SCI-003-U011",
+        "CK12-SCI-003-U012"
+      ]
+    },
+    {
+      "id": "R009",
+      "type": "mononuclear",
+      "relation_name": "Elaboration",
+      "nucleus_id": "CK12-SCI-003-ECU05",
+      "satellite_id": "CK12-SCI-003-U015",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R010",
+      "type": "mononuclear",
+      "relation_name": "Motivation",
+      "nucleus_id": "CK12-SCI-003-U002",
+      "satellite_id": "CK12-SCI-003-ECU03",
+      "satellite_orbit": 0
+    }
+  ],
+  "root_unit_id": "CK12-SCI-003-U017",
+  "computed": {
+    "weights": {
+      "CK12-SCI-003-U017": 3.0,
+      "CK12-SCI-003-U001": 2.0,
+      "CK12-SCI-003-U002": 2.0,
+      "CK12-SCI-003-ECU03": 1.0,
+      "CK12-SCI-003-U009": 1.0,
+      "CK12-SCI-003-U010": 0.0,
+      "CK12-SCI-003-U004": 1.0,
+      "CK12-SCI-003-ECU01": 1.0,
+      "CK12-SCI-003-U005": 1.0,
+      "CK12-SCI-003-U006": 0.0,
+      "CK12-SCI-003-ECU02": 1.0,
+      "CK12-SCI-003-U007": 1.0,
+      "CK12-SCI-003-U008": 0.0,
+      "CK12-SCI-003-ECU04": 1.0,
+      "CK12-SCI-003-U011": 1.0,
+      "CK12-SCI-003-U012": 1.0,
+      "CK12-SCI-003-U013": 1.0,
+      "CK12-SCI-003-ECU05": 1.0,
+      "CK12-SCI-003-U014": 1.0,
+      "CK12-SCI-003-U015": 0.0,
+      "CK12-SCI-003-U016": 1.0,
+      "CK12-SCI-003-U003": 1.5
+    },
+    "levels": {
+      "CK12-SCI-003-U017": 1,
+      "CK12-SCI-003-U001": 2,
+      "CK12-SCI-003-U002": 2,
+      "CK12-SCI-003-U003": 2,
+      "CK12-SCI-003-U004": 1,
+      "CK12-SCI-003-ECU01": 1,
+      "CK12-SCI-003-ECU02": 1,
+      "CK12-SCI-003-ECU03": 1,
+      "CK12-SCI-003-ECU04": 1,
+      "CK12-SCI-003-U013": 1,
+      "CK12-SCI-003-ECU05": 1,
+      "CK12-SCI-003-U016": 1,
+      "CK12-SCI-003-U009": 3,
+      "CK12-SCI-003-U006": 2,
+      "CK12-SCI-003-U005": 1,
+      "CK12-SCI-003-U008": 2,
+      "CK12-SCI-003-U007": 1,
+      "CK12-SCI-003-U010": 2,
+      "CK12-SCI-003-U011": 1,
+      "CK12-SCI-003-U015": 2,
+      "CK12-SCI-003-U014": 1,
+      "CK12-SCI-003-U012": 1
+    },
+    "max_orbit": 2,
+    "total_duration": 390.0,
+    "n_units": 17,
+    "n_ecus": 5,
+    "n_relations": 10
+  }
+}

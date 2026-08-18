@@ -1,0 +1,260 @@
+{
+  "doc_id": "CK12-SCI-012",
+  "doc_title": "The Human Digestive System",
+  "source": "CK-12 Life Science Concepts for Middle School, Section 11.1, CC-BY-NC",
+  "source_url": "https://flexbooks.ck12.org/cbook/ck-12-life-science-concepts-for-middle-school/section/11.1/",
+  "domain": "biology",
+  "annotator": "Sadallah M. (AI-assisted)",
+  "annotation_date": "2026-07-10",
+  "notes": "Class B document (15 units). Sequential organ pathway lesson, uses a multinuclear Sequence relation for the digestive pathway. One ECU for stomach detail.",
+  "units": [
+    {
+      "id": "CK12-SCI-012-U001",
+      "label": "Title: The Human Digestive System",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Lesson title"
+    },
+    {
+      "id": "CK12-SCI-012-U002",
+      "label": "Hook: why do we need digestion (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Food contains large complex molecules (proteins, carbohydrates, fats) that cells cannot use directly. Digestion breaks these down into small absorbable molecules (amino acids, simple sugars, fatty acids)."
+    },
+    {
+      "id": "CK12-SCI-012-U003",
+      "label": "Learning Objectives (text)",
+      "type": "text",
+      "duration": 15.0,
+      "content_summary": "Objectives: list the main organs of the digestive system in order; describe the function of each organ; distinguish mechanical from chemical digestion."
+    },
+    {
+      "id": "CK12-SCI-012-U004",
+      "label": "Full digestive tract diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Full-body diagram showing the digestive tract: mouth, esophagus, stomach, small intestine, large intestine, rectum, with liver and pancreas as accessory organs."
+    },
+    {
+      "id": "CK12-SCI-012-U005",
+      "label": "Mouth: mechanical and chemical digestion (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Mouth: teeth mechanically break food (chewing); saliva contains amylase enzyme beginning chemical breakdown of starches. Tongue shapes food into a bolus for swallowing."
+    },
+    {
+      "id": "CK12-SCI-012-U006",
+      "label": "Esophagus: peristalsis (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Esophagus: muscular tube connecting mouth to stomach. Peristalsis (wave-like muscle contractions) pushes food down, working even upside down or in zero gravity."
+    },
+    {
+      "id": "CK12-SCI-012-U007",
+      "label": "Stomach: acid and enzyme digestion (text)",
+      "type": "text",
+      "duration": 30.0,
+      "content_summary": "Stomach churns food and secretes hydrochloric acid (pH~2) and pepsin enzyme, breaking down proteins. Mucus lining protects stomach walls from self-digestion. Food becomes a liquid called chyme."
+    },
+    {
+      "id": "CK12-SCI-012-U008",
+      "label": "Stomach cross-section diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Cross-section of the stomach wall showing mucus lining, acid-secreting cells, and the muscular layers responsible for churning."
+    },
+    {
+      "id": "CK12-SCI-012-U009",
+      "label": "Small intestine: nutrient absorption (text)",
+      "type": "text",
+      "duration": 30.0,
+      "content_summary": "Small intestine (~6m long): most digestion and nutrient absorption occurs here. Villi (finger-like projections) increase surface area for absorption. Enzymes from pancreas and bile from liver aid digestion here."
+    },
+    {
+      "id": "CK12-SCI-012-U010",
+      "label": "Villi diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Magnified diagram of intestinal villi showing blood vessels absorbing nutrients, with a zoomed inset showing microvilli increasing surface area further."
+    },
+    {
+      "id": "CK12-SCI-012-U011",
+      "label": "Large intestine: water absorption (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Large intestine (~1.5m): absorbs remaining water and salts from indigestible material. Contains beneficial bacteria that produce some vitamins. Remaining waste becomes feces, stored in rectum until elimination."
+    },
+    {
+      "id": "CK12-SCI-012-U012",
+      "label": "Video: food's journey animation (video)",
+      "type": "video",
+      "duration": 120.0,
+      "content_summary": "Full animated journey of a bite of food through the entire digestive tract, showing mechanical and chemical changes at each organ in sequence."
+    },
+    {
+      "id": "CK12-SCI-012-U013",
+      "label": "Accessory organs: liver and pancreas (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Liver produces bile (emulsifies fats) stored in the gallbladder. Pancreas produces digestive enzymes and bicarbonate to neutralize stomach acid entering the small intestine. Neither food passes through them directly."
+    },
+    {
+      "id": "CK12-SCI-012-U014",
+      "label": "Practice questions (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Five questions: order the organs correctly; identify where protein digestion begins; explain the role of villi; describe two accessory organs and their functions."
+    },
+    {
+      "id": "CK12-SCI-012-U015",
+      "label": "Lesson root: Digestive System lesson",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Top-level document container."
+    }
+  ],
+  "ecus": [
+    {
+      "id": "CK12-SCI-012-ECU01",
+      "label": "Stomach Detail Block",
+      "members": [
+        "CK12-SCI-012-U007",
+        "CK12-SCI-012-U008"
+      ],
+      "main_unit_id": "CK12-SCI-012-U007"
+    },
+    {
+      "id": "CK12-SCI-012-ECU02",
+      "label": "Small Intestine Detail Block",
+      "members": [
+        "CK12-SCI-012-U009",
+        "CK12-SCI-012-U010"
+      ],
+      "main_unit_id": "CK12-SCI-012-U009"
+    }
+  ],
+  "relations": [
+    {
+      "id": "R001",
+      "type": "mononuclear",
+      "relation_name": "Identification",
+      "nucleus_id": "CK12-SCI-012-U015",
+      "satellite_id": "CK12-SCI-012-U001",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R002",
+      "type": "mononuclear",
+      "relation_name": "Motivation",
+      "nucleus_id": "CK12-SCI-012-U015",
+      "satellite_id": "CK12-SCI-012-U002",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R003",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-SCI-012-U015",
+      "satellite_id": "CK12-SCI-012-U003",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R004",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-SCI-012-U015",
+      "satellite_id": "CK12-SCI-012-U004",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R005",
+      "type": "multinuclear",
+      "relation_name": "Sequence",
+      "co_nuclei_ids": [
+        "CK12-SCI-012-U005",
+        "CK12-SCI-012-U006",
+        "CK12-SCI-012-ECU01",
+        "CK12-SCI-012-ECU02",
+        "CK12-SCI-012-U011"
+      ]
+    },
+    {
+      "id": "R006",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "CK12-SCI-012-U007",
+      "satellite_id": "CK12-SCI-012-U008",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R007",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "CK12-SCI-012-U009",
+      "satellite_id": "CK12-SCI-012-U010",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R008",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "CK12-SCI-012-U015",
+      "satellite_id": "CK12-SCI-012-U012",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R009",
+      "type": "mononuclear",
+      "relation_name": "Elaboration",
+      "nucleus_id": "CK12-SCI-012-U015",
+      "satellite_id": "CK12-SCI-012-U013",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R010",
+      "type": "mononuclear",
+      "relation_name": "Reinforcement",
+      "nucleus_id": "CK12-SCI-012-U015",
+      "satellite_id": "CK12-SCI-012-U014",
+      "satellite_orbit": 0
+    }
+  ],
+  "root_unit_id": "CK12-SCI-012-U015",
+  "computed": {
+    "weights": {
+      "CK12-SCI-012-U015": 3.0,
+      "CK12-SCI-012-U001": 2.0,
+      "CK12-SCI-012-U002": 2.0,
+      "CK12-SCI-012-U003": 1.5,
+      "CK12-SCI-012-U004": 1.5,
+      "CK12-SCI-012-U012": 1.5,
+      "CK12-SCI-012-U013": 2.0,
+      "CK12-SCI-012-U014": 2.0,
+      "CK12-SCI-012-U010": 0.0,
+      "CK12-SCI-012-U005": 0.0,
+      "CK12-SCI-012-ECU02": 0.0,
+      "CK12-SCI-012-U009": 0.0,
+      "CK12-SCI-012-U006": 0.0,
+      "CK12-SCI-012-ECU01": 0.0,
+      "CK12-SCI-012-U007": 0.0,
+      "CK12-SCI-012-U008": 0.0,
+      "CK12-SCI-012-U011": 0.0
+    },
+    "levels": {
+      "CK12-SCI-012-U015": 1,
+      "CK12-SCI-012-U001": 2,
+      "CK12-SCI-012-U002": 2,
+      "CK12-SCI-012-U003": 2,
+      "CK12-SCI-012-U004": 2,
+      "CK12-SCI-012-U012": 2,
+      "CK12-SCI-012-U013": 2,
+      "CK12-SCI-012-U014": 2
+    },
+    "max_orbit": 2,
+    "total_duration": 378.0,
+    "n_units": 15,
+    "n_ecus": 2,
+    "n_relations": 10
+  }
+}

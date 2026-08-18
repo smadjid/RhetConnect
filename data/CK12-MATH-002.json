@@ -1,0 +1,333 @@
+{
+  "doc_id": "CK12-MATH-002",
+  "doc_title": "The Distance Formula",
+  "source": "CK-12 Middle School Math Grade 8, Section 7.5, CC-BY-NC",
+  "source_url": "https://www.ck12.org/book/ck-12-middle-school-math-grade-8/section/7.5/",
+  "domain": "mathematics",
+  "annotator": "Sadallah M. (AI-assisted)",
+  "annotation_date": "2026-06-22",
+  "notes": "Lesson introduces Distance Formula as application of Pythagorean Theorem. Structure: motivation story → learning objectives → derivation → formula statement → worked examples × 2 → practice exercises × 3 → real-world problem. No audio units. Video: 1 interactive animation.",
+  "units": [
+    {
+      "id": "CK12-MATH-002-U001",
+      "label": "Title: The Distance Formula",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Lesson title"
+    },
+    {
+      "id": "CK12-MATH-002-U002",
+      "label": "Real-world motivation: the vegetable garden story",
+      "type": "text",
+      "duration": 42.0,
+      "content_summary": "Narrative hook: 8th-grade class plans a vegetable garden; Belinda proposes finding the distance from the water source to the garden center to buy the correct hose length. Establishes real-world need for distance measurement."
+    },
+    {
+      "id": "CK12-MATH-002-U003",
+      "label": "Learning Objectives (4 objectives)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Four objectives: (1) recognize Distance Formula as application of Pythagorean Theorem; (2) find distance between two points on coordinate grid; (3) find missing coordinate given distance; (4) solve real-world problems with Distance Formula."
+    },
+    {
+      "id": "CK12-MATH-002-U004",
+      "label": "Derivation: right triangle on coordinate grid (diagram)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Coordinate grid diagram showing two points connected by a hypotenuse, with horizontal and vertical legs drawn. Labels show (x1,y1), (x2,y2), and the legs as |x2-x1| and |y2-y1|. Demonstrates the Pythagorean Theorem connection."
+    },
+    {
+      "id": "CK12-MATH-002-U005",
+      "label": "Derivation: algebraic steps text",
+      "type": "text",
+      "duration": 36.0,
+      "content_summary": "Step-by-step algebraic derivation: from the right triangle, hypotenuse² = (x2-x1)² + (y2-y1)², therefore d = √[(x2-x1)² + (y2-y1)²]. Connects Pythagorean Theorem to the formula."
+    },
+    {
+      "id": "CK12-MATH-002-U006",
+      "label": "Distance Formula statement (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Formal statement of the Distance Formula: D = √[(x2-x1)² + (y2-y1)²]. Defines all variables. Notes that the formula works for any two points regardless of quadrant."
+    },
+    {
+      "id": "CK12-MATH-002-U007",
+      "label": "Interactive animation: distance formula visualisation",
+      "type": "video",
+      "duration": 60.0,
+      "content_summary": "Interactive animation allowing students to drag two points on a coordinate plane and observe the distance formula applied dynamically. Shows the right triangle construction updating in real time."
+    },
+    {
+      "id": "CK12-MATH-002-U008",
+      "label": "Worked Example 1: find distance between (1,4) and (5,7) — problem",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Coordinate grid showing points A(1,4) and B(5,7) with a line segment between them. Problem: find the length of AB."
+    },
+    {
+      "id": "CK12-MATH-002-U009",
+      "label": "Worked Example 1: step-by-step solution (text)",
+      "type": "text",
+      "duration": 36.0,
+      "content_summary": "Solution: d = √[(5-1)² + (7-4)²] = √[16+9] = √25 = 5. Full working shown with substitution and simplification steps."
+    },
+    {
+      "id": "CK12-MATH-002-U010",
+      "label": "Worked Example 2: find missing coordinate — problem (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Problem: distance between two points is 10. One point is (-4, 8) and x-coordinate of other point is 4. Find the missing y-coordinate. Notes that there may be two answers."
+    },
+    {
+      "id": "CK12-MATH-002-U011",
+      "label": "Worked Example 2: solution with two answers (text)",
+      "type": "text",
+      "duration": 42.0,
+      "content_summary": "Solution: 10 = √[(4-(-4))² + (y-8)²] → 100 = 64 + (y-8)² → (y-8)² = 36 → y-8 = ±6 → y = 14 or y = 2. Both answers verified and explained."
+    },
+    {
+      "id": "CK12-MATH-002-U012",
+      "label": "Practice Exercise 1: distance between point pairs (3 pairs)",
+      "type": "text",
+      "duration": 15.0,
+      "content_summary": "Three coordinate pairs to practice with: (3,2) and (7,5); (-1,-1) and (3,2); (0,0) and (4,3). Students apply formula to each pair."
+    },
+    {
+      "id": "CK12-MATH-002-U013",
+      "label": "Practice Exercise 2: town map real-world (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Map of Bryan's town on a coordinate grid with locations including pet store, town hall, library, school. Students find distances between pairs of locations using the Distance Formula."
+    },
+    {
+      "id": "CK12-MATH-002-U014",
+      "label": "Practice Exercise 3: missing y-coordinate problems (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Three problems requiring students to find missing coordinates given two points and a distance. Emphasizes that some problems have two valid answers."
+    },
+    {
+      "id": "CK12-MATH-002-U015",
+      "label": "Lesson Closure: garden problem solution (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Returns to the opening garden story. Applies Distance Formula to find the distance from the water source to the garden center, concluding the narrative and demonstrating real-world application."
+    },
+    {
+      "id": "CK12-MATH-002-U016",
+      "label": "The Distance Formula lesson root",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Top-level course unit / document container."
+    }
+  ],
+  "ecus": [
+    {
+      "id": "CK12-MATH-002-ECU01",
+      "label": "Derivation Block",
+      "members": [
+        "CK12-MATH-002-U004",
+        "CK12-MATH-002-U005"
+      ],
+      "main_unit_id": "CK12-MATH-002-U005"
+    },
+    {
+      "id": "CK12-MATH-002-ECU02",
+      "label": "Worked Example 1 Block",
+      "members": [
+        "CK12-MATH-002-U008",
+        "CK12-MATH-002-U009"
+      ],
+      "main_unit_id": "CK12-MATH-002-U008"
+    },
+    {
+      "id": "CK12-MATH-002-ECU03",
+      "label": "Worked Example 2 Block",
+      "members": [
+        "CK12-MATH-002-U010",
+        "CK12-MATH-002-U011"
+      ],
+      "main_unit_id": "CK12-MATH-002-U010"
+    },
+    {
+      "id": "CK12-MATH-002-ECU04",
+      "label": "Practice Exercises Block",
+      "members": [
+        "CK12-MATH-002-U012",
+        "CK12-MATH-002-U013",
+        "CK12-MATH-002-U014"
+      ],
+      "main_unit_id": "CK12-MATH-002-U012"
+    },
+    {
+      "id": "CK12-MATH-002-ECU05",
+      "label": "Formula Content Block",
+      "members": [
+        "CK12-MATH-002-U006",
+        "CK12-MATH-002-U007",
+        "CK12-MATH-002-ECU01"
+      ],
+      "main_unit_id": "CK12-MATH-002-U006"
+    }
+  ],
+  "relations": [
+    {
+      "id": "R001",
+      "type": "mononuclear",
+      "relation_name": "Identification",
+      "nucleus_id": "CK12-MATH-002-U016",
+      "satellite_id": "CK12-MATH-002-U001",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R002",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-MATH-002-U016",
+      "satellite_id": "CK12-MATH-002-U002",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R003",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-MATH-002-U016",
+      "satellite_id": "CK12-MATH-002-U003",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R004",
+      "type": "multinuclear",
+      "relation_name": "Joint",
+      "co_nuclei_ids": [
+        "CK12-MATH-002-U016",
+        "CK12-MATH-002-ECU05",
+        "CK12-MATH-002-ECU02",
+        "CK12-MATH-002-ECU03",
+        "CK12-MATH-002-ECU04",
+        "CK12-MATH-002-U015"
+      ]
+    },
+    {
+      "id": "R005",
+      "type": "mononuclear",
+      "relation_name": "Evidence",
+      "nucleus_id": "CK12-MATH-002-U006",
+      "satellite_id": "CK12-MATH-002-ECU01",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R006",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "CK12-MATH-002-U006",
+      "satellite_id": "CK12-MATH-002-U007",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R007",
+      "type": "mononuclear",
+      "relation_name": "Elaboration",
+      "nucleus_id": "CK12-MATH-002-ECU01",
+      "satellite_id": "CK12-MATH-002-U004",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R008",
+      "type": "mononuclear",
+      "relation_name": "Demonstration",
+      "nucleus_id": "CK12-MATH-002-U008",
+      "satellite_id": "CK12-MATH-002-U009",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R009",
+      "type": "mononuclear",
+      "relation_name": "Demonstration",
+      "nucleus_id": "CK12-MATH-002-U010",
+      "satellite_id": "CK12-MATH-002-U011",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R010",
+      "type": "multinuclear",
+      "relation_name": "Enumeration",
+      "co_nuclei_ids": [
+        "CK12-MATH-002-ECU02",
+        "CK12-MATH-002-ECU03"
+      ]
+    },
+    {
+      "id": "R011",
+      "type": "multinuclear",
+      "relation_name": "Enumeration",
+      "co_nuclei_ids": [
+        "CK12-MATH-002-U012",
+        "CK12-MATH-002-U013",
+        "CK12-MATH-002-U014"
+      ]
+    },
+    {
+      "id": "R012",
+      "type": "mononuclear",
+      "relation_name": "Motivation",
+      "nucleus_id": "CK12-MATH-002-U015",
+      "satellite_id": "CK12-MATH-002-U002",
+      "satellite_orbit": 0
+    }
+  ],
+  "root_unit_id": "CK12-MATH-002-U016",
+  "computed": {
+    "weights": {
+      "CK12-MATH-002-U016": 3.0,
+      "CK12-MATH-002-U001": 2.0,
+      "CK12-MATH-002-U002": 2.0,
+      "CK12-MATH-002-U003": 1.5,
+      "CK12-MATH-002-ECU05": 3.0,
+      "CK12-MATH-002-U006": 3.0,
+      "CK12-MATH-002-ECU01": 2.0,
+      "CK12-MATH-002-U005": 2.0,
+      "CK12-MATH-002-U004": 1.0,
+      "CK12-MATH-002-U007": 1.5,
+      "CK12-MATH-002-ECU02": 3.0,
+      "CK12-MATH-002-U008": 3.0,
+      "CK12-MATH-002-U009": 2.0,
+      "CK12-MATH-002-ECU03": 3.0,
+      "CK12-MATH-002-U010": 3.0,
+      "CK12-MATH-002-U011": 2.0,
+      "CK12-MATH-002-ECU04": 3.0,
+      "CK12-MATH-002-U012": 3.0,
+      "CK12-MATH-002-U013": 3.0,
+      "CK12-MATH-002-U014": 3.0,
+      "CK12-MATH-002-U015": 3.0
+    },
+    "levels": {
+      "CK12-MATH-002-U016": 1,
+      "CK12-MATH-002-U001": 2,
+      "CK12-MATH-002-U002": 2,
+      "CK12-MATH-002-U003": 2,
+      "CK12-MATH-002-ECU05": 1,
+      "CK12-MATH-002-ECU02": 1,
+      "CK12-MATH-002-ECU03": 1,
+      "CK12-MATH-002-ECU04": 1,
+      "CK12-MATH-002-U015": 1,
+      "CK12-MATH-002-U006": 1,
+      "CK12-MATH-002-U008": 1,
+      "CK12-MATH-002-U010": 1,
+      "CK12-MATH-002-U012": 1,
+      "CK12-MATH-002-ECU01": 2,
+      "CK12-MATH-002-U005": 2,
+      "CK12-MATH-002-U007": 2,
+      "CK12-MATH-002-U009": 2,
+      "CK12-MATH-002-U011": 2,
+      "CK12-MATH-002-U013": 1,
+      "CK12-MATH-002-U014": 1,
+      "CK12-MATH-002-U004": 3
+    },
+    "max_orbit": 2,
+    "total_duration": 390.0,
+    "n_units": 16,
+    "n_ecus": 5,
+    "n_relations": 12
+  }
+}

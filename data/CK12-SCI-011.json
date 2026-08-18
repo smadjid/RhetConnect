@@ -1,0 +1,236 @@
+{
+  "doc_id": "CK12-SCI-011",
+  "doc_title": "Chemical Bonding: Ionic and Covalent",
+  "source": "CK-12 Chemistry Concepts Intermediate, Section 8.1, CC-BY-NC",
+  "source_url": "https://flexbooks.ck12.org/cbook/ck-12-chemistry-concepts-intermediate/section/8.1/",
+  "domain": "chemistry",
+  "annotator": "Sadallah M. (AI-assisted)",
+  "annotation_date": "2026-07-10",
+  "notes": "Class B document (14 units). Covers ionic vs covalent bonding with electron transfer/sharing diagrams. One ECU for worked example.",
+  "units": [
+    {
+      "id": "CK12-SCI-011-U001",
+      "label": "Title: Chemical Bonding: Ionic and Covalent",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Lesson title"
+    },
+    {
+      "id": "CK12-SCI-011-U002",
+      "label": "Hook: table salt vs water (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Side-by-side photo of table salt crystals (NaCl) and water droplets. Caption: 'Both are made of bonded atoms — but the bonds work very differently.'"
+    },
+    {
+      "id": "CK12-SCI-011-U003",
+      "label": "Learning Objectives (text)",
+      "type": "text",
+      "duration": 15.0,
+      "content_summary": "Objectives: explain why atoms bond; distinguish ionic from covalent bonds; predict bond type from electronegativity difference; draw simple Lewis structures."
+    },
+    {
+      "id": "CK12-SCI-011-U004",
+      "label": "Why atoms bond: octet rule (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Atoms bond to achieve a stable electron configuration, typically 8 valence electrons (octet rule). Bonding lowers the overall energy of the system, making the bonded state more stable than separate atoms."
+    },
+    {
+      "id": "CK12-SCI-011-U005",
+      "label": "Ionic bonding: electron transfer (text)",
+      "type": "text",
+      "duration": 30.0,
+      "content_summary": "Ionic bonds form when one atom transfers electrons to another, typically between a metal and nonmetal. Example: Na gives its 1 valence electron to Cl, forming Na+ and Cl-, which attract electrostatically."
+    },
+    {
+      "id": "CK12-SCI-011-U006",
+      "label": "Ionic bonding diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Diagram showing Na atom transferring one electron to Cl atom, forming Na+ and Cl- ions held together by electrostatic attraction, forming NaCl crystal lattice."
+    },
+    {
+      "id": "CK12-SCI-011-U007",
+      "label": "Covalent bonding: electron sharing (text)",
+      "type": "text",
+      "duration": 30.0,
+      "content_summary": "Covalent bonds form when atoms share electron pairs, typically between two nonmetals. Example: two H atoms share one electron pair each to form H2, both achieving a stable duet configuration."
+    },
+    {
+      "id": "CK12-SCI-011-U008",
+      "label": "Covalent bonding diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Diagram showing two hydrogen atoms overlapping electron clouds to share a pair of electrons, forming H2 molecule with a single covalent bond."
+    },
+    {
+      "id": "CK12-SCI-011-U009",
+      "label": "Electronegativity and bond prediction (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Electronegativity difference predicts bond type: large difference (>1.7) → ionic; small difference (<1.7, >0.4) → polar covalent; near zero → nonpolar covalent. A simple rule of thumb for classifying compounds."
+    },
+    {
+      "id": "CK12-SCI-011-U010",
+      "label": "Worked example: classify NaCl and H2O (text)",
+      "type": "text",
+      "duration": 36.0,
+      "content_summary": "NaCl: electronegativity difference ≈2.1 (Na=0.9, Cl=3.0) → ionic. H2O: difference ≈1.4 (H=2.1, O=3.5) → polar covalent. Both classifications explained with the electronegativity table."
+    },
+    {
+      "id": "CK12-SCI-011-U011",
+      "label": "Electronegativity table (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Small periodic table excerpt showing electronegativity values for common elements (H, C, N, O, Na, Cl) used in the worked example."
+    },
+    {
+      "id": "CK12-SCI-011-U012",
+      "label": "Video: bonding types comparison (video)",
+      "type": "video",
+      "duration": 90.0,
+      "content_summary": "Animated video contrasting ionic bond formation (electron transfer, crystal lattice) with covalent bond formation (electron sharing, discrete molecules) side by side."
+    },
+    {
+      "id": "CK12-SCI-011-U013",
+      "label": "Practice: classify five compounds (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Five compounds given (MgO, CO2, KBr, CH4, CaCl2); classify each as ionic or covalent using electronegativity differences."
+    },
+    {
+      "id": "CK12-SCI-011-U014",
+      "label": "Lesson root: Chemical Bonding lesson",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Top-level document container."
+    }
+  ],
+  "ecus": [
+    {
+      "id": "CK12-SCI-011-ECU01",
+      "label": "Worked Example Block",
+      "members": [
+        "CK12-SCI-011-U010",
+        "CK12-SCI-011-U011"
+      ],
+      "main_unit_id": "CK12-SCI-011-U010"
+    }
+  ],
+  "relations": [
+    {
+      "id": "R001",
+      "type": "mononuclear",
+      "relation_name": "Identification",
+      "nucleus_id": "CK12-SCI-011-U014",
+      "satellite_id": "CK12-SCI-011-U001",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R002",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-SCI-011-U014",
+      "satellite_id": "CK12-SCI-011-U002",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R003",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-SCI-011-U014",
+      "satellite_id": "CK12-SCI-011-U003",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R004",
+      "type": "multinuclear",
+      "relation_name": "Joint",
+      "co_nuclei_ids": [
+        "CK12-SCI-011-U014",
+        "CK12-SCI-011-U004",
+        "CK12-SCI-011-U005",
+        "CK12-SCI-011-U007",
+        "CK12-SCI-011-U009",
+        "CK12-SCI-011-ECU01",
+        "CK12-SCI-011-U012",
+        "CK12-SCI-011-U013"
+      ]
+    },
+    {
+      "id": "R005",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "CK12-SCI-011-U005",
+      "satellite_id": "CK12-SCI-011-U006",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R006",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "CK12-SCI-011-U007",
+      "satellite_id": "CK12-SCI-011-U008",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R007",
+      "type": "mononuclear",
+      "relation_name": "Elaboration",
+      "nucleus_id": "CK12-SCI-011-U010",
+      "satellite_id": "CK12-SCI-011-U011",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R008",
+      "type": "mononuclear",
+      "relation_name": "Demonstration",
+      "nucleus_id": "CK12-SCI-011-U009",
+      "satellite_id": "CK12-SCI-011-ECU01",
+      "satellite_orbit": 0
+    }
+  ],
+  "root_unit_id": "CK12-SCI-011-U014",
+  "computed": {
+    "weights": {
+      "CK12-SCI-011-U014": 3.0,
+      "CK12-SCI-011-U001": 2.0,
+      "CK12-SCI-011-U002": 2.0,
+      "CK12-SCI-011-U003": 1.5,
+      "CK12-SCI-011-U004": 3.0,
+      "CK12-SCI-011-U005": 3.0,
+      "CK12-SCI-011-U006": 2.0,
+      "CK12-SCI-011-U007": 3.0,
+      "CK12-SCI-011-U008": 2.0,
+      "CK12-SCI-011-U009": 3.0,
+      "CK12-SCI-011-ECU01": 2.0,
+      "CK12-SCI-011-U010": 2.0,
+      "CK12-SCI-011-U011": 1.0,
+      "CK12-SCI-011-U012": 2.0,
+      "CK12-SCI-011-U013": 2.0
+    },
+    "levels": {
+      "CK12-SCI-011-U014": 1,
+      "CK12-SCI-011-U001": 2,
+      "CK12-SCI-011-U002": 2,
+      "CK12-SCI-011-U003": 2,
+      "CK12-SCI-011-U004": 1,
+      "CK12-SCI-011-U005": 1,
+      "CK12-SCI-011-U007": 1,
+      "CK12-SCI-011-U009": 1,
+      "CK12-SCI-011-ECU01": 1,
+      "CK12-SCI-011-U012": 1,
+      "CK12-SCI-011-U013": 1,
+      "CK12-SCI-011-U006": 2,
+      "CK12-SCI-011-U008": 2,
+      "CK12-SCI-011-U010": 2,
+      "CK12-SCI-011-U011": 3
+    },
+    "max_orbit": 2,
+    "total_duration": 333.0,
+    "n_units": 14,
+    "n_ecus": 1,
+    "n_relations": 8
+  }
+}

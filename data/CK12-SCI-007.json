@@ -1,0 +1,354 @@
+{
+  "doc_id": "CK12-SCI-007",
+  "doc_title": "Acid-Base Reactions",
+  "source": "CK-12 Chemistry Concepts Intermediate, CC-BY-NC",
+  "source_url": "https://flexbooks.ck12.org/cbook/ck-12-chemistry-concepts-intermediate/section/13.1/",
+  "domain": "chemistry",
+  "annotator": "Sadallah M. (AI-assisted)",
+  "annotation_date": "2026-06-22",
+  "notes": "Lesson on acid-base chemistry. Hook: stomach acid. Covers pH scale, properties of acids/bases, neutralisation reaction, indicator colours, worked calculations, everyday examples. Moderate complexity (19 units, 5 ECUs). Higher image count due to pH scale and indicator table.",
+  "units": [
+    {
+      "id": "CK12-SCI-007-U001",
+      "label": "Title: Acid-Base Reactions",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Lesson title"
+    },
+    {
+      "id": "CK12-SCI-007-U002",
+      "label": "Hook: stomach acid and antacids (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Stomach acid (hydrochloric acid, HCl) helps digest food but can cause heartburn. Antacids (e.g. calcium carbonate) neutralise excess acid. This is an acid-base reaction happening in your body every day."
+    },
+    {
+      "id": "CK12-SCI-007-U003",
+      "label": "Learning Objectives (text)",
+      "type": "text",
+      "duration": 15.0,
+      "content_summary": "Objectives: define acids and bases using Arrhenius definition; describe pH scale; identify everyday acids and bases; write neutralisation reactions; use indicators to identify acid/base."
+    },
+    {
+      "id": "CK12-SCI-007-U004",
+      "label": "Arrhenius acids: definition (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Arrhenius definition: an acid is a substance that produces H⁺ ions (protons) in water. Examples: HCl → H⁺ + Cl⁻; H₂SO₄ → 2H⁺ + SO₄²⁻. Acids taste sour, corrode metals, turn blue litmus red. pH < 7."
+    },
+    {
+      "id": "CK12-SCI-007-U005",
+      "label": "Arrhenius bases: definition (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Arrhenius definition: a base is a substance that produces OH⁻ ions in water. Examples: NaOH → Na⁺ + OH⁻. Bases taste bitter, feel slippery, turn red litmus blue. pH > 7. Also called alkalis."
+    },
+    {
+      "id": "CK12-SCI-007-U006",
+      "label": "pH scale diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Colour-coded pH scale from 0 (most acidic) to 14 (most basic), with 7 as neutral. Example substances labeled at their pH: battery acid(1), lemon juice(2), vinegar(3), coffee(5), pure water(7), baking soda(9), bleach(13). Colours shift from red to green to blue."
+    },
+    {
+      "id": "CK12-SCI-007-U007",
+      "label": "pH scale explanation (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "pH measures hydrogen ion concentration: pH = -log[H⁺]. Each unit change = 10× change in H⁺ concentration. pH 6 is 10× more acidic than pH 7. pH 5 is 100× more acidic than pH 7. Logarithmic scale."
+    },
+    {
+      "id": "CK12-SCI-007-U008",
+      "label": "Neutralisation reaction (text)",
+      "type": "text",
+      "duration": 30.0,
+      "content_summary": "When an acid and base react: acid + base → salt + water. General equation: HX + MOH → MX + H₂O. Example: HCl + NaOH → NaCl + H₂O. The products are always a salt and water. Net ionic equation: H⁺ + OH⁻ → H₂O."
+    },
+    {
+      "id": "CK12-SCI-007-U009",
+      "label": "Indicators: litmus and universal indicator (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Table showing indicator colours in acid vs neutral vs base: litmus (red/purple/blue), phenolphthalein (colourless/colourless/pink), universal indicator (red→orange→yellow→green→blue→purple as pH increases 0→14)."
+    },
+    {
+      "id": "CK12-SCI-007-U010",
+      "label": "Indicators explanation (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Indicators are substances that change colour depending on pH. Litmus is the simplest. Universal indicator gives full pH range colours. pH meter gives precise numerical measurement. Indicators useful for quick identification."
+    },
+    {
+      "id": "CK12-SCI-007-U011",
+      "label": "Worked Example 1: write neutralisation equation (text)",
+      "type": "text",
+      "duration": 30.0,
+      "content_summary": "Problem: write the balanced equation for the reaction of sulfuric acid (H₂SO₄) and potassium hydroxide (KOH). Solution: H₂SO₄ + 2KOH → K₂SO₄ + 2H₂O. Balancing steps shown; salt name identified as potassium sulfate."
+    },
+    {
+      "id": "CK12-SCI-007-U012",
+      "label": "Worked Example 2: identify acid/base from pH (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Given solutions with pH values 2, 7, 9, 13, 4: classify each as acid, neutral, or base. Identify which is most acidic (pH 2), which is most basic (pH 13), which pairs could neutralise each other."
+    },
+    {
+      "id": "CK12-SCI-007-U013",
+      "label": "Everyday acids and bases table (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Two-column table: Everyday Acids (lemon juice, vinegar, cola, aspirin, car battery acid) and Everyday Bases (baking soda, soap, bleach, antacids, ammonia cleaner). Each with approximate pH value."
+    },
+    {
+      "id": "CK12-SCI-007-U014",
+      "label": "Real-world application: ocean acidification (text)",
+      "type": "text",
+      "duration": 30.0,
+      "content_summary": "Oceans absorb CO₂ from atmosphere → forms carbonic acid (H₂CO₃) → ocean pH drops from 8.2 to 8.1 since industrial revolution. This 0.1 pH drop = 26% increase in acidity. Affects coral reefs and shell-forming organisms."
+    },
+    {
+      "id": "CK12-SCI-007-U015",
+      "label": "Ocean acidification diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Graph showing ocean surface pH declining from 1850 to present. Paired with a diagram showing CO₂ absorption pathway: atmosphere → ocean → carbonic acid formation. Coral reef photo showing bleaching."
+    },
+    {
+      "id": "CK12-SCI-007-U016",
+      "label": "Video: acid-base lab demonstration (video)",
+      "type": "video",
+      "duration": 90.0,
+      "content_summary": "Lab video showing: red cabbage juice as natural indicator (colour changes with pH); acid+base fizzing reaction; pH meter calibration and use. Students observe colour changes and reaction products."
+    },
+    {
+      "id": "CK12-SCI-007-U017",
+      "label": "Practice problems (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Five problems: classify substances as acid/base/neutral from pH; write balanced neutralisation equations; predict products; explain why pH 5 is more acidic than pH 7; describe indicator colour for given pH."
+    },
+    {
+      "id": "CK12-SCI-007-U018",
+      "label": "Antacid closure: return to hook (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Returns to opening problem. Explains how calcium carbonate (antacid) reacts with HCl: CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂. The CO₂ causes the fizzing. Neutralisation raises stomach pH, relieving heartburn."
+    },
+    {
+      "id": "CK12-SCI-007-U019",
+      "label": "Lesson root: Acid-Base lesson",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Top-level document container."
+    }
+  ],
+  "ecus": [
+    {
+      "id": "CK12-SCI-007-ECU01",
+      "label": "Definitions Block",
+      "members": [
+        "CK12-SCI-007-U004",
+        "CK12-SCI-007-U005"
+      ],
+      "main_unit_id": "CK12-SCI-007-U004"
+    },
+    {
+      "id": "CK12-SCI-007-ECU02",
+      "label": "pH Block",
+      "members": [
+        "CK12-SCI-007-U006",
+        "CK12-SCI-007-U007"
+      ],
+      "main_unit_id": "CK12-SCI-007-U007"
+    },
+    {
+      "id": "CK12-SCI-007-ECU03",
+      "label": "Indicators Block",
+      "members": [
+        "CK12-SCI-007-U009",
+        "CK12-SCI-007-U010"
+      ],
+      "main_unit_id": "CK12-SCI-007-U010"
+    },
+    {
+      "id": "CK12-SCI-007-ECU04",
+      "label": "Worked Examples Block",
+      "members": [
+        "CK12-SCI-007-U011",
+        "CK12-SCI-007-U012"
+      ],
+      "main_unit_id": "CK12-SCI-007-U011"
+    },
+    {
+      "id": "CK12-SCI-007-ECU05",
+      "label": "Application Block",
+      "members": [
+        "CK12-SCI-007-U014",
+        "CK12-SCI-007-U015"
+      ],
+      "main_unit_id": "CK12-SCI-007-U014"
+    }
+  ],
+  "relations": [
+    {
+      "id": "R001",
+      "type": "mononuclear",
+      "relation_name": "Identification",
+      "nucleus_id": "CK12-SCI-007-U019",
+      "satellite_id": "CK12-SCI-007-U001",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R002",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-SCI-007-U019",
+      "satellite_id": "CK12-SCI-007-U002",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R003",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-SCI-007-U019",
+      "satellite_id": "CK12-SCI-007-U003",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R004",
+      "type": "multinuclear",
+      "relation_name": "Joint",
+      "co_nuclei_ids": [
+        "CK12-SCI-007-U019",
+        "CK12-SCI-007-ECU01",
+        "CK12-SCI-007-ECU02",
+        "CK12-SCI-007-U008",
+        "CK12-SCI-007-ECU03",
+        "CK12-SCI-007-ECU04",
+        "CK12-SCI-007-U013",
+        "CK12-SCI-007-ECU05",
+        "CK12-SCI-007-U016",
+        "CK12-SCI-007-U017",
+        "CK12-SCI-007-U018"
+      ]
+    },
+    {
+      "id": "R005",
+      "type": "multinuclear",
+      "relation_name": "List",
+      "co_nuclei_ids": [
+        "CK12-SCI-007-U004",
+        "CK12-SCI-007-U005"
+      ]
+    },
+    {
+      "id": "R006",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "CK12-SCI-007-ECU02",
+      "satellite_id": "CK12-SCI-007-U006",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R007",
+      "type": "mononuclear",
+      "relation_name": "Elaboration",
+      "nucleus_id": "CK12-SCI-007-ECU03",
+      "satellite_id": "CK12-SCI-007-U009",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R008",
+      "type": "mononuclear",
+      "relation_name": "Elaboration",
+      "nucleus_id": "CK12-SCI-007-ECU05",
+      "satellite_id": "CK12-SCI-007-U015",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R009",
+      "type": "multinuclear",
+      "relation_name": "Enumeration",
+      "co_nuclei_ids": [
+        "CK12-SCI-007-U011",
+        "CK12-SCI-007-U012"
+      ]
+    },
+    {
+      "id": "R010",
+      "type": "mononuclear",
+      "relation_name": "Motivation",
+      "nucleus_id": "CK12-SCI-007-U018",
+      "satellite_id": "CK12-SCI-007-U002",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R011",
+      "type": "mononuclear",
+      "relation_name": "Annotation",
+      "nucleus_id": "CK12-SCI-007-ECU02",
+      "satellite_id": "CK12-SCI-007-U013",
+      "satellite_orbit": 0
+    }
+  ],
+  "root_unit_id": "CK12-SCI-007-U019",
+  "computed": {
+    "weights": {
+      "CK12-SCI-007-U019": 3.0,
+      "CK12-SCI-007-U001": 2.0,
+      "CK12-SCI-007-U002": 2.0,
+      "CK12-SCI-007-U003": 1.5,
+      "CK12-SCI-007-ECU01": 3.0,
+      "CK12-SCI-007-U004": 3.0,
+      "CK12-SCI-007-U005": 3.0,
+      "CK12-SCI-007-ECU02": 3.0,
+      "CK12-SCI-007-U007": 3.0,
+      "CK12-SCI-007-U006": 2.0,
+      "CK12-SCI-007-U013": 2.0,
+      "CK12-SCI-007-U008": 2.0,
+      "CK12-SCI-007-ECU03": 2.0,
+      "CK12-SCI-007-U010": 2.0,
+      "CK12-SCI-007-U009": 1.0,
+      "CK12-SCI-007-ECU04": 2.0,
+      "CK12-SCI-007-U011": 2.0,
+      "CK12-SCI-007-U012": 2.0,
+      "CK12-SCI-007-ECU05": 2.0,
+      "CK12-SCI-007-U014": 2.0,
+      "CK12-SCI-007-U015": 1.0,
+      "CK12-SCI-007-U016": 2.0,
+      "CK12-SCI-007-U017": 2.0,
+      "CK12-SCI-007-U018": 2.0
+    },
+    "levels": {
+      "CK12-SCI-007-U019": 1,
+      "CK12-SCI-007-U001": 2,
+      "CK12-SCI-007-U002": 2,
+      "CK12-SCI-007-U003": 2,
+      "CK12-SCI-007-ECU01": 1,
+      "CK12-SCI-007-ECU02": 1,
+      "CK12-SCI-007-U008": 1,
+      "CK12-SCI-007-ECU03": 1,
+      "CK12-SCI-007-ECU04": 1,
+      "CK12-SCI-007-U013": 1,
+      "CK12-SCI-007-ECU05": 1,
+      "CK12-SCI-007-U016": 1,
+      "CK12-SCI-007-U017": 1,
+      "CK12-SCI-007-U018": 1,
+      "CK12-SCI-007-U004": 1,
+      "CK12-SCI-007-U006": 2,
+      "CK12-SCI-007-U007": 1,
+      "CK12-SCI-007-U009": 2,
+      "CK12-SCI-007-U010": 1,
+      "CK12-SCI-007-U011": 1,
+      "CK12-SCI-007-U015": 2,
+      "CK12-SCI-007-U014": 1,
+      "CK12-SCI-007-U005": 1,
+      "CK12-SCI-007-U012": 1
+    },
+    "max_orbit": 2,
+    "total_duration": 429.0,
+    "n_units": 19,
+    "n_ecus": 5,
+    "n_relations": 11
+  }
+}

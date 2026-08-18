@@ -1,0 +1,277 @@
+{
+  "doc_id": "CK12-SCI-001",
+  "doc_title": "Newton's Second Law of Motion",
+  "source": "CK-12 Physical Science Concepts, CC-BY-NC",
+  "source_url": "https://flexbooks.ck12.org/cbook/ck-12-physical-science-concepts-for-middle-school/section/11.3/",
+  "domain": "physics",
+  "annotator": "Sadallah M. (AI-assisted)",
+  "annotation_date": "2026-06-22",
+  "notes": "Lesson on F=ma. Structure: real-world hook (car acceleration) → definition of force → Newton's 2nd law statement → formula → derivation → worked example with calculation → demonstration video → usage conditions → practice problems. Rich mixed-media lesson.",
+  "units": [
+    {
+      "id": "CK12-SCI-001-U001",
+      "label": "Title: Newton's Second Law of Motion",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Lesson title"
+    },
+    {
+      "id": "CK12-SCI-001-U002",
+      "label": "Hook: car accelerating (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Photo of a car accelerating on a road. Caption: 'What factors determine how quickly a car accelerates?' Sets up the central question of the lesson."
+    },
+    {
+      "id": "CK12-SCI-001-U003",
+      "label": "Learning Objectives (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Objectives: state Newton's second law; use F=ma to solve problems; describe relationship between force, mass, and acceleration; give real-world examples."
+    },
+    {
+      "id": "CK12-SCI-001-U004",
+      "label": "Review: definition of force (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Brief review: a force is a push or pull on an object. Forces have magnitude (measured in Newtons) and direction (vector). Net force is the vector sum of all forces."
+    },
+    {
+      "id": "CK12-SCI-001-U005",
+      "label": "Newton's Second Law statement (text)",
+      "type": "text",
+      "duration": 30.0,
+      "content_summary": "Statement: The acceleration of an object depends on the net force acting on the object and the object's mass. Greater force → greater acceleration. Greater mass → less acceleration. F = ma (Newton, 1687)."
+    },
+    {
+      "id": "CK12-SCI-001-U006",
+      "label": "Force-mass-acceleration diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Three-part diagram: (1) same force, different masses → larger mass has less acceleration; (2) same mass, different forces → larger force has more acceleration. Visually encodes the F=ma relationship."
+    },
+    {
+      "id": "CK12-SCI-001-U007",
+      "label": "Formula: F = ma with unit definitions (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Formal formula: F = m × a. Units: F in Newtons (N = kg·m/s²), m in kilograms (kg), a in meters per second squared (m/s²). Shows algebraic rearrangements: a = F/m, m = F/a."
+    },
+    {
+      "id": "CK12-SCI-001-U008",
+      "label": "Video: Newton's Second Law demonstration",
+      "type": "video",
+      "duration": 120.0,
+      "content_summary": "Video demonstration using a cart on a track with varying masses and forces. Shows experimentally that doubling the force doubles the acceleration (constant mass) and doubling the mass halves the acceleration (constant force)."
+    },
+    {
+      "id": "CK12-SCI-001-U009",
+      "label": "Worked Example: car acceleration calculation (text)",
+      "type": "text",
+      "duration": 42.0,
+      "content_summary": "Problem: a 1200 kg car experiences a net force of 3600 N. Find its acceleration. Solution: a = F/m = 3600/1200 = 3 m/s². Full worked solution with unit analysis."
+    },
+    {
+      "id": "CK12-SCI-001-U010",
+      "label": "Worked Example: find force given mass and acceleration (text)",
+      "type": "text",
+      "duration": 36.0,
+      "content_summary": "Problem: a 5 kg box accelerates at 2 m/s². What net force acts on it? Solution: F = 5 × 2 = 10 N. Includes diagram of the box with force arrow."
+    },
+    {
+      "id": "CK12-SCI-001-U011",
+      "label": "Force diagram for Example 2 (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Free-body diagram of 5 kg box with a 10 N force arrow pointing right and acceleration arrow. Labels show F=10N, m=5kg, a=2m/s²."
+    },
+    {
+      "id": "CK12-SCI-001-U012",
+      "label": "Usage condition: Newton's 2nd Law applies to net force (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Important clarification: F in F=ma is the NET force (resultant of all forces). If forces cancel (object at rest or constant velocity), net F=0 and a=0. This is Newton's 1st Law territory."
+    },
+    {
+      "id": "CK12-SCI-001-U013",
+      "label": "Practice problems: F=ma calculations (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Four practice problems: find a given F and m; find F given m and a; find m given F and a; real-world scenario (rocket launch). Students apply F=ma in all three rearrangements."
+    },
+    {
+      "id": "CK12-SCI-001-U014",
+      "label": "Lesson root: Newton's Second Law lesson",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Top-level document container."
+    }
+  ],
+  "ecus": [
+    {
+      "id": "CK12-SCI-001-ECU01",
+      "label": "Law Statement Block",
+      "members": [
+        "CK12-SCI-001-U005",
+        "CK12-SCI-001-U006"
+      ],
+      "main_unit_id": "CK12-SCI-001-U005"
+    },
+    {
+      "id": "CK12-SCI-001-ECU02",
+      "label": "Formula Block",
+      "members": [
+        "CK12-SCI-001-U007",
+        "CK12-SCI-001-U008"
+      ],
+      "main_unit_id": "CK12-SCI-001-U007"
+    },
+    {
+      "id": "CK12-SCI-001-ECU03",
+      "label": "Worked Example 1 Block",
+      "members": [
+        "CK12-SCI-001-U009"
+      ],
+      "main_unit_id": "CK12-SCI-001-U009"
+    },
+    {
+      "id": "CK12-SCI-001-ECU04",
+      "label": "Worked Example 2 Block",
+      "members": [
+        "CK12-SCI-001-U010",
+        "CK12-SCI-001-U011"
+      ],
+      "main_unit_id": "CK12-SCI-001-U010"
+    }
+  ],
+  "relations": [
+    {
+      "id": "R001",
+      "type": "mononuclear",
+      "relation_name": "Identification",
+      "nucleus_id": "CK12-SCI-001-U014",
+      "satellite_id": "CK12-SCI-001-U001",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R002",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-SCI-001-U014",
+      "satellite_id": "CK12-SCI-001-U002",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R003",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-SCI-001-U014",
+      "satellite_id": "CK12-SCI-001-U003",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R004",
+      "type": "multinuclear",
+      "relation_name": "Joint",
+      "co_nuclei_ids": [
+        "CK12-SCI-001-U014",
+        "CK12-SCI-001-U004",
+        "CK12-SCI-001-ECU01",
+        "CK12-SCI-001-ECU02",
+        "CK12-SCI-001-ECU03",
+        "CK12-SCI-001-ECU04",
+        "CK12-SCI-001-U012",
+        "CK12-SCI-001-U013"
+      ]
+    },
+    {
+      "id": "R005",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "CK12-SCI-001-U005",
+      "satellite_id": "CK12-SCI-001-U006",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R006",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "CK12-SCI-001-U007",
+      "satellite_id": "CK12-SCI-001-U008",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R007",
+      "type": "mononuclear",
+      "relation_name": "Elaboration",
+      "nucleus_id": "CK12-SCI-001-U010",
+      "satellite_id": "CK12-SCI-001-U011",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R008",
+      "type": "multinuclear",
+      "relation_name": "Enumeration",
+      "co_nuclei_ids": [
+        "CK12-SCI-001-ECU03",
+        "CK12-SCI-001-ECU04"
+      ]
+    },
+    {
+      "id": "R009",
+      "type": "mononuclear",
+      "relation_name": "Annotation",
+      "nucleus_id": "CK12-SCI-001-ECU01",
+      "satellite_id": "CK12-SCI-001-U012",
+      "satellite_orbit": 0
+    }
+  ],
+  "root_unit_id": "CK12-SCI-001-U014",
+  "computed": {
+    "weights": {
+      "CK12-SCI-001-U014": 3.0,
+      "CK12-SCI-001-U001": 2.0,
+      "CK12-SCI-001-U002": 2.0,
+      "CK12-SCI-001-U003": 1.5,
+      "CK12-SCI-001-U004": 3.0,
+      "CK12-SCI-001-ECU01": 3.0,
+      "CK12-SCI-001-U005": 3.0,
+      "CK12-SCI-001-U006": 2.0,
+      "CK12-SCI-001-U012": 2.0,
+      "CK12-SCI-001-ECU02": 2.0,
+      "CK12-SCI-001-U007": 2.0,
+      "CK12-SCI-001-U008": 1.0,
+      "CK12-SCI-001-ECU03": 2.0,
+      "CK12-SCI-001-U009": 2.0,
+      "CK12-SCI-001-ECU04": 2.0,
+      "CK12-SCI-001-U010": 2.0,
+      "CK12-SCI-001-U011": 1.0,
+      "CK12-SCI-001-U013": 2.0
+    },
+    "levels": {
+      "CK12-SCI-001-U014": 1,
+      "CK12-SCI-001-U001": 2,
+      "CK12-SCI-001-U002": 2,
+      "CK12-SCI-001-U003": 2,
+      "CK12-SCI-001-U004": 1,
+      "CK12-SCI-001-ECU01": 1,
+      "CK12-SCI-001-ECU02": 1,
+      "CK12-SCI-001-ECU03": 1,
+      "CK12-SCI-001-ECU04": 1,
+      "CK12-SCI-001-U012": 1,
+      "CK12-SCI-001-U013": 1,
+      "CK12-SCI-001-U005": 1,
+      "CK12-SCI-001-U007": 1,
+      "CK12-SCI-001-U009": 1,
+      "CK12-SCI-001-U010": 1,
+      "CK12-SCI-001-U006": 2,
+      "CK12-SCI-001-U008": 2,
+      "CK12-SCI-001-U011": 2
+    },
+    "max_orbit": 2,
+    "total_duration": 375.0,
+    "n_units": 14,
+    "n_ecus": 4,
+    "n_relations": 9
+  }
+}

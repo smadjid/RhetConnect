@@ -1,0 +1,323 @@
+{
+  "doc_id": "CK12-MATH-004",
+  "doc_title": "Introduction to Trigonometry: Sine, Cosine, Tangent",
+  "source": "CK-12 Geometry Concepts, CC-BY-NC",
+  "source_url": "https://flexbooks.ck12.org/cbook/ck-12-geometry-concepts/section/8.1/",
+  "domain": "mathematics",
+  "annotator": "Sadallah M. (AI-assisted)",
+  "annotation_date": "2026-06-22",
+  "notes": "Lesson introducing the three basic trig ratios (SOH-CAH-TOA). Structure: hook (surveyor using angles) → right triangle labeling → sine definition → cosine definition → tangent definition → SOH-CAH-TOA mnemonic → worked example → calculator use → practice.",
+  "units": [
+    {
+      "id": "CK12-MATH-004-U001",
+      "label": "Title: Introduction to Trigonometry",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Lesson title"
+    },
+    {
+      "id": "CK12-MATH-004-U002",
+      "label": "Hook: surveyor measuring height of building (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Photo of a surveyor using a theodolite to measure the angle to the top of a tall building. Caption: 'How can a surveyor find the height of a building without climbing it?'"
+    },
+    {
+      "id": "CK12-MATH-004-U003",
+      "label": "Hook explanation (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Explains that trigonometry allows calculation of unknown sides and angles in right triangles using ratios. The surveyor measures an angle and a known distance, then uses trig to find the height."
+    },
+    {
+      "id": "CK12-MATH-004-U004",
+      "label": "Learning Objectives (text)",
+      "type": "text",
+      "duration": 15.0,
+      "content_summary": "Objectives: label sides of a right triangle (opposite, adjacent, hypotenuse) relative to a given angle; define sine, cosine, tangent as ratios; use SOH-CAH-TOA; solve for unknown sides using trig."
+    },
+    {
+      "id": "CK12-MATH-004-U005",
+      "label": "Right triangle labeling diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Diagram of a right triangle with angle θ labeled. Sides labeled: hypotenuse (longest, opposite right angle), opposite (side across from θ), adjacent (side next to θ). Right angle marked with square symbol."
+    },
+    {
+      "id": "CK12-MATH-004-U006",
+      "label": "Sine definition (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "sin(θ) = opposite/hypotenuse. The sine ratio compares the length of the side opposite the angle to the hypotenuse. Always between 0 and 1 for angles 0°–90°."
+    },
+    {
+      "id": "CK12-MATH-004-U007",
+      "label": "Cosine definition (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "cos(θ) = adjacent/hypotenuse. The cosine ratio compares the length of the side adjacent to the angle to the hypotenuse. Always between 0 and 1 for angles 0°–90°."
+    },
+    {
+      "id": "CK12-MATH-004-U008",
+      "label": "Tangent definition (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "tan(θ) = opposite/adjacent. The tangent ratio compares the length of the opposite side to the adjacent side. Can be greater than 1 (when angle > 45°). Note: tan = sin/cos."
+    },
+    {
+      "id": "CK12-MATH-004-U009",
+      "label": "SOH-CAH-TOA mnemonic (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Visual mnemonic card: SOH (Sine = Opposite/Hypotenuse), CAH (Cosine = Adjacent/Hypotenuse), TOA (Tangent = Opposite/Adjacent). Colour-coded and formatted as a memory aid."
+    },
+    {
+      "id": "CK12-MATH-004-U010",
+      "label": "Worked Example 1: find sin, cos, tan for triangle (text)",
+      "type": "text",
+      "duration": 36.0,
+      "content_summary": "Given right triangle with legs 3 and 4, hypotenuse 5, angle θ opposite leg 3. Find sin(θ)=3/5=0.6, cos(θ)=4/5=0.8, tan(θ)=3/4=0.75. All three ratios calculated and verified."
+    },
+    {
+      "id": "CK12-MATH-004-U011",
+      "label": "Worked Example 1: triangle diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Labeled diagram of the 3-4-5 right triangle from Example 1. Sides labeled with numbers, angle θ marked, right angle indicated. Reference for the calculation."
+    },
+    {
+      "id": "CK12-MATH-004-U012",
+      "label": "Worked Example 2: find unknown side using sin (text)",
+      "type": "text",
+      "duration": 42.0,
+      "content_summary": "Problem: angle θ=30°, hypotenuse=10. Find the opposite side. Solution: sin(30°)=opp/10; opp=10×sin(30°)=10×0.5=5. Shows calculator usage: sin(30) = 0.5. Full worked solution."
+    },
+    {
+      "id": "CK12-MATH-004-U013",
+      "label": "Calculator tips for trig functions (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "How to use a scientific calculator: ensure mode is DEGREES not radians; press SIN/COS/TAN then angle value; use inverse functions (sin⁻¹, cos⁻¹, tan⁻¹) to find angles from ratios."
+    },
+    {
+      "id": "CK12-MATH-004-U014",
+      "label": "Application: surveyor problem solution (text)",
+      "type": "text",
+      "duration": 30.0,
+      "content_summary": "Returns to opening surveyor problem. Given: angle of elevation=60°, horizontal distance=50m. Find building height using tan(60°)=height/50; height=50×tan(60°)=50×1.732=86.6m. Closes the lesson narrative."
+    },
+    {
+      "id": "CK12-MATH-004-U015",
+      "label": "Practice problems: trig ratio calculations (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Five practice problems: write sin, cos, tan for given triangles; find unknown sides given angle and one side; find angle given two sides using inverse trig."
+    },
+    {
+      "id": "CK12-MATH-004-U016",
+      "label": "Lesson root: Trigonometry lesson",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Top-level document container."
+    }
+  ],
+  "ecus": [
+    {
+      "id": "CK12-MATH-004-ECU01",
+      "label": "Hook Block",
+      "members": [
+        "CK12-MATH-004-U002",
+        "CK12-MATH-004-U003"
+      ],
+      "main_unit_id": "CK12-MATH-004-U003"
+    },
+    {
+      "id": "CK12-MATH-004-ECU02",
+      "label": "Three Ratios Block",
+      "members": [
+        "CK12-MATH-004-U005",
+        "CK12-MATH-004-U006",
+        "CK12-MATH-004-U007",
+        "CK12-MATH-004-U008",
+        "CK12-MATH-004-U009"
+      ],
+      "main_unit_id": "CK12-MATH-004-U006"
+    },
+    {
+      "id": "CK12-MATH-004-ECU03",
+      "label": "Worked Example 1 Block",
+      "members": [
+        "CK12-MATH-004-U010",
+        "CK12-MATH-004-U011"
+      ],
+      "main_unit_id": "CK12-MATH-004-U010"
+    },
+    {
+      "id": "CK12-MATH-004-ECU04",
+      "label": "Worked Example 2 Block",
+      "members": [
+        "CK12-MATH-004-U012",
+        "CK12-MATH-004-U013"
+      ],
+      "main_unit_id": "CK12-MATH-004-U012"
+    }
+  ],
+  "relations": [
+    {
+      "id": "R001",
+      "type": "mononuclear",
+      "relation_name": "Identification",
+      "nucleus_id": "CK12-MATH-004-U016",
+      "satellite_id": "CK12-MATH-004-U001",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R002",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-MATH-004-U016",
+      "satellite_id": "CK12-MATH-004-ECU01",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R003",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-MATH-004-U016",
+      "satellite_id": "CK12-MATH-004-U004",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R004",
+      "type": "multinuclear",
+      "relation_name": "Joint",
+      "co_nuclei_ids": [
+        "CK12-MATH-004-U016",
+        "CK12-MATH-004-ECU02",
+        "CK12-MATH-004-ECU03",
+        "CK12-MATH-004-ECU04",
+        "CK12-MATH-004-U014",
+        "CK12-MATH-004-U015"
+      ]
+    },
+    {
+      "id": "R005",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-MATH-004-ECU02",
+      "satellite_id": "CK12-MATH-004-U005",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R006",
+      "type": "multinuclear",
+      "relation_name": "List",
+      "co_nuclei_ids": [
+        "CK12-MATH-004-U006",
+        "CK12-MATH-004-U007",
+        "CK12-MATH-004-U008"
+      ]
+    },
+    {
+      "id": "R007",
+      "type": "mononuclear",
+      "relation_name": "Annotation",
+      "nucleus_id": "CK12-MATH-004-ECU02",
+      "satellite_id": "CK12-MATH-004-U009",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R008",
+      "type": "mononuclear",
+      "relation_name": "Elaboration",
+      "nucleus_id": "CK12-MATH-004-ECU01",
+      "satellite_id": "CK12-MATH-004-U002",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R009",
+      "type": "mononuclear",
+      "relation_name": "Demonstration",
+      "nucleus_id": "CK12-MATH-004-U010",
+      "satellite_id": "CK12-MATH-004-U011",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R010",
+      "type": "mononuclear",
+      "relation_name": "Annotation",
+      "nucleus_id": "CK12-MATH-004-ECU04",
+      "satellite_id": "CK12-MATH-004-U013",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R011",
+      "type": "multinuclear",
+      "relation_name": "Enumeration",
+      "co_nuclei_ids": [
+        "CK12-MATH-004-ECU03",
+        "CK12-MATH-004-ECU04"
+      ]
+    },
+    {
+      "id": "R012",
+      "type": "mononuclear",
+      "relation_name": "Reinforcement",
+      "nucleus_id": "CK12-MATH-004-U016",
+      "satellite_id": "CK12-MATH-004-U014",
+      "satellite_orbit": 0
+    }
+  ],
+  "root_unit_id": "CK12-MATH-004-U016",
+  "computed": {
+    "weights": {
+      "CK12-MATH-004-U016": 3.0,
+      "CK12-MATH-004-U001": 2.0,
+      "CK12-MATH-004-ECU01": 2.0,
+      "CK12-MATH-004-U003": 2.0,
+      "CK12-MATH-004-U002": 1.0,
+      "CK12-MATH-004-U004": 1.5,
+      "CK12-MATH-004-U014": 2.0,
+      "CK12-MATH-004-ECU02": 2.0,
+      "CK12-MATH-004-U006": 2.0,
+      "CK12-MATH-004-U007": 2.0,
+      "CK12-MATH-004-U008": 2.0,
+      "CK12-MATH-004-U005": 1.0,
+      "CK12-MATH-004-U009": 0.5,
+      "CK12-MATH-004-ECU03": 2.0,
+      "CK12-MATH-004-U010": 2.0,
+      "CK12-MATH-004-U011": 1.0,
+      "CK12-MATH-004-ECU04": 2.0,
+      "CK12-MATH-004-U012": 2.0,
+      "CK12-MATH-004-U013": 1.0,
+      "CK12-MATH-004-U015": 2.0
+    },
+    "levels": {
+      "CK12-MATH-004-U016": 1,
+      "CK12-MATH-004-U001": 2,
+      "CK12-MATH-004-ECU01": 2,
+      "CK12-MATH-004-U003": 2,
+      "CK12-MATH-004-U004": 2,
+      "CK12-MATH-004-U014": 2,
+      "CK12-MATH-004-ECU02": 1,
+      "CK12-MATH-004-ECU03": 1,
+      "CK12-MATH-004-ECU04": 1,
+      "CK12-MATH-004-U015": 1,
+      "CK12-MATH-004-U002": 3,
+      "CK12-MATH-004-U005": 2,
+      "CK12-MATH-004-U009": 2,
+      "CK12-MATH-004-U006": 1,
+      "CK12-MATH-004-U010": 1,
+      "CK12-MATH-004-U013": 2,
+      "CK12-MATH-004-U012": 1,
+      "CK12-MATH-004-U007": 1,
+      "CK12-MATH-004-U008": 1,
+      "CK12-MATH-004-U011": 2
+    },
+    "max_orbit": 2,
+    "total_duration": 297.0,
+    "n_units": 16,
+    "n_ecus": 4,
+    "n_relations": 12
+  }
+}

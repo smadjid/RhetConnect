@@ -1,0 +1,324 @@
+{
+  "doc_id": "CK12-HIST-001",
+  "doc_title": "The Scientific Revolution",
+  "source": "CK-12 World History Concepts, CC-BY-NC",
+  "source_url": "https://flexbooks.ck12.org/cbook/ck-12-world-history-concepts/section/18.1/",
+  "domain": "history",
+  "annotator": "Sadallah M. (AI-assisted)",
+  "annotation_date": "2026-06-22",
+  "notes": "History lesson with predominantly text and image content. No video in this lesson. Hook: geocentric vs heliocentric. Covers Copernicus, Galileo, Newton. Causes and effects of the revolution. Primary source excerpt (Galileo letter). Timeline image. Different rhetorical structure from STEM lessons: more Background and Cause relations, fewer Demonstration relations.",
+  "units": [
+    {
+      "id": "CK12-HIST-001-U001",
+      "label": "Title: The Scientific Revolution",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Lesson title"
+    },
+    {
+      "id": "CK12-HIST-001-U002",
+      "label": "Hook: geocentric vs heliocentric model (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Two diagrams side by side: (1) Ptolemy's geocentric model with Earth at centre, planets and Sun orbiting in circles with epicycles; (2) Copernicus' heliocentric model with Sun at centre, planets in circular orbits. Caption: 'Which model do you think is correct?'"
+    },
+    {
+      "id": "CK12-HIST-001-U003",
+      "label": "Context: Medieval worldview and the Church (text)",
+      "type": "text",
+      "duration": 36.0,
+      "content_summary": "Before the Scientific Revolution, European thinking was dominated by Aristotle's philosophy and the Catholic Church. Earth was considered the centre of the universe (geocentric). Natural phenomena explained through theology. Questioning the Church's teaching was dangerous."
+    },
+    {
+      "id": "CK12-HIST-001-U004",
+      "label": "Learning Objectives (text)",
+      "type": "text",
+      "duration": 15.0,
+      "content_summary": "Objectives: describe the causes of the Scientific Revolution; explain key discoveries of Copernicus, Galileo, and Newton; describe the scientific method; explain how the Scientific Revolution changed European thought."
+    },
+    {
+      "id": "CK12-HIST-001-U005",
+      "label": "Causes of the Scientific Revolution (text)",
+      "type": "text",
+      "duration": 36.0,
+      "content_summary": "Three main causes: (1) Renaissance emphasis on observation and human reason; (2) printing press allowed rapid spread of new ideas; (3) exploration of the Americas revealed that ancient authorities (Aristotle, Ptolemy) had made errors. These undermined faith in ancient knowledge."
+    },
+    {
+      "id": "CK12-HIST-001-U006",
+      "label": "Copernicus: heliocentric model (text)",
+      "type": "text",
+      "duration": 30.0,
+      "content_summary": "Nicolaus Copernicus (1473-1543) proposed the heliocentric model in 'On the Revolutions of the Celestial Spheres' (1543, published on his deathbed to avoid persecution). Challenged 1400 years of geocentric belief. Still had circular orbits — later corrected by Kepler (ellipses)."
+    },
+    {
+      "id": "CK12-HIST-001-U007",
+      "label": "Portrait of Copernicus (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Historical portrait of Nicolaus Copernicus (c.1580) holding a model of the solar system. Caption gives dates (1473-1543) and his major contribution: the heliocentric model."
+    },
+    {
+      "id": "CK12-HIST-001-U008",
+      "label": "Galileo: telescope and Jupiter's moons (text)",
+      "type": "text",
+      "duration": 36.0,
+      "content_summary": "Galileo Galilei (1564-1642) improved the telescope (1609) and observed Jupiter's four large moons orbiting Jupiter — proving not everything orbited Earth. Observed lunar craters, sunspots, Venus phases. Confirmed heliocentrism. Tried by the Inquisition (1633) and forced to recant."
+    },
+    {
+      "id": "CK12-HIST-001-U009",
+      "label": "Galileo's telescope observation diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Galileo's original drawings of Jupiter and its four moons (Io, Europa, Ganymede, Callisto) on different nights, showing the moons changing position — proving orbital motion around Jupiter, not Earth."
+    },
+    {
+      "id": "CK12-HIST-001-U010",
+      "label": "Newton: laws of motion and gravity (text)",
+      "type": "text",
+      "duration": 36.0,
+      "content_summary": "Isaac Newton (1643-1727) synthesised the work of Copernicus, Galileo, and Kepler. Published 'Principia Mathematica' (1687): three laws of motion + law of universal gravitation. Provided mathematical framework explaining planetary motion and terrestrial mechanics in one unified system."
+    },
+    {
+      "id": "CK12-HIST-001-U011",
+      "label": "Scientific method: the new approach (text)",
+      "type": "text",
+      "duration": 30.0,
+      "content_summary": "The Scientific Revolution established the scientific method: (1) observe; (2) form hypothesis; (3) experiment; (4) analyse results; (5) conclude; (6) repeat/peer review. This replaced reliance on ancient authority with evidence-based knowledge. Francis Bacon and René Descartes were key proponents."
+    },
+    {
+      "id": "CK12-HIST-001-U012",
+      "label": "Effects of the Scientific Revolution (text)",
+      "type": "text",
+      "duration": 30.0,
+      "content_summary": "Long-term effects: (1) undermined Church's authority on natural matters; (2) led to the Enlightenment (18th century); (3) transformed medicine, physics, astronomy; (4) established science as a profession; (5) model of evidence-based reasoning applied to politics and society (Locke, Voltaire)."
+    },
+    {
+      "id": "CK12-HIST-001-U013",
+      "label": "Scientific Revolution timeline (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Timeline from 1543 to 1687 showing key events: 1543 Copernicus publishes heliocentric theory; 1572 Tycho Brahe observes nova; 1609 Kepler's laws of planetary motion; 1609 Galileo improves telescope; 1633 Galileo trial; 1687 Newton's Principia."
+    },
+    {
+      "id": "CK12-HIST-001-U014",
+      "label": "Primary source: Galileo's letter to Christina (text)",
+      "type": "text",
+      "duration": 30.0,
+      "content_summary": "Excerpt from Galileo's 1615 letter to Grand Duchess Christina arguing that the Bible should not be used as a scientific authority: 'The intention of the Holy Ghost is to teach us how one goes to heaven, not how heaven goes.' Shows tension between science and religion."
+    },
+    {
+      "id": "CK12-HIST-001-U015",
+      "label": "Practice questions (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Five questions: explain one cause of the Scientific Revolution; describe Galileo's contribution and why it was controversial; compare geocentric and heliocentric models; explain what the scientific method changed; evaluate: was the Scientific Revolution a break from or continuation of the Renaissance?"
+    },
+    {
+      "id": "CK12-HIST-001-U016",
+      "label": "Lesson root: Scientific Revolution lesson",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Top-level document container."
+    }
+  ],
+  "ecus": [
+    {
+      "id": "CK12-HIST-001-ECU01",
+      "label": "Context Block",
+      "members": [
+        "CK12-HIST-001-U003",
+        "CK12-HIST-001-U005"
+      ],
+      "main_unit_id": "CK12-HIST-001-U005"
+    },
+    {
+      "id": "CK12-HIST-001-ECU02",
+      "label": "Copernicus Block",
+      "members": [
+        "CK12-HIST-001-U006",
+        "CK12-HIST-001-U007"
+      ],
+      "main_unit_id": "CK12-HIST-001-U006"
+    },
+    {
+      "id": "CK12-HIST-001-ECU03",
+      "label": "Galileo Block",
+      "members": [
+        "CK12-HIST-001-U008",
+        "CK12-HIST-001-U009",
+        "CK12-HIST-001-U014"
+      ],
+      "main_unit_id": "CK12-HIST-001-U008"
+    },
+    {
+      "id": "CK12-HIST-001-ECU04",
+      "label": "Scientists Block",
+      "members": [
+        "CK12-HIST-001-ECU02",
+        "CK12-HIST-001-ECU03",
+        "CK12-HIST-001-U010"
+      ],
+      "main_unit_id": "CK12-HIST-001-ECU02"
+    },
+    {
+      "id": "CK12-HIST-001-ECU05",
+      "label": "Impact Block",
+      "members": [
+        "CK12-HIST-001-U011",
+        "CK12-HIST-001-U012"
+      ],
+      "main_unit_id": "CK12-HIST-001-U011"
+    }
+  ],
+  "relations": [
+    {
+      "id": "R001",
+      "type": "mononuclear",
+      "relation_name": "Identification",
+      "nucleus_id": "CK12-HIST-001-U016",
+      "satellite_id": "CK12-HIST-001-U001",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R002",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-HIST-001-U016",
+      "satellite_id": "CK12-HIST-001-U002",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R003",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-HIST-001-U016",
+      "satellite_id": "CK12-HIST-001-U004",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R004",
+      "type": "multinuclear",
+      "relation_name": "Joint",
+      "co_nuclei_ids": [
+        "CK12-HIST-001-U016",
+        "CK12-HIST-001-ECU01",
+        "CK12-HIST-001-ECU04",
+        "CK12-HIST-001-ECU05",
+        "CK12-HIST-001-U013",
+        "CK12-HIST-001-U015"
+      ]
+    },
+    {
+      "id": "R005",
+      "type": "mononuclear",
+      "relation_name": "Background",
+      "nucleus_id": "CK12-HIST-001-ECU01",
+      "satellite_id": "CK12-HIST-001-U003",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R006",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "CK12-HIST-001-ECU02",
+      "satellite_id": "CK12-HIST-001-U007",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R007",
+      "type": "mononuclear",
+      "relation_name": "Evidence",
+      "nucleus_id": "CK12-HIST-001-ECU03",
+      "satellite_id": "CK12-HIST-001-U009",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R008",
+      "type": "mononuclear",
+      "relation_name": "Background",
+      "nucleus_id": "CK12-HIST-001-ECU03",
+      "satellite_id": "CK12-HIST-001-U014",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R009",
+      "type": "multinuclear",
+      "relation_name": "Sequence",
+      "co_nuclei_ids": [
+        "CK12-HIST-001-ECU02",
+        "CK12-HIST-001-ECU03",
+        "CK12-HIST-001-U010"
+      ]
+    },
+    {
+      "id": "R010",
+      "type": "mononuclear",
+      "relation_name": "Cause",
+      "nucleus_id": "CK12-HIST-001-ECU05",
+      "satellite_id": "CK12-HIST-001-ECU04",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R011",
+      "type": "mononuclear",
+      "relation_name": "Elaboration",
+      "nucleus_id": "CK12-HIST-001-ECU05",
+      "satellite_id": "CK12-HIST-001-U012",
+      "satellite_orbit": 0
+    }
+  ],
+  "root_unit_id": "CK12-HIST-001-U016",
+  "computed": {
+    "weights": {
+      "CK12-HIST-001-U016": 3.0,
+      "CK12-HIST-001-U001": 2.0,
+      "CK12-HIST-001-U002": 2.0,
+      "CK12-HIST-001-U004": 1.5,
+      "CK12-HIST-001-ECU01": 3.0,
+      "CK12-HIST-001-U005": 3.0,
+      "CK12-HIST-001-U003": 2.0,
+      "CK12-HIST-001-ECU04": 3.0,
+      "CK12-HIST-001-ECU02": 3.0,
+      "CK12-HIST-001-U006": 3.0,
+      "CK12-HIST-001-U007": 2.0,
+      "CK12-HIST-001-ECU03": 3.0,
+      "CK12-HIST-001-U008": 3.0,
+      "CK12-HIST-001-U009": 2.0,
+      "CK12-HIST-001-U014": 1.5,
+      "CK12-HIST-001-U010": 3.0,
+      "CK12-HIST-001-ECU05": 3.0,
+      "CK12-HIST-001-U011": 3.0,
+      "CK12-HIST-001-U012": 2.0,
+      "CK12-HIST-001-U013": 3.0,
+      "CK12-HIST-001-U015": 3.0
+    },
+    "levels": {
+      "CK12-HIST-001-U016": 1,
+      "CK12-HIST-001-U001": 2,
+      "CK12-HIST-001-U002": 2,
+      "CK12-HIST-001-U004": 2,
+      "CK12-HIST-001-ECU01": 1,
+      "CK12-HIST-001-ECU04": 1,
+      "CK12-HIST-001-ECU05": 1,
+      "CK12-HIST-001-U013": 1,
+      "CK12-HIST-001-U015": 1,
+      "CK12-HIST-001-U003": 2,
+      "CK12-HIST-001-U005": 1,
+      "CK12-HIST-001-ECU02": 1,
+      "CK12-HIST-001-U012": 2,
+      "CK12-HIST-001-U011": 1,
+      "CK12-HIST-001-U007": 2,
+      "CK12-HIST-001-U006": 1,
+      "CK12-HIST-001-ECU03": 1,
+      "CK12-HIST-001-U010": 1,
+      "CK12-HIST-001-U009": 2,
+      "CK12-HIST-001-U014": 2,
+      "CK12-HIST-001-U008": 1
+    },
+    "max_orbit": 2,
+    "total_duration": 363.0,
+    "n_units": 16,
+    "n_ecus": 5,
+    "n_relations": 11
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "doc_id": "CK12-ECON-002",
+  "doc_title": "Opportunity Cost and Scarcity",
+  "source": "CK-12 Economics Concepts, Section 1.2, CC-BY-NC",
+  "source_url": "https://flexbooks.ck12.org/cbook/ck-12-economics-concepts/section/1.2/",
+  "domain": "economics",
+  "annotator": "Sadallah M. (AI-assisted)",
+  "annotation_date": "2026-07-10",
+  "notes": "Class A document (8 units). Second economics document, foundational concept lesson. No ECUs, no multinuclear relations.",
+  "units": [
+    {
+      "id": "CK12-ECON-002-U001",
+      "label": "Title: Opportunity Cost and Scarcity",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Lesson title"
+    },
+    {
+      "id": "CK12-ECON-002-U002",
+      "label": "Definition: scarcity (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Scarcity is the basic economic problem: resources (time, money, materials) are limited, but wants are unlimited. Because of scarcity, every choice involves giving something up."
+    },
+    {
+      "id": "CK12-ECON-002-U003",
+      "label": "Definition: opportunity cost (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Opportunity cost is the value of the next-best alternative given up when making a choice. It is not just money spent, but the best option you did not choose."
+    },
+    {
+      "id": "CK12-ECON-002-U004",
+      "label": "Decision diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Diagram showing a student choosing between studying and going to a movie, with an arrow labeled 'opportunity cost' pointing to the movie option (the one given up)."
+    },
+    {
+      "id": "CK12-ECON-002-U005",
+      "label": "Worked example: Saturday afternoon (text)",
+      "type": "text",
+      "duration": 30.0,
+      "content_summary": "A student has 3 hours free and could study ($0, +5 points on next test), work a shift ($30), or see a movie ($15 enjoyment value, priced $12). Choosing to work means the opportunity cost is the more highly valued of the other two options given up."
+    },
+    {
+      "id": "CK12-ECON-002-U006",
+      "label": "Production possibilities concept (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "At a societal level, scarcity means a country must choose how to allocate limited resources between goods (e.g. healthcare vs defense spending). Every unit of one good produced has an opportunity cost in terms of the other good not produced."
+    },
+    {
+      "id": "CK12-ECON-002-U007",
+      "label": "Practice: identify opportunity cost (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Three scenarios given (choosing a college major, a city budget decision, a family's weekend plan); identify the opportunity cost in each."
+    },
+    {
+      "id": "CK12-ECON-002-U008",
+      "label": "Lesson root: Opportunity Cost lesson",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Top-level document container."
+    }
+  ],
+  "ecus": [],
+  "relations": [
+    {
+      "id": "R001",
+      "type": "mononuclear",
+      "relation_name": "Identification",
+      "nucleus_id": "CK12-ECON-002-U008",
+      "satellite_id": "CK12-ECON-002-U001",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R002",
+      "type": "mononuclear",
+      "relation_name": "Background",
+      "nucleus_id": "CK12-ECON-002-U008",
+      "satellite_id": "CK12-ECON-002-U002",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R003",
+      "type": "mononuclear",
+      "relation_name": "Elaboration",
+      "nucleus_id": "CK12-ECON-002-U008",
+      "satellite_id": "CK12-ECON-002-U003",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R004",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "CK12-ECON-002-U003",
+      "satellite_id": "CK12-ECON-002-U004",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R005",
+      "type": "mononuclear",
+      "relation_name": "Demonstration",
+      "nucleus_id": "CK12-ECON-002-U003",
+      "satellite_id": "CK12-ECON-002-U005",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R006",
+      "type": "mononuclear",
+      "relation_name": "Elaboration",
+      "nucleus_id": "CK12-ECON-002-U002",
+      "satellite_id": "CK12-ECON-002-U006",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R007",
+      "type": "mononuclear",
+      "relation_name": "Reinforcement",
+      "nucleus_id": "CK12-ECON-002-U008",
+      "satellite_id": "CK12-ECON-002-U007",
+      "satellite_orbit": 0
+    }
+  ],
+  "root_unit_id": "CK12-ECON-002-U008",
+  "computed": {
+    "weights": {
+      "CK12-ECON-002-U008": 3.0,
+      "CK12-ECON-002-U001": 2.0,
+      "CK12-ECON-002-U002": 2.0,
+      "CK12-ECON-002-U006": 0.95,
+      "CK12-ECON-002-U003": 2.0,
+      "CK12-ECON-002-U004": 0.95,
+      "CK12-ECON-002-U005": 0.95,
+      "CK12-ECON-002-U007": 2.0
+    },
+    "levels": {
+      "CK12-ECON-002-U008": 1,
+      "CK12-ECON-002-U001": 2,
+      "CK12-ECON-002-U002": 2,
+      "CK12-ECON-002-U003": 2,
+      "CK12-ECON-002-U007": 2,
+      "CK12-ECON-002-U006": 3,
+      "CK12-ECON-002-U004": 3,
+      "CK12-ECON-002-U005": 3
+    },
+    "max_orbit": 2,
+    "total_duration": 141.0,
+    "n_units": 8,
+    "n_ecus": 0,
+    "n_relations": 7
+  }
+}

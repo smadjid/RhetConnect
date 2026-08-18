@@ -1,0 +1,61 @@
+cff-version: 1.2.0
+message: "If you use this corpus, please cite it as below."
+type: dataset
+title: "RhetConnect Corpus v1.0: A Corpus of Multimedia Educational Documents Annotated with Cross-Media Rhetorical Structure"
+version: 1.0.0
+date-released: 2026-07-10
+authors:
+  - family-names: "Sadallah"
+    given-names: "Madjid"
+    affiliation: "LIRIS, Univeristy Lyon 1"
+    email: "madjid.sadallah@univ-lyon1.fr"
+  - family-names: "Maredj"
+    given-names: "Azze-Eddine"
+    affiliation: "DTISI, Research Center on Scientific and Technical Information (CERIST)"
+    email: "amaredj@cerist.dz"
+license: "CC-BY-4.0"
+license-url: "https://creativecommons.org/licenses/by/4.0/"
+repository-code: "[GitHub/OSF/Zenodo URL upon deposit]"
+keywords:
+  - multimedia document modeling
+  - rhetorical structure theory
+  - corpus annotation
+  - e-learning
+  - document adaptation
+  - extended rhetorical graph
+abstract: >
+  The RhetConnect Corpus v1.0 is the first publicly available corpus of
+  multimedia educational documents annotated with cross-media rhetorical
+  structure following the Extended Rhetorical Graph (ERG) formalism. It
+  comprises 40 documents (559 Elementary Simple Units, 114 Elementary
+  Composite Units, 396 rhetorical relations) spanning 10 academic domains,
+  sourced from CK-12 Foundation open educational resources and original
+  constructed documents. Inter-annotator agreement on relation labels
+  reached Cohen's kappa = 0.82. The corpus was built to empirically
+  validate the RhetConnect algorithm for coherence-preserving multimedia
+  document adaptation.
+preferred-citation:
+  type: article
+  title: "Coherence-Preserving Adaptation and Summarization of Multimedia Documents: A Rhetorical Connectivity-Constrained Subgraph Selection Approach"
+  authors:
+    - family-names: "Sadallah"
+      given-names: "Madjid"
+    - family-names: "Maredj"
+      given-names: "Azze-Eddine"
+  year: 2026
+  journal: "[Journal name, under review]"
+references:
+  - type: article
+    title: "Enhancing multimedia document modeling through extended orbit-based rhetorical structure: an approach to media weighting for importance determination"
+    authors:
+      - family-names: "Maredj"
+        given-names: "Azze-Eddine"
+      - family-names: "Sadallah"
+        given-names: "Madjid"
+      - family-names: "Tonkin"
+        given-names: "Nourreddine"
+    journal: "Knowledge and Information Systems"
+    volume: 66
+    pages: "1683-1707"
+    year: 2024
+    doi: "10.1007/s10115-023-01984-6"

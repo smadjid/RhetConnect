@@ -1,0 +1,138 @@
+{
+  "doc_id": "CK12-GEO-002",
+  "doc_title": "Types of Rocks",
+  "source": "CK-12 Earth Science Concepts for Middle School, Section 5.1, CC-BY-NC",
+  "source_url": "https://flexbooks.ck12.org/cbook/ck-12-earth-science-concepts-for-middle-school/section/5.1/",
+  "domain": "geography",
+  "annotator": "Sadallah M. (AI-assisted)",
+  "annotation_date": "2026-07-10",
+  "notes": "Class A document (7 units). Adds a second geography document to the corpus (previously only 1). No ECUs, no multinuclear relations.",
+  "units": [
+    {
+      "id": "CK12-GEO-002-U001",
+      "label": "Title: Types of Rocks",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Lesson title"
+    },
+    {
+      "id": "CK12-GEO-002-U002",
+      "label": "The rock cycle overview (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Rocks are classified into three types based on how they form: igneous (cooled magma/lava), sedimentary (compressed sediment layers), metamorphic (transformed by heat and pressure). The rock cycle describes how one type can become another."
+    },
+    {
+      "id": "CK12-GEO-002-U003",
+      "label": "Rock cycle diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Circular diagram showing igneous, sedimentary, and metamorphic rocks connected by arrows labeled with processes: melting, cooling, compaction, heat/pressure, weathering."
+    },
+    {
+      "id": "CK12-GEO-002-U004",
+      "label": "Sample rock photos (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Three photos side by side: granite (igneous, speckled), sandstone (sedimentary, layered), and gneiss (metamorphic, banded)."
+    },
+    {
+      "id": "CK12-GEO-002-U005",
+      "label": "Identification guide (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Key visual clues: igneous rocks often have crystals or glassy texture; sedimentary rocks show visible layers or grains; metamorphic rocks show banding or foliation from pressure."
+    },
+    {
+      "id": "CK12-GEO-002-U006",
+      "label": "Practice: classify these rocks (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Four rock descriptions given (layered with visible sand grains, glassy black rock, banded grey/white rock, rock with large mineral crystals). Classify each as igneous, sedimentary, or metamorphic."
+    },
+    {
+      "id": "CK12-GEO-002-U007",
+      "label": "Lesson root: Types of Rocks",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Top-level document container."
+    }
+  ],
+  "ecus": [],
+  "relations": [
+    {
+      "id": "R001",
+      "type": "mononuclear",
+      "relation_name": "Identification",
+      "nucleus_id": "CK12-GEO-002-U007",
+      "satellite_id": "CK12-GEO-002-U001",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R002",
+      "type": "mononuclear",
+      "relation_name": "Elaboration",
+      "nucleus_id": "CK12-GEO-002-U007",
+      "satellite_id": "CK12-GEO-002-U002",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R003",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "CK12-GEO-002-U002",
+      "satellite_id": "CK12-GEO-002-U003",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R004",
+      "type": "mononuclear",
+      "relation_name": "Evidence",
+      "nucleus_id": "CK12-GEO-002-U002",
+      "satellite_id": "CK12-GEO-002-U004",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R005",
+      "type": "mononuclear",
+      "relation_name": "Elaboration",
+      "nucleus_id": "CK12-GEO-002-U007",
+      "satellite_id": "CK12-GEO-002-U005",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R006",
+      "type": "mononuclear",
+      "relation_name": "Reinforcement",
+      "nucleus_id": "CK12-GEO-002-U007",
+      "satellite_id": "CK12-GEO-002-U006",
+      "satellite_orbit": 0
+    }
+  ],
+  "root_unit_id": "CK12-GEO-002-U007",
+  "computed": {
+    "weights": {
+      "CK12-GEO-002-U007": 3.0,
+      "CK12-GEO-002-U001": 2.0,
+      "CK12-GEO-002-U002": 2.0,
+      "CK12-GEO-002-U003": 0.95,
+      "CK12-GEO-002-U004": 0.95,
+      "CK12-GEO-002-U005": 2.0,
+      "CK12-GEO-002-U006": 2.0
+    },
+    "levels": {
+      "CK12-GEO-002-U007": 1,
+      "CK12-GEO-002-U001": 2,
+      "CK12-GEO-002-U002": 2,
+      "CK12-GEO-002-U005": 2,
+      "CK12-GEO-002-U006": 2,
+      "CK12-GEO-002-U003": 3,
+      "CK12-GEO-002-U004": 3
+    },
+    "max_orbit": 2,
+    "total_duration": 102.0,
+    "n_units": 7,
+    "n_ecus": 0,
+    "n_relations": 6
+  }
+}

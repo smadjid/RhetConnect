@@ -1,0 +1,289 @@
+{
+  "doc_id": "CK12-SCI-006",
+  "doc_title": "The Periodic Table of Elements",
+  "source": "CK-12 Chemistry Concepts, CC-BY-NC",
+  "source_url": "https://flexbooks.ck12.org/cbook/ck-12-chemistry-concepts-intermediate/section/4.1/",
+  "domain": "chemistry",
+  "annotator": "Sadallah M. (AI-assisted)",
+  "annotation_date": "2026-06-22",
+  "notes": "Lesson on organisation of the periodic table. Structure: hook (Mendeleev story) → table overview diagram → periods and groups → metals/nonmetals/metalloids → element symbol/number/mass → video → periodic trends → practice.",
+  "units": [
+    {
+      "id": "CK12-SCI-006-U001",
+      "label": "Title: The Periodic Table of Elements",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Lesson title"
+    },
+    {
+      "id": "CK12-SCI-006-U002",
+      "label": "Hook: Mendeleev's arrangement (text)",
+      "type": "text",
+      "duration": 30.0,
+      "content_summary": "Dmitri Mendeleev (1869) arranged 63 known elements by atomic mass and noticed repeating patterns. He left gaps for undiscovered elements and predicted their properties — later confirmed. The modern periodic table is arranged by atomic number."
+    },
+    {
+      "id": "CK12-SCI-006-U003",
+      "label": "Learning Objectives (text)",
+      "type": "text",
+      "duration": 15.0,
+      "content_summary": "Objectives: describe how the periodic table is organised; distinguish periods and groups; identify metals, nonmetals, metalloids; read element symbol, atomic number, atomic mass from a cell."
+    },
+    {
+      "id": "CK12-SCI-006-U004",
+      "label": "Periodic table full diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Full colour periodic table showing all 118 elements. Colour-coded by category (alkali metals, alkaline earth metals, transition metals, nonmetals, halogens, noble gases, metalloids). Periods and groups numbered."
+    },
+    {
+      "id": "CK12-SCI-006-U005",
+      "label": "Reading a periodic table cell (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Magnified view of a single periodic table cell (e.g. Carbon): atomic number (6) at top, element symbol (C) in centre, element name (Carbon) below, atomic mass (12.011) at bottom."
+    },
+    {
+      "id": "CK12-SCI-006-U006",
+      "label": "Atomic number and mass explanation (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Atomic number = number of protons (defines the element). Atomic mass = weighted average of all isotopes' masses. Elements arranged by increasing atomic number (not atomic mass, unlike Mendeleev's original table)."
+    },
+    {
+      "id": "CK12-SCI-006-U007",
+      "label": "Periods: horizontal rows (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Periods are the 7 horizontal rows. Period number = number of electron shells. Going across a period, atomic number increases by 1 each element. Elements in the same period have the same number of electron shells but different numbers of electrons."
+    },
+    {
+      "id": "CK12-SCI-006-U008",
+      "label": "Groups: vertical columns (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Groups (families) are the 18 vertical columns. Elements in the same group have the same number of valence electrons and similar chemical properties. Group 1 = alkali metals (very reactive); Group 18 = noble gases (very unreactive)."
+    },
+    {
+      "id": "CK12-SCI-006-U009",
+      "label": "Metals, nonmetals, metalloids diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Periodic table with staircase line separating metals (left, including transition metals) from nonmetals (right) and metalloids (along staircase: B, Si, Ge, As, Sb, Te, Po). Each category shaded differently."
+    },
+    {
+      "id": "CK12-SCI-006-U010",
+      "label": "Metals properties (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Metals: shiny lustre, good conductors of heat and electricity, malleable (can be hammered), ductile (can be drawn into wire), solid at room temperature (except mercury). ~80% of elements are metals."
+    },
+    {
+      "id": "CK12-SCI-006-U011",
+      "label": "Nonmetals properties (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Nonmetals: dull or colourful appearance, poor conductors (insulators), brittle when solid, exist as solids, liquids, or gases at room temperature. Examples: carbon (C), nitrogen (N), oxygen (O), sulfur (S), chlorine (Cl)."
+    },
+    {
+      "id": "CK12-SCI-006-U012",
+      "label": "Metalloids properties (text)",
+      "type": "text",
+      "duration": 15.0,
+      "content_summary": "Metalloids (semimetals): properties intermediate between metals and nonmetals. Examples: silicon (Si), germanium (Ge). Semiconductors used in electronics (computer chips). Silicon is the basis of the semiconductor industry."
+    },
+    {
+      "id": "CK12-SCI-006-U013",
+      "label": "Video: tour of the periodic table (video)",
+      "type": "video",
+      "duration": 180.0,
+      "content_summary": "Animated 3-minute tour highlighting key groups: alkali metals (explosive with water), halogens (highly reactive), noble gases (inert), transition metals (colourful compounds). Shows real element samples and their reactions."
+    },
+    {
+      "id": "CK12-SCI-006-U014",
+      "label": "Periodic trends overview (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Brief introduction to trends: atomic radius decreases across a period, increases down a group. Electronegativity increases across a period. Ionisation energy increases across a period. These trends arise from nuclear charge and electron shell effects."
+    },
+    {
+      "id": "CK12-SCI-006-U015",
+      "label": "Practice: reading the periodic table (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Six practice questions: identify element from atomic number; give group and period for specified elements; classify as metal/nonmetal/metalloid; explain why noble gases are unreactive; predict properties of an unknown element based on its position."
+    },
+    {
+      "id": "CK12-SCI-006-U016",
+      "label": "Lesson root: Periodic Table lesson",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Top-level document container."
+    }
+  ],
+  "ecus": [
+    {
+      "id": "CK12-SCI-006-ECU01",
+      "label": "Table Reading Block",
+      "members": [
+        "CK12-SCI-006-U005",
+        "CK12-SCI-006-U006"
+      ],
+      "main_unit_id": "CK12-SCI-006-U006"
+    },
+    {
+      "id": "CK12-SCI-006-ECU02",
+      "label": "Periods and Groups Block",
+      "members": [
+        "CK12-SCI-006-U007",
+        "CK12-SCI-006-U008"
+      ],
+      "main_unit_id": "CK12-SCI-006-U007"
+    },
+    {
+      "id": "CK12-SCI-006-ECU03",
+      "label": "Element Categories Block",
+      "members": [
+        "CK12-SCI-006-U009",
+        "CK12-SCI-006-U010",
+        "CK12-SCI-006-U011",
+        "CK12-SCI-006-U012"
+      ],
+      "main_unit_id": "CK12-SCI-006-U010"
+    }
+  ],
+  "relations": [
+    {
+      "id": "R001",
+      "type": "mononuclear",
+      "relation_name": "Identification",
+      "nucleus_id": "CK12-SCI-006-U016",
+      "satellite_id": "CK12-SCI-006-U001",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R002",
+      "type": "mononuclear",
+      "relation_name": "Background",
+      "nucleus_id": "CK12-SCI-006-U016",
+      "satellite_id": "CK12-SCI-006-U002",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R003",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-SCI-006-U016",
+      "satellite_id": "CK12-SCI-006-U003",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R004",
+      "type": "multinuclear",
+      "relation_name": "Joint",
+      "co_nuclei_ids": [
+        "CK12-SCI-006-U016",
+        "CK12-SCI-006-U004",
+        "CK12-SCI-006-ECU01",
+        "CK12-SCI-006-ECU02",
+        "CK12-SCI-006-ECU03",
+        "CK12-SCI-006-U013",
+        "CK12-SCI-006-U014",
+        "CK12-SCI-006-U015"
+      ]
+    },
+    {
+      "id": "R005",
+      "type": "mononuclear",
+      "relation_name": "Elaboration",
+      "nucleus_id": "CK12-SCI-006-ECU01",
+      "satellite_id": "CK12-SCI-006-U005",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R006",
+      "type": "multinuclear",
+      "relation_name": "List",
+      "co_nuclei_ids": [
+        "CK12-SCI-006-U007",
+        "CK12-SCI-006-U008"
+      ]
+    },
+    {
+      "id": "R007",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "CK12-SCI-006-ECU03",
+      "satellite_id": "CK12-SCI-006-U009",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R008",
+      "type": "multinuclear",
+      "relation_name": "List",
+      "co_nuclei_ids": [
+        "CK12-SCI-006-U010",
+        "CK12-SCI-006-U011",
+        "CK12-SCI-006-U012"
+      ]
+    },
+    {
+      "id": "R009",
+      "type": "mononuclear",
+      "relation_name": "Motivation",
+      "nucleus_id": "CK12-SCI-006-ECU02",
+      "satellite_id": "CK12-SCI-006-U014",
+      "satellite_orbit": 0
+    }
+  ],
+  "root_unit_id": "CK12-SCI-006-U016",
+  "computed": {
+    "weights": {
+      "CK12-SCI-006-U016": 3.0,
+      "CK12-SCI-006-U001": 2.0,
+      "CK12-SCI-006-U002": 2.0,
+      "CK12-SCI-006-U003": 1.5,
+      "CK12-SCI-006-U004": 3.0,
+      "CK12-SCI-006-ECU01": 3.0,
+      "CK12-SCI-006-U006": 3.0,
+      "CK12-SCI-006-U005": 2.0,
+      "CK12-SCI-006-ECU02": 3.0,
+      "CK12-SCI-006-U007": 3.0,
+      "CK12-SCI-006-U008": 3.0,
+      "CK12-SCI-006-U014": 2.0,
+      "CK12-SCI-006-ECU03": 2.0,
+      "CK12-SCI-006-U010": 2.0,
+      "CK12-SCI-006-U011": 2.0,
+      "CK12-SCI-006-U012": 2.0,
+      "CK12-SCI-006-U009": 1.0,
+      "CK12-SCI-006-U013": 2.0,
+      "CK12-SCI-006-U015": 2.0
+    },
+    "levels": {
+      "CK12-SCI-006-U016": 1,
+      "CK12-SCI-006-U001": 2,
+      "CK12-SCI-006-U002": 2,
+      "CK12-SCI-006-U003": 2,
+      "CK12-SCI-006-U004": 1,
+      "CK12-SCI-006-ECU01": 1,
+      "CK12-SCI-006-ECU02": 1,
+      "CK12-SCI-006-ECU03": 1,
+      "CK12-SCI-006-U013": 1,
+      "CK12-SCI-006-U014": 1,
+      "CK12-SCI-006-U015": 1,
+      "CK12-SCI-006-U005": 2,
+      "CK12-SCI-006-U006": 1,
+      "CK12-SCI-006-U007": 1,
+      "CK12-SCI-006-U009": 2,
+      "CK12-SCI-006-U010": 1,
+      "CK12-SCI-006-U008": 1,
+      "CK12-SCI-006-U011": 1,
+      "CK12-SCI-006-U012": 1
+    },
+    "max_orbit": 2,
+    "total_duration": 429.0,
+    "n_units": 16,
+    "n_ecus": 3,
+    "n_relations": 9
+  }
+}

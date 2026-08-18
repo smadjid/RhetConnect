@@ -1,0 +1,379 @@
+{
+  "doc_id": "CK12-HIST-002",
+  "doc_title": "World War I: Causes",
+  "source": "CK-12 World History Concepts, CC-BY-NC",
+  "source_url": "https://flexbooks.ck12.org/cbook/ck-12-world-history-concepts/section/22.1/",
+  "domain": "history",
+  "annotator": "Sadallah M. (AI-assisted)",
+  "annotation_date": "2026-06-22",
+  "notes": "History lesson on MAIN causes of WWI. Hook: Archduke Franz Ferdinand assassination. MAIN acronym: Militarism, Alliance System, Imperialism, Nationalism. Map of alliances. Timeline. Political cartoon analysis. Assassination account. Many Cause and Background relations. Class B (19 units, 6 ECUs).",
+  "units": [
+    {
+      "id": "CK12-HIST-002-U001",
+      "label": "Title: World War I: Causes",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Lesson title"
+    },
+    {
+      "id": "CK12-HIST-002-U002",
+      "label": "Hook: assassination of Archduke Franz Ferdinand (text)",
+      "type": "text",
+      "duration": 30.0,
+      "content_summary": "June 28, 1914, Sarajevo: Archduke Franz Ferdinand (heir to Austria-Hungary) and his wife Sophie are assassinated by Gavrilo Princip, a Bosnian-Serb nationalist. This single event triggered a chain of alliances that pulled all major European powers into war within six weeks."
+    },
+    {
+      "id": "CK12-HIST-002-U003",
+      "label": "Assassination photo and map (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Historical photo of Archduke Franz Ferdinand with his wife Sophie on the day of the assassination (Sarajevo, 1914). Inset map showing Sarajevo's location in Bosnia-Herzegovina, within the Austro-Hungarian Empire, adjacent to Serbia."
+    },
+    {
+      "id": "CK12-HIST-002-U004",
+      "label": "Learning Objectives (text)",
+      "type": "text",
+      "duration": 15.0,
+      "content_summary": "Objectives: explain the MAIN causes of WWI; describe how the alliance system escalated a regional crisis into a world war; analyse political cartoons as historical sources; construct a causal argument about the origins of WWI."
+    },
+    {
+      "id": "CK12-HIST-002-U005",
+      "label": "MAIN acronym overview (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Historians identify four underlying causes using the MAIN acronym: Militarism, Alliance System, Imperialism, Nationalism. These long-term factors created the conditions in which the assassination could spark a world war. Each factor is explored in the following sections."
+    },
+    {
+      "id": "CK12-HIST-002-U006",
+      "label": "Cause 1: Militarism (text)",
+      "type": "text",
+      "duration": 30.0,
+      "content_summary": "Militarism: European nations (especially Germany, Britain, France) rapidly expanded their armies and navies in the decades before 1914. Military spending in Europe doubled between 1870-1914. Arms race created suspicion and preparation for war. Military leaders drafted detailed war plans (Schlieffen Plan, Plan XVII)."
+    },
+    {
+      "id": "CK12-HIST-002-U007",
+      "label": "Arms race graph (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Bar graph showing military spending of major European powers (Britain, Germany, France, Austria-Hungary, Russia) in 1870 and 1914. Germany and Britain show largest increases. Demonstrates the scale of pre-war militarism."
+    },
+    {
+      "id": "CK12-HIST-002-U008",
+      "label": "Cause 2: Alliance System (text)",
+      "type": "text",
+      "duration": 36.0,
+      "content_summary": "By 1914, Europe was divided into two armed camps: Triple Alliance (Germany, Austria-Hungary, Italy) and Triple Entente (France, Russia, Britain). Alliance system meant a conflict between two nations would automatically draw in all their allies — a regional dispute could become a world war overnight."
+    },
+    {
+      "id": "CK12-HIST-002-U009",
+      "label": "Alliance map of Europe 1914 (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Colour-coded map of Europe in 1914: Triple Alliance nations in blue (Germany, Austria-Hungary, Italy), Triple Entente in red (France, Russia, Britain), neutral nations in grey. Shows geographic encirclement concerns (Germany surrounded)."
+    },
+    {
+      "id": "CK12-HIST-002-U010",
+      "label": "Cause 3: Imperialism (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "European powers competed for colonies in Africa and Asia, creating tensions and near-conflicts. Moroccan Crises (1905, 1911): France and Germany clashed over Morocco. Colonial competition created rivalries and bitterness, especially between Germany (late to empire-building) and established powers Britain and France."
+    },
+    {
+      "id": "CK12-HIST-002-U011",
+      "label": "Colonial empires map 1914 (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "World map showing European colonial empires in 1914. British Empire in pink (largest), French in purple, German in grey, Belgian, Dutch, Portuguese. Shows the global competition for territory that created inter-European tensions."
+    },
+    {
+      "id": "CK12-HIST-002-U012",
+      "label": "Cause 4: Nationalism (text)",
+      "type": "text",
+      "duration": 30.0,
+      "content_summary": "Nationalism created two destabilising pressures: (1) Pan-Slavism — Slavic peoples in Austria-Hungary and Ottoman Balkans sought independence and unity with Serbia/Russia; (2) German nationalism — pride in German power and desire for greater global influence. Nationalism in the Balkans was the direct trigger of war."
+    },
+    {
+      "id": "CK12-HIST-002-U013",
+      "label": "Political cartoon: 'A chain of friendship' (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Political cartoon (1914) showing a chain of dominoes labeled with country names toppling one after another, with the caption 'A chain of friendship.' Satirises the alliance system as inevitably pulling all of Europe into any conflict."
+    },
+    {
+      "id": "CK12-HIST-002-U014",
+      "label": "Political cartoon analysis guide (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "How to analyse a political cartoon: (1) identify symbols and labels; (2) identify the cartoonist's message/argument; (3) consider the historical context; (4) evaluate the cartoon's effectiveness as historical evidence. Applies this method to the chain-of-friendship cartoon."
+    },
+    {
+      "id": "CK12-HIST-002-U015",
+      "label": "The July Crisis: how the assassination started the war (text)",
+      "type": "text",
+      "duration": 36.0,
+      "content_summary": "Step-by-step escalation: June 28 assassination → Austria-Hungary issues ultimatum to Serbia → Serbia partially accepts → Austria-Hungary declares war on Serbia (July 28) → Russia mobilises in support of Serbia → Germany declares war on Russia → Germany invades France via Belgium → Britain declares war on Germany (Aug 4). Six weeks, world war."
+    },
+    {
+      "id": "CK12-HIST-002-U016",
+      "label": "July Crisis timeline (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Day-by-day timeline from June 28 to August 4, 1914, showing the escalating declarations of war: key dates, nations involved, and actions taken. Colour-coded by alliance. Shows the rapid cascade effect."
+    },
+    {
+      "id": "CK12-HIST-002-U017",
+      "label": "Historiographical debate: who was most responsible? (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Historians debate responsibility: Fischer thesis (1960s) — Germany was primarily responsible, sought war to achieve European dominance. Other historians emphasise the alliance system, Austro-Hungarian aggression, or Russian mobilisation. No single nation fully responsible — systemic failure."
+    },
+    {
+      "id": "CK12-HIST-002-U018",
+      "label": "Practice questions (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Five questions: explain how each MAIN factor contributed to WWI; analyse the chain-of-friendship cartoon; explain how the alliance system turned a regional conflict into a world war; evaluate which cause was most important and justify your answer; construct a causal argument in two paragraphs."
+    },
+    {
+      "id": "CK12-HIST-002-U019",
+      "label": "Lesson root: WWI Causes lesson",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Top-level document container."
+    }
+  ],
+  "ecus": [
+    {
+      "id": "CK12-HIST-002-ECU01",
+      "label": "Hook Block",
+      "members": [
+        "CK12-HIST-002-U002",
+        "CK12-HIST-002-U003"
+      ],
+      "main_unit_id": "CK12-HIST-002-U002"
+    },
+    {
+      "id": "CK12-HIST-002-ECU02",
+      "label": "Militarism Block",
+      "members": [
+        "CK12-HIST-002-U006",
+        "CK12-HIST-002-U007"
+      ],
+      "main_unit_id": "CK12-HIST-002-U006"
+    },
+    {
+      "id": "CK12-HIST-002-ECU03",
+      "label": "Alliance System Block",
+      "members": [
+        "CK12-HIST-002-U008",
+        "CK12-HIST-002-U009"
+      ],
+      "main_unit_id": "CK12-HIST-002-U008"
+    },
+    {
+      "id": "CK12-HIST-002-ECU04",
+      "label": "Imperialism Block",
+      "members": [
+        "CK12-HIST-002-U010",
+        "CK12-HIST-002-U011"
+      ],
+      "main_unit_id": "CK12-HIST-002-U010"
+    },
+    {
+      "id": "CK12-HIST-002-ECU05",
+      "label": "Nationalism Block",
+      "members": [
+        "CK12-HIST-002-U012"
+      ],
+      "main_unit_id": "CK12-HIST-002-U012"
+    },
+    {
+      "id": "CK12-HIST-002-ECU06",
+      "label": "July Crisis Block",
+      "members": [
+        "CK12-HIST-002-U015",
+        "CK12-HIST-002-U016"
+      ],
+      "main_unit_id": "CK12-HIST-002-U015"
+    }
+  ],
+  "relations": [
+    {
+      "id": "R001",
+      "type": "mononuclear",
+      "relation_name": "Identification",
+      "nucleus_id": "CK12-HIST-002-U019",
+      "satellite_id": "CK12-HIST-002-U001",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R002",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-HIST-002-U019",
+      "satellite_id": "CK12-HIST-002-ECU01",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R003",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-HIST-002-U019",
+      "satellite_id": "CK12-HIST-002-U004",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R004",
+      "type": "multinuclear",
+      "relation_name": "Joint",
+      "co_nuclei_ids": [
+        "CK12-HIST-002-U019",
+        "CK12-HIST-002-U005",
+        "CK12-HIST-002-ECU02",
+        "CK12-HIST-002-ECU03",
+        "CK12-HIST-002-ECU04",
+        "CK12-HIST-002-ECU05",
+        "CK12-HIST-002-ECU06",
+        "CK12-HIST-002-U017",
+        "CK12-HIST-002-U018"
+      ]
+    },
+    {
+      "id": "R005",
+      "type": "mononuclear",
+      "relation_name": "Elaboration",
+      "nucleus_id": "CK12-HIST-002-ECU01",
+      "satellite_id": "CK12-HIST-002-U003",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R006",
+      "type": "mononuclear",
+      "relation_name": "Evidence",
+      "nucleus_id": "CK12-HIST-002-ECU02",
+      "satellite_id": "CK12-HIST-002-U007",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R007",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "CK12-HIST-002-ECU03",
+      "satellite_id": "CK12-HIST-002-U009",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R008",
+      "type": "mononuclear",
+      "relation_name": "Evidence",
+      "nucleus_id": "CK12-HIST-002-ECU04",
+      "satellite_id": "CK12-HIST-002-U011",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R009",
+      "type": "multinuclear",
+      "relation_name": "List",
+      "co_nuclei_ids": [
+        "CK12-HIST-002-ECU02",
+        "CK12-HIST-002-ECU03",
+        "CK12-HIST-002-ECU04",
+        "CK12-HIST-002-ECU05"
+      ]
+    },
+    {
+      "id": "R010",
+      "type": "mononuclear",
+      "relation_name": "Cause",
+      "nucleus_id": "CK12-HIST-002-ECU06",
+      "satellite_id": "CK12-HIST-002-U005",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R011",
+      "type": "mononuclear",
+      "relation_name": "Elaboration",
+      "nucleus_id": "CK12-HIST-002-ECU06",
+      "satellite_id": "CK12-HIST-002-U016",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R012",
+      "type": "mononuclear",
+      "relation_name": "Evidence",
+      "nucleus_id": "CK12-HIST-002-ECU03",
+      "satellite_id": "CK12-HIST-002-U013",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R013",
+      "type": "mononuclear",
+      "relation_name": "Annotation",
+      "nucleus_id": "CK12-HIST-002-U013",
+      "satellite_id": "CK12-HIST-002-U014",
+      "satellite_orbit": 0
+    }
+  ],
+  "root_unit_id": "CK12-HIST-002-U019",
+  "computed": {
+    "weights": {
+      "CK12-HIST-002-U019": 3.0,
+      "CK12-HIST-002-U001": 2.0,
+      "CK12-HIST-002-ECU01": 2.0,
+      "CK12-HIST-002-U002": 2.0,
+      "CK12-HIST-002-U003": 1.0,
+      "CK12-HIST-002-U004": 1.5,
+      "CK12-HIST-002-U005": 3.0,
+      "CK12-HIST-002-ECU02": 3.0,
+      "CK12-HIST-002-U006": 3.0,
+      "CK12-HIST-002-U007": 2.0,
+      "CK12-HIST-002-ECU03": 3.0,
+      "CK12-HIST-002-U008": 3.0,
+      "CK12-HIST-002-U009": 2.0,
+      "CK12-HIST-002-U013": 1.5,
+      "CK12-HIST-002-U014": 0.5,
+      "CK12-HIST-002-ECU04": 3.0,
+      "CK12-HIST-002-U010": 3.0,
+      "CK12-HIST-002-U011": 2.0,
+      "CK12-HIST-002-ECU05": 3.0,
+      "CK12-HIST-002-U012": 3.0,
+      "CK12-HIST-002-ECU06": 3.0,
+      "CK12-HIST-002-U015": 3.0,
+      "CK12-HIST-002-U016": 2.0,
+      "CK12-HIST-002-U017": 3.0,
+      "CK12-HIST-002-U018": 3.0
+    },
+    "levels": {
+      "CK12-HIST-002-U019": 1,
+      "CK12-HIST-002-U001": 2,
+      "CK12-HIST-002-ECU01": 2,
+      "CK12-HIST-002-U002": 2,
+      "CK12-HIST-002-U004": 2,
+      "CK12-HIST-002-U005": 1,
+      "CK12-HIST-002-ECU02": 1,
+      "CK12-HIST-002-ECU03": 1,
+      "CK12-HIST-002-ECU04": 1,
+      "CK12-HIST-002-ECU05": 1,
+      "CK12-HIST-002-ECU06": 1,
+      "CK12-HIST-002-U017": 1,
+      "CK12-HIST-002-U018": 1,
+      "CK12-HIST-002-U003": 3,
+      "CK12-HIST-002-U007": 2,
+      "CK12-HIST-002-U006": 1,
+      "CK12-HIST-002-U009": 2,
+      "CK12-HIST-002-U013": 2,
+      "CK12-HIST-002-U008": 1,
+      "CK12-HIST-002-U011": 2,
+      "CK12-HIST-002-U010": 1,
+      "CK12-HIST-002-U012": 1,
+      "CK12-HIST-002-U016": 2,
+      "CK12-HIST-002-U015": 1,
+      "CK12-HIST-002-U014": 3
+    },
+    "max_orbit": 2,
+    "total_duration": 381.0,
+    "n_units": 19,
+    "n_ecus": 6,
+    "n_relations": 13
+  }
+}

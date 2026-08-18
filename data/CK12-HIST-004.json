@@ -1,0 +1,226 @@
+{
+  "doc_id": "CK12-HIST-004",
+  "doc_title": "The Silk Road: Trade and Cultural Exchange",
+  "source": "CK-12 World History Concepts, Section 9.1, CC-BY-NC",
+  "source_url": "https://flexbooks.ck12.org/cbook/ck-12-world-history-concepts/section/9.1/",
+  "domain": "history",
+  "annotator": "Sadallah M. (AI-assisted)",
+  "annotation_date": "2026-07-10",
+  "notes": "Class B document (13 units). Covers trade routes, goods exchanged, and cultural/technological diffusion. One ECU for the goods-exchange detail.",
+  "units": [
+    {
+      "id": "CK12-HIST-004-U001",
+      "label": "Title: The Silk Road: Trade and Cultural Exchange",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Lesson title"
+    },
+    {
+      "id": "CK12-HIST-004-U002",
+      "label": "Hook: a caravan crossing the desert (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Illustration of a camel caravan crossing a desert landscape, loaded with goods, silhouetted against the sunset. Caption: 'For over 1,500 years, this route connected East and West.'"
+    },
+    {
+      "id": "CK12-HIST-004-U003",
+      "label": "Learning Objectives (text)",
+      "type": "text",
+      "duration": 15.0,
+      "content_summary": "Objectives: describe the geographic extent of the Silk Road; list major goods traded in each direction; explain how ideas and technologies spread alongside goods; identify key cities along the route."
+    },
+    {
+      "id": "CK12-HIST-004-U004",
+      "label": "Overview: origins and extent (text)",
+      "type": "text",
+      "duration": 30.0,
+      "content_summary": "The Silk Road was a network of trade routes connecting China to the Mediterranean, established around 130 BCE during the Han Dynasty and used for over 1,500 years, spanning roughly 6,400 km through Central Asia."
+    },
+    {
+      "id": "CK12-HIST-004-U005",
+      "label": "Silk Road route map (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Map showing the network of routes from Xi'an (China) through Central Asia to Constantinople and the Mediterranean, with major trading cities marked (Kashgar, Samarkand, Baghdad)."
+    },
+    {
+      "id": "CK12-HIST-004-U006",
+      "label": "Goods traded westward (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "From China westward: silk (the namesake good), paper, gunpowder, tea, and porcelain. Silk was so valued in Rome that it was worth its weight in gold."
+    },
+    {
+      "id": "CK12-HIST-004-U007",
+      "label": "Goods traded eastward (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "From the West eastward: horses, glassware, wool textiles, gold and silver, and spices from India and the Middle East (pepper, cinnamon)."
+    },
+    {
+      "id": "CK12-HIST-004-U008",
+      "label": "Goods exchange diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Two-directional diagram showing goods flowing east-to-west (silk, paper, tea) at the top and west-to-east (horses, glass, spices) at the bottom, converging at Central Asian trading hubs."
+    },
+    {
+      "id": "CK12-HIST-004-U009",
+      "label": "Cultural and technological exchange (text)",
+      "type": "text",
+      "duration": 30.0,
+      "content_summary": "Beyond goods, the Silk Road spread ideas: Buddhism traveled from India to China; papermaking technology moved from China to the Islamic world and then Europe; mathematical and astronomical knowledge was shared between Islamic and Chinese scholars."
+    },
+    {
+      "id": "CK12-HIST-004-U010",
+      "label": "Video: a merchant's journey (video)",
+      "type": "video",
+      "duration": 90.0,
+      "content_summary": "Animated video following a fictional merchant's caravan from Xi'an to Samarkand, showing the cities, goods exchanged, and dangers faced (bandits, desert crossings, mountain passes)."
+    },
+    {
+      "id": "CK12-HIST-004-U011",
+      "label": "Decline of the Silk Road (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "The overland Silk Road declined after the 1450s as sea routes (pioneered by European explorers) offered faster, cheaper transport, and the rise of the Ottoman Empire disrupted overland trade through the Middle East."
+    },
+    {
+      "id": "CK12-HIST-004-U012",
+      "label": "Practice questions (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Four questions: name three goods traded in each direction; explain how Buddhism reached China; identify one reason for the Silk Road's decline; describe the role of a specific trading city."
+    },
+    {
+      "id": "CK12-HIST-004-U013",
+      "label": "Lesson root: Silk Road lesson",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Top-level document container."
+    }
+  ],
+  "ecus": [
+    {
+      "id": "CK12-HIST-004-ECU01",
+      "label": "Goods Exchange Block",
+      "members": [
+        "CK12-HIST-004-U006",
+        "CK12-HIST-004-U007",
+        "CK12-HIST-004-U008"
+      ],
+      "main_unit_id": "CK12-HIST-004-U006"
+    }
+  ],
+  "relations": [
+    {
+      "id": "R001",
+      "type": "mononuclear",
+      "relation_name": "Identification",
+      "nucleus_id": "CK12-HIST-004-U013",
+      "satellite_id": "CK12-HIST-004-U001",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R002",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-HIST-004-U013",
+      "satellite_id": "CK12-HIST-004-U002",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R003",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-HIST-004-U013",
+      "satellite_id": "CK12-HIST-004-U003",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R004",
+      "type": "multinuclear",
+      "relation_name": "Joint",
+      "co_nuclei_ids": [
+        "CK12-HIST-004-U013",
+        "CK12-HIST-004-U004",
+        "CK12-HIST-004-ECU01",
+        "CK12-HIST-004-U009",
+        "CK12-HIST-004-U011",
+        "CK12-HIST-004-U012"
+      ]
+    },
+    {
+      "id": "R005",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "CK12-HIST-004-U004",
+      "satellite_id": "CK12-HIST-004-U005",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R006",
+      "type": "mononuclear",
+      "relation_name": "Contrast",
+      "nucleus_id": "CK12-HIST-004-U006",
+      "satellite_id": "CK12-HIST-004-U007",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R007",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "CK12-HIST-004-ECU01",
+      "satellite_id": "CK12-HIST-004-U008",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R008",
+      "type": "mononuclear",
+      "relation_name": "Evidence",
+      "nucleus_id": "CK12-HIST-004-U009",
+      "satellite_id": "CK12-HIST-004-U010",
+      "satellite_orbit": 1
+    }
+  ],
+  "root_unit_id": "CK12-HIST-004-U013",
+  "computed": {
+    "weights": {
+      "CK12-HIST-004-U013": 3.0,
+      "CK12-HIST-004-U001": 2.0,
+      "CK12-HIST-004-U002": 2.0,
+      "CK12-HIST-004-U003": 1.5,
+      "CK12-HIST-004-U004": 3.0,
+      "CK12-HIST-004-U005": 2.0,
+      "CK12-HIST-004-ECU01": 3.0,
+      "CK12-HIST-004-U006": 3.0,
+      "CK12-HIST-004-U007": 1.5,
+      "CK12-HIST-004-U008": 2.0,
+      "CK12-HIST-004-U009": 3.0,
+      "CK12-HIST-004-U010": 1.5,
+      "CK12-HIST-004-U011": 3.0,
+      "CK12-HIST-004-U012": 3.0
+    },
+    "levels": {
+      "CK12-HIST-004-U013": 1,
+      "CK12-HIST-004-U001": 2,
+      "CK12-HIST-004-U002": 2,
+      "CK12-HIST-004-U003": 2,
+      "CK12-HIST-004-U004": 1,
+      "CK12-HIST-004-ECU01": 1,
+      "CK12-HIST-004-U009": 1,
+      "CK12-HIST-004-U011": 1,
+      "CK12-HIST-004-U012": 1,
+      "CK12-HIST-004-U005": 2,
+      "CK12-HIST-004-U008": 2,
+      "CK12-HIST-004-U006": 1,
+      "CK12-HIST-004-U010": 2,
+      "CK12-HIST-004-U007": 2
+    },
+    "max_orbit": 2,
+    "total_duration": 306.0,
+    "n_units": 13,
+    "n_ecus": 1,
+    "n_relations": 8
+  }
+}
