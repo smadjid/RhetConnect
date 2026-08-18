@@ -7,7 +7,7 @@
 [![Validate corpus](https://github.com/smadjid/RhetConnect/actions/workflows/validate.yml/badge.svg)](https://github.com/smadjid/RhetConnect/actions/workflows/validate.yml)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
 
-**[Browse the corpus interactively &rarr;](https://<org>.github.io/<repo>/)**
+**[Browse the corpus interactively &rarr;](https://smadjid.github.io/RhetConnect/)**
 
 ---
 
