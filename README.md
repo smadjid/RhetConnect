@@ -81,7 +81,7 @@ RhetConnect-Corpus-v1.0/
 
 ## Explore the corpus without cloning
 
-Open **[the live browser](https://<org>.github.io/<repo>/)** (GitHub Pages,
+Open **[the live browser](https://smadjid.github.io/RhetConnect/)** (GitHub Pages,
 served from `docs/`) to filter the 40 documents by domain or complexity class
 and inspect any document's rhetorical graph — nucleus/satellite relations,
 ECU groupings, and media types — without downloading anything. It reads

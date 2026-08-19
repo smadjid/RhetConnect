@@ -2,3 +2,4 @@ __pycache__/
 *.pyc
 .DS_Store
 hf/
+data/corpus_results_normalized_variant.json

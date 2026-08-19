@@ -15,6 +15,8 @@ Run this any time a file under data/*.json changes. CI checks that the
 committed manifest matches a fresh build (see .github/workflows/validate.yml).
 """
 import json
+import os
+import subprocess
 import sys
 from pathlib import Path
 
@@ -23,6 +25,38 @@ DATA_DIR = ROOT / "data"
 OUT_PATH = ROOT / "docs" / "manifest.json"
 
 SKIP_FILES = {"_TEMPLATE.json", "corpus_results_final.json"}
+
+
+def _detect_repo_slug() -> str:
+    """Return 'owner/repo' for building raw.githubusercontent.com URLs.
+
+    docs/ is what GitHub Pages actually serves as the site root, so a
+    relative path like '../data/x.json' resolves OUTSIDE the published
+    site and 404s -- the manifest must use absolute raw-content URLs
+    instead. Prefer $GITHUB_REPOSITORY (set automatically in Actions);
+    fall back to parsing 'git remote get-url origin' for local runs;
+    fall back to the known default as a last resort so the script never
+    hard-fails.
+    """
+    env_slug = os.environ.get("GITHUB_REPOSITORY")
+    if env_slug:
+        return env_slug
+    try:
+        url = subprocess.run(
+            ["git", "remote", "get-url", "origin"],
+            cwd=ROOT, capture_output=True, text=True, check=True,
+        ).stdout.strip()
+        # handles both git@github.com:owner/repo.git and https://github.com/owner/repo.git
+        slug = url.split("github.com")[-1].lstrip(":/").removesuffix(".git")
+        if "/" in slug:
+            return slug
+    except Exception:
+        pass
+    return "smadjid/RhetConnect"
+
+
+REPO_SLUG = _detect_repo_slug()
+RAW_BASE = f"https://raw.githubusercontent.com/{REPO_SLUG}/main/data"
 
 
 def complexity_class(n_esu: int) -> str:
@@ -65,7 +99,7 @@ def main() -> int:
                 "duration_s": round(duration, 1),
                 "max_orbit": max(orbits) if orbits else 0,
                 "complexity_class": complexity_class(n_esu),
-                "file": f"../data/{path.name}",
+                "file": f"{RAW_BASE}/{path.name}",
             }
         )
 
