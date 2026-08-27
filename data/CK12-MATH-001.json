@@ -1,0 +1,301 @@
+{
+  "doc_id": "CK12-MATH-001",
+  "doc_title": "The Pythagorean Theorem",
+  "source": "Adapted from Maredj et al. (2024) example + CK-12 Foundation, CC-BY-NC",
+  "source_url": "https://www.ck12.org/geometry/pythagorean-theorem/",
+  "domain": "mathematics",
+  "annotator": "Sadallah M.",
+  "annotation_date": "2026-06-21",
+  "notes": "Pilot document. Structure directly based on the worked example in Maredj et al. [2024]. Used to calibrate the annotation guide and validator. 15 units, mixed media, 3 ECU blocks. | U010 is the main_unit of ECU02; it participates in relations via the ECU, not directly. This is correct ERG behaviour — the validator warning is a false positive for main_unit members of ECUs that are referenced only via their ECU container. | v2: Corrected structure. ECU03 and ECU04 are multinuclear co-nuclei of Course, giving them weight 3.0 = same as Course. This matches [2] Table 2.",
+  "units": [
+    {
+      "id": "CK12-MATH-001-U001",
+      "label": "Title: The Pythagorean Theorem",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Title slide/heading of the lesson"
+    },
+    {
+      "id": "CK12-MATH-001-U002",
+      "label": "Who is Pythagoras? (image portrait)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Portrait image of Pythagoras with a brief historical caption identifying him as the Greek mathematician (570–495 BC) associated with the theorem"
+    },
+    {
+      "id": "CK12-MATH-001-U003",
+      "label": "Statement of the Pythagorean Theorem (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Formal statement: In a right triangle, the square of the hypotenuse equals the sum of the squares of the other two sides: a² + b² = c²"
+    },
+    {
+      "id": "CK12-MATH-001-U004",
+      "label": "Geometric Interpretation (video)",
+      "type": "video",
+      "duration": 45.0,
+      "content_summary": "Short animation showing the three squares on the sides of a right triangle, visually demonstrating that the area of the square on the hypotenuse equals the sum of areas of the other two squares"
+    },
+    {
+      "id": "CK12-MATH-001-U005",
+      "label": "Proof of the Pythagorean Theorem (text)",
+      "type": "text",
+      "duration": 60.0,
+      "content_summary": "Step-by-step algebraic proof using rearrangement of four right triangles inside a square"
+    },
+    {
+      "id": "CK12-MATH-001-U006",
+      "label": "Usage Condition: right angle required (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Diagram showing a right triangle with the right angle marked, and a non-right triangle with a cross, illustrating that the theorem applies only to right triangles"
+    },
+    {
+      "id": "CK12-MATH-001-U007",
+      "label": "Worked Example: find the hypotenuse (text)",
+      "type": "text",
+      "duration": 36.0,
+      "content_summary": "Worked numerical example: given legs a=3, b=4, find c. Solution: c = √(9+16) = √25 = 5. Shows complete calculation steps."
+    },
+    {
+      "id": "CK12-MATH-001-U008",
+      "label": "Exercise 1: right triangle diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Diagram of a right triangle with legs labeled 5 and 12, hypotenuse labeled c. Students must find c."
+    },
+    {
+      "id": "CK12-MATH-001-U009",
+      "label": "Solution to Exercise 1 (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Same diagram with solution annotated: c = √(25+144) = √169 = 13"
+    },
+    {
+      "id": "CK12-MATH-001-U010",
+      "label": "Exercise 2: right triangle with unknown leg (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Right triangle with hypotenuse = 10 and one leg = 6, asking students to find the missing leg b"
+    },
+    {
+      "id": "CK12-MATH-001-U011",
+      "label": "Solution 2a: algebraic steps (text)",
+      "type": "text",
+      "duration": 30.0,
+      "content_summary": "Algebraic solution: b² = 10² - 6² = 100 - 36 = 64, therefore b = 8. Step-by-step working shown."
+    },
+    {
+      "id": "CK12-MATH-001-U012",
+      "label": "Solution 2b: diagram with answer (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Annotated triangle diagram confirming b = 8 with all three sides labeled"
+    },
+    {
+      "id": "CK12-MATH-001-U013",
+      "label": "The Course (main nucleus — root)",
+      "type": "text",
+      "duration": 5.0,
+      "content_summary": "Top-level course unit representing the complete lesson. In a real SCORM package this would be the course metadata/container. Duration represents navigation overhead."
+    },
+    {
+      "id": "CK12-MATH-001-U015",
+      "label": "Series of Exercises header (text)",
+      "type": "text",
+      "duration": 6.0,
+      "content_summary": "Section header: 'Practice Exercises — Apply the Pythagorean Theorem'. Introduces the exercise block."
+    }
+  ],
+  "ecus": [
+    {
+      "id": "CK12-MATH-001-ECU01",
+      "label": "Exercise 1 Block",
+      "members": [
+        "CK12-MATH-001-U008",
+        "CK12-MATH-001-U009"
+      ],
+      "main_unit_id": "CK12-MATH-001-U008"
+    },
+    {
+      "id": "CK12-MATH-001-ECU02",
+      "label": "Exercise 2 Block",
+      "members": [
+        "CK12-MATH-001-U010",
+        "CK12-MATH-001-U011",
+        "CK12-MATH-001-U012"
+      ],
+      "main_unit_id": "CK12-MATH-001-U010"
+    },
+    {
+      "id": "CK12-MATH-001-ECU03",
+      "label": "Theorem Statement Block",
+      "members": [
+        "CK12-MATH-001-U003",
+        "CK12-MATH-001-U004",
+        "CK12-MATH-001-U005",
+        "CK12-MATH-001-U006"
+      ],
+      "main_unit_id": "CK12-MATH-001-U003"
+    },
+    {
+      "id": "CK12-MATH-001-ECU04",
+      "label": "Exercises Section",
+      "members": [
+        "CK12-MATH-001-U015",
+        "CK12-MATH-001-ECU01",
+        "CK12-MATH-001-ECU02"
+      ],
+      "main_unit_id": "CK12-MATH-001-ECU01"
+    }
+  ],
+  "relations": [
+    {
+      "id": "R001",
+      "type": "mononuclear",
+      "relation_name": "Identification",
+      "nucleus_id": "CK12-MATH-001-U013",
+      "satellite_id": "CK12-MATH-001-U001",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R002",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-MATH-001-U013",
+      "satellite_id": "CK12-MATH-001-U002",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R003",
+      "type": "multinuclear",
+      "relation_name": "Joint",
+      "co_nuclei_ids": [
+        "CK12-MATH-001-U013",
+        "CK12-MATH-001-ECU03",
+        "CK12-MATH-001-ECU04"
+      ]
+    },
+    {
+      "id": "R004",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "CK12-MATH-001-U003",
+      "satellite_id": "CK12-MATH-001-U004",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R005",
+      "type": "mononuclear",
+      "relation_name": "Demonstration",
+      "nucleus_id": "CK12-MATH-001-U003",
+      "satellite_id": "CK12-MATH-001-U005",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R006",
+      "type": "mononuclear",
+      "relation_name": "Annotation",
+      "nucleus_id": "CK12-MATH-001-U005",
+      "satellite_id": "CK12-MATH-001-U006",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R007",
+      "type": "mononuclear",
+      "relation_name": "Reinforcement",
+      "nucleus_id": "CK12-MATH-001-U003",
+      "satellite_id": "CK12-MATH-001-U007",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R008",
+      "type": "mononuclear",
+      "relation_name": "Identification",
+      "nucleus_id": "CK12-MATH-001-ECU01",
+      "satellite_id": "CK12-MATH-001-U015",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R009",
+      "type": "multinuclear",
+      "relation_name": "Enumeration",
+      "co_nuclei_ids": [
+        "CK12-MATH-001-ECU01",
+        "CK12-MATH-001-ECU02"
+      ]
+    },
+    {
+      "id": "R010",
+      "type": "mononuclear",
+      "relation_name": "Demonstration",
+      "nucleus_id": "CK12-MATH-001-U008",
+      "satellite_id": "CK12-MATH-001-U009",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R011a",
+      "type": "mononuclear",
+      "relation_name": "Demonstration",
+      "nucleus_id": "CK12-MATH-001-U010",
+      "satellite_id": "CK12-MATH-001-U011",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R011b",
+      "type": "mononuclear",
+      "relation_name": "Demonstration",
+      "nucleus_id": "CK12-MATH-001-U010",
+      "satellite_id": "CK12-MATH-001-U012",
+      "satellite_orbit": 1
+    }
+  ],
+  "root_unit_id": "CK12-MATH-001-U013",
+  "computed": {
+    "weights": {
+      "CK12-MATH-001-U013": 3.0,
+      "CK12-MATH-001-U001": 2.0,
+      "CK12-MATH-001-U002": 2.0,
+      "CK12-MATH-001-ECU03": 3.0,
+      "CK12-MATH-001-U003": 3.0,
+      "CK12-MATH-001-U004": 2.0,
+      "CK12-MATH-001-U005": 2.0,
+      "CK12-MATH-001-U006": 1.0,
+      "CK12-MATH-001-U007": 1.5,
+      "CK12-MATH-001-ECU04": 3.0,
+      "CK12-MATH-001-ECU01": 3.0,
+      "CK12-MATH-001-U008": 3.0,
+      "CK12-MATH-001-U009": 2.0,
+      "CK12-MATH-001-U015": 2.0,
+      "CK12-MATH-001-ECU02": 3.0,
+      "CK12-MATH-001-U010": 3.0,
+      "CK12-MATH-001-U011": 2.0,
+      "CK12-MATH-001-U012": 1.5
+    },
+    "levels": {
+      "CK12-MATH-001-U013": 1,
+      "CK12-MATH-001-U001": 2,
+      "CK12-MATH-001-U002": 2,
+      "CK12-MATH-001-ECU03": 1,
+      "CK12-MATH-001-ECU04": 1,
+      "CK12-MATH-001-U003": 1,
+      "CK12-MATH-001-ECU01": 1,
+      "CK12-MATH-001-U004": 2,
+      "CK12-MATH-001-U005": 2,
+      "CK12-MATH-001-U007": 2,
+      "CK12-MATH-001-U015": 2,
+      "CK12-MATH-001-U008": 1,
+      "CK12-MATH-001-ECU02": 1,
+      "CK12-MATH-001-U006": 3,
+      "CK12-MATH-001-U009": 2,
+      "CK12-MATH-001-U010": 1,
+      "CK12-MATH-001-U011": 2,
+      "CK12-MATH-001-U012": 2
+    },
+    "max_orbit": 2,
+    "total_duration": 302.0,
+    "n_units": 14,
+    "n_ecus": 4,
+    "n_relations": 12
+  }
+}

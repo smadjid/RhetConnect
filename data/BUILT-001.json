@@ -1,0 +1,393 @@
+{
+  "doc_id": "BUILT-001",
+  "doc_title": "Similar Triangles and Proportional Reasoning",
+  "source": "Constructed document — based on standard Grade 8 geometry curriculum",
+  "source_url": "N/A",
+  "domain": "mathematics",
+  "annotator": "Sadallah M. ",
+  "annotation_date": "2026-06-22",
+  "notes": "Constructed document designed to cover complex rhetorical patterns absent in CK-12 lessons: ECU nesting depth 3, orbit-2 satellites, a unit serving as nucleus in one relation and satellite in another. Covers AA similarity, SSS similarity, SAS similarity, scale factor, and real-world application (shadow method). Class B-C boundary: 20 units, 7 ECUs.",
+  "units": [
+    {
+      "id": "BUILT-001-U001",
+      "label": "Title: Similar Triangles and Proportional Reasoning",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Lesson title"
+    },
+    {
+      "id": "BUILT-001-U002",
+      "label": "Hook: estimating tree height using shadows (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Photograph of a person standing next to a tree. Both cast shadows. Labels: person height = 1.8m, person shadow = 2.4m, tree shadow = 10m. Question: 'How can you find the tree's height without climbing it?'"
+    },
+    {
+      "id": "BUILT-001-U003",
+      "label": "Hook explanation: shadow method (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Explains that the person and tree form similar triangles with the sun's rays. Since the triangles are similar, corresponding sides are proportional: person_height/person_shadow = tree_height/tree_shadow → 1.8/2.4 = h/10 → h=7.5m. Establishes the need for similarity theory."
+    },
+    {
+      "id": "BUILT-001-U004",
+      "label": "Learning Objectives (text)",
+      "type": "text",
+      "duration": 15.0,
+      "content_summary": "Objectives: define similar triangles; apply AA, SSS, SAS similarity criteria; calculate scale factor and unknown sides; solve real-world problems using similar triangles."
+    },
+    {
+      "id": "BUILT-001-U005",
+      "label": "Definition: similar triangles (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Two triangles are similar (~) if: (1) all corresponding angles are equal AND (2) all corresponding sides are proportional. Similar ≠ congruent: similar triangles have the same shape but not necessarily the same size. Symbol: △ABC ~ △DEF."
+    },
+    {
+      "id": "BUILT-001-U006",
+      "label": "Similar vs congruent diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Three pairs of triangles: (1) congruent pair (same shape, same size); (2) similar pair (same shape, different sizes); (3) neither (different shape and size). Labels: ≅ for congruent, ~ for similar, ≁ for neither."
+    },
+    {
+      "id": "BUILT-001-U007",
+      "label": "Scale factor definition (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Scale factor k = (side in larger triangle)/(corresponding side in smaller triangle). If △ABC ~ △DEF with scale factor k=2, then every side of △DEF is 2× the corresponding side of △ABC. Angles are unchanged by scaling."
+    },
+    {
+      "id": "BUILT-001-U008",
+      "label": "AA Similarity Criterion (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Angle-Angle (AA): if two angles of one triangle equal two angles of another, the triangles are similar. Sufficient because triangle angles sum to 180° — if two match, the third must also match. Most commonly used criterion. Does not require knowing any side lengths."
+    },
+    {
+      "id": "BUILT-001-U009",
+      "label": "AA Similarity proof diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Diagram showing two triangles △ABC and △DEF with angles A=D=50° and B=E=70° marked. Third angles C=F=60° derived. Arrows show the correspondence. Sides proportional by ratio DE/AB = EF/BC = DF/AC."
+    },
+    {
+      "id": "BUILT-001-U010",
+      "label": "AA Similarity worked example (text)",
+      "type": "text",
+      "duration": 30.0,
+      "content_summary": "Problem: △PQR has angles 40°, 60°, 80°. △XYZ has angles 40° and 60°. Are they similar? Yes, by AA (two angles match, third is automatically 80°). Find XZ if PQ=6, PR=9, XY=4. Solution: scale factor k=4/6=2/3, XZ=PR×k=9×(2/3)=6."
+    },
+    {
+      "id": "BUILT-001-U011",
+      "label": "SSS Similarity Criterion (text)",
+      "type": "text",
+      "duration": 20.0,
+      "content_summary": "Side-Side-Side (SSS): if all three pairs of corresponding sides are proportional, the triangles are similar. Must check: AB/DE = BC/EF = AC/DF = k (same ratio for all three pairs). Unlike SSS congruence, sides need not be equal — only proportional."
+    },
+    {
+      "id": "BUILT-001-U012",
+      "label": "SAS Similarity Criterion (text)",
+      "type": "text",
+      "duration": 20.0,
+      "content_summary": "Side-Angle-Side (SAS): if two pairs of corresponding sides are proportional AND the included angles are equal, the triangles are similar. The angle must be between the two proportional sides. Important: proportional sides + non-included angle is NOT sufficient for similarity."
+    },
+    {
+      "id": "BUILT-001-U013",
+      "label": "Criteria comparison table (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Three-column table: Criterion | What to Check | Example. Rows: AA (2 angles equal, easy to apply), SSS (all 3 side ratios equal, need all sides), SAS (2 side ratios equal + included angle equal, need 2 sides + angle between them)."
+    },
+    {
+      "id": "BUILT-001-U014",
+      "label": "Proportional sides calculation method (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Setting up proportions: identify corresponding vertices (matching angle order). Write proportion: a/d = b/e = c/f. Cross-multiply to solve for unknown. Check: all ratios should equal the scale factor k. Common error: misidentifying corresponding sides."
+    },
+    {
+      "id": "BUILT-001-U015",
+      "label": "Proportional calculation warning (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Side-by-side: CORRECT proportion setup with matching vertices highlighted in same colour vs INCORRECT setup with mismatched vertices. Red X on wrong setup, green check on correct. Caption: 'Always match angles first, then sides.'"
+    },
+    {
+      "id": "BUILT-001-U016",
+      "label": "Real-world application: shadow method full solution (text)",
+      "type": "text",
+      "duration": 36.0,
+      "content_summary": "Returns to opening problem. Full formal solution: △(person, tip of shadow, base of person) ~ △(tree, tip of shadow, base of tree) by AA (both have right angle at base + same sun angle). Scale factor = 10/2.4. Tree height = 1.8 × (10/2.4) = 7.5m. Includes diagram."
+    },
+    {
+      "id": "BUILT-001-U017",
+      "label": "Shadow method solution diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Diagram showing person-shadow triangle and tree-shadow triangle as two similar right triangles sharing the sun-angle vertex at the tip of the shadows. Corresponding sides and angles labeled. Solution steps annotated."
+    },
+    {
+      "id": "BUILT-001-U018",
+      "label": "Extension: indirect measurement techniques (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Other indirect measurement methods using similar triangles: (1) mirror method — place mirror between object and observer, use angle of reflection; (2) transit/theodolite — measure angle from two known points; (3) GPS/satellite triangulation. All rely on similar triangle proportionality."
+    },
+    {
+      "id": "BUILT-001-U019",
+      "label": "Practice problems set (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Six problems: identify similarity criterion; find unknown sides; determine scale factor; set up and solve shadow-method problem; identify which pairs of triangles are similar from given information; multi-step problem combining AA and proportional reasoning."
+    },
+    {
+      "id": "BUILT-001-U020",
+      "label": "Lesson root: Similar Triangles lesson",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Top-level document container."
+    }
+  ],
+  "ecus": [
+    {
+      "id": "BUILT-001-ECU01",
+      "label": "Hook Block",
+      "members": ["BUILT-001-U002", "BUILT-001-U003"],
+      "main_unit_id": "BUILT-001-U003"
+    },
+    {
+      "id": "BUILT-001-ECU02",
+      "label": "Definition Block",
+      "members": ["BUILT-001-U005", "BUILT-001-U006", "BUILT-001-U007"],
+      "main_unit_id": "BUILT-001-U005"
+    },
+    {
+      "id": "BUILT-001-ECU03",
+      "label": "AA Criterion Block",
+      "members": ["BUILT-001-U008", "BUILT-001-U009", "BUILT-001-U010"],
+      "main_unit_id": "BUILT-001-U008"
+    },
+    {
+      "id": "BUILT-001-ECU04",
+      "label": "SSS-SAS Criteria Block",
+      "members": ["BUILT-001-U011", "BUILT-001-U012", "BUILT-001-U013"],
+      "main_unit_id": "BUILT-001-U011"
+    },
+    {
+      "id": "BUILT-001-ECU05",
+      "label": "All Criteria Block",
+      "members": ["BUILT-001-ECU03", "BUILT-001-ECU04"],
+      "main_unit_id": "BUILT-001-ECU03"
+    },
+    {
+      "id": "BUILT-001-ECU06",
+      "label": "Proportion Method Block",
+      "members": ["BUILT-001-U014", "BUILT-001-U015"],
+      "main_unit_id": "BUILT-001-U014"
+    },
+    {
+      "id": "BUILT-001-ECU07",
+      "label": "Application Block",
+      "members": ["BUILT-001-U016", "BUILT-001-U017", "BUILT-001-U018"],
+      "main_unit_id": "BUILT-001-U016"
+    }
+  ],
+  "relations": [
+    {
+      "id": "R001",
+      "type": "mononuclear",
+      "relation_name": "Identification",
+      "nucleus_id": "BUILT-001-U020",
+      "satellite_id": "BUILT-001-U001",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R002",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "BUILT-001-U020",
+      "satellite_id": "BUILT-001-ECU01",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R003",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "BUILT-001-U020",
+      "satellite_id": "BUILT-001-U004",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R004",
+      "type": "multinuclear",
+      "relation_name": "Joint",
+      "co_nuclei_ids": [
+        "BUILT-001-U020",
+        "BUILT-001-ECU02",
+        "BUILT-001-ECU05",
+        "BUILT-001-ECU06",
+        "BUILT-001-ECU07",
+        "BUILT-001-U019"
+      ]
+    },
+    {
+      "id": "R005",
+      "type": "mononuclear",
+      "relation_name": "Elaboration",
+      "nucleus_id": "BUILT-001-ECU01",
+      "satellite_id": "BUILT-001-U002",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R006",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "BUILT-001-U005",
+      "satellite_id": "BUILT-001-U006",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R007",
+      "type": "mononuclear",
+      "relation_name": "Elaboration",
+      "nucleus_id": "BUILT-001-U005",
+      "satellite_id": "BUILT-001-U007",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R008",
+      "type": "mononuclear",
+      "relation_name": "Evidence",
+      "nucleus_id": "BUILT-001-U008",
+      "satellite_id": "BUILT-001-U009",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R009",
+      "type": "mononuclear",
+      "relation_name": "Demonstration",
+      "nucleus_id": "BUILT-001-U008",
+      "satellite_id": "BUILT-001-U010",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R010",
+      "type": "multinuclear",
+      "relation_name": "List",
+      "co_nuclei_ids": ["BUILT-001-U011", "BUILT-001-U012"]
+    },
+    {
+      "id": "R011",
+      "type": "mononuclear",
+      "relation_name": "Annotation",
+      "nucleus_id": "BUILT-001-ECU04",
+      "satellite_id": "BUILT-001-U013",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R012",
+      "type": "multinuclear",
+      "relation_name": "List",
+      "co_nuclei_ids": ["BUILT-001-ECU03", "BUILT-001-ECU04"]
+    },
+    {
+      "id": "R013",
+      "type": "mononuclear",
+      "relation_name": "Annotation",
+      "nucleus_id": "BUILT-001-ECU06",
+      "satellite_id": "BUILT-001-U015",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R014",
+      "type": "mononuclear",
+      "relation_name": "Demonstration",
+      "nucleus_id": "BUILT-001-U016",
+      "satellite_id": "BUILT-001-U017",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R015",
+      "type": "mononuclear",
+      "relation_name": "Elaboration",
+      "nucleus_id": "BUILT-001-U016",
+      "satellite_id": "BUILT-001-U018",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R016",
+      "type": "mononuclear",
+      "relation_name": "Motivation",
+      "nucleus_id": "BUILT-001-ECU07",
+      "satellite_id": "BUILT-001-ECU01",
+      "satellite_orbit": 2
+    }
+  ],
+  "root_unit_id": "BUILT-001-U020",
+  "computed": {
+    "weights": {
+      "BUILT-001-U020": 3.0,
+      "BUILT-001-U001": 2.0,
+      "BUILT-001-ECU01": 2.0,
+      "BUILT-001-U003": 2.0,
+      "BUILT-001-U002": 1.0,
+      "BUILT-001-U004": 1.6667,
+      "BUILT-001-ECU02": 3.0,
+      "BUILT-001-U005": 3.0,
+      "BUILT-001-U006": 2.0,
+      "BUILT-001-U007": 1.6667,
+      "BUILT-001-ECU05": 3.0,
+      "BUILT-001-ECU03": 3.0,
+      "BUILT-001-U008": 3.0,
+      "BUILT-001-U009": 2.0,
+      "BUILT-001-U010": 1.6667,
+      "BUILT-001-ECU04": 3.0,
+      "BUILT-001-U011": 3.0,
+      "BUILT-001-U012": 3.0,
+      "BUILT-001-U013": 2.0,
+      "BUILT-001-ECU06": 3.0,
+      "BUILT-001-U014": 3.0,
+      "BUILT-001-U015": 2.0,
+      "BUILT-001-ECU07": 3.0,
+      "BUILT-001-U016": 3.0,
+      "BUILT-001-U017": 2.0,
+      "BUILT-001-U018": 1.6667,
+      "BUILT-001-U019": 3.0
+    },
+    "levels": {
+      "BUILT-001-U020": 1,
+      "BUILT-001-U001": 2,
+      "BUILT-001-ECU01": 2,
+      "BUILT-001-U003": 2,
+      "BUILT-001-U004": 2,
+      "BUILT-001-ECU02": 1,
+      "BUILT-001-ECU05": 1,
+      "BUILT-001-ECU06": 1,
+      "BUILT-001-ECU07": 1,
+      "BUILT-001-U019": 1,
+      "BUILT-001-U002": 3,
+      "BUILT-001-U005": 1,
+      "BUILT-001-ECU03": 1,
+      "BUILT-001-U015": 2,
+      "BUILT-001-U014": 1,
+      "BUILT-001-U016": 1,
+      "BUILT-001-U006": 2,
+      "BUILT-001-U007": 2,
+      "BUILT-001-U008": 1,
+      "BUILT-001-ECU04": 1,
+      "BUILT-001-U017": 2,
+      "BUILT-001-U018": 2,
+      "BUILT-001-U009": 2,
+      "BUILT-001-U010": 2,
+      "BUILT-001-U013": 2,
+      "BUILT-001-U011": 1,
+      "BUILT-001-U012": 1
+    },
+    "max_orbit": 3,
+    "total_duration": 373.0,
+    "n_units": 20,
+    "n_ecus": 7,
+    "n_relations": 16
+  }
+}

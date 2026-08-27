@@ -1,0 +1,321 @@
+{
+  "doc_id": "CK12-CS-001",
+  "doc_title": "Binary Numbers",
+  "source": "CK-12 Computer Science Concepts, CC-BY-NC",
+  "source_url": "https://flexbooks.ck12.org/cbook/ck-12-computer-science/section/2.1/",
+  "domain": "computer_science",
+  "annotator": "Sadallah M. ",
+  "annotation_date": "2026-06-22",
+  "notes": "Lesson on binary (base-2) number system. Structure: hook (how computers think) → decimal review → binary introduction → place values → conversion decimal→binary → conversion binary→decimal → addition in binary → video → practice. Strong use of diagrams and tables.",
+  "units": [
+    {
+      "id": "CK12-CS-001-U001",
+      "label": "Title: Binary Numbers",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Lesson title"
+    },
+    {
+      "id": "CK12-CS-001-U002",
+      "label": "Hook: how computers store information (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Computers store all information as binary (0s and 1s) because electronic switches have only two states: on (1) or off (0). Every image, word, and video is ultimately stored as sequences of 0s and 1s."
+    },
+    {
+      "id": "CK12-CS-001-U003",
+      "label": "Transistor on/off image (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Diagram of a transistor shown as a switch: ON state = 1 (current flows), OFF state = 0 (no current). Connects abstract binary to physical hardware reality."
+    },
+    {
+      "id": "CK12-CS-001-U004",
+      "label": "Learning Objectives (text)",
+      "type": "text",
+      "duration": 15.0,
+      "content_summary": "Objectives: explain why computers use binary; identify binary place values; convert decimal to binary; convert binary to decimal; perform simple binary addition."
+    },
+    {
+      "id": "CK12-CS-001-U005",
+      "label": "Decimal (base-10) review (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Review of decimal system: base 10, digits 0-9, place values are powers of 10 (units, tens, hundreds, thousands...). Example: 345 = 3×100 + 4×10 + 5×1. Foundation for comparing to binary."
+    },
+    {
+      "id": "CK12-CS-001-U006",
+      "label": "Decimal place value table (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Table showing decimal place values: 10³=1000, 10²=100, 10¹=10, 10⁰=1 across columns. Number 345 shown in cells below. Colour-coded columns."
+    },
+    {
+      "id": "CK12-CS-001-U007",
+      "label": "Binary (base-2) introduction (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Binary system: base 2, only digits 0 and 1 (bits). Place values are powers of 2: 1, 2, 4, 8, 16, 32, 64, 128... Each position doubles going left. One bit = one binary digit; 8 bits = 1 byte."
+    },
+    {
+      "id": "CK12-CS-001-U008",
+      "label": "Binary place value table (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Table showing binary place values: 2⁷=128, 2⁶=64, 2⁵=32, 2⁴=16, 2³=8, 2²=4, 2¹=2, 2⁰=1. Parallel to the decimal table for direct comparison."
+    },
+    {
+      "id": "CK12-CS-001-U009",
+      "label": "Worked Example 1: binary to decimal (text)",
+      "type": "text",
+      "duration": 36.0,
+      "content_summary": "Convert 1011₂ to decimal: 1×8 + 0×4 + 1×2 + 1×1 = 8+0+2+1 = 11₁₀. Method: multiply each bit by its place value and sum. Full worked solution shown column by column."
+    },
+    {
+      "id": "CK12-CS-001-U010",
+      "label": "Worked Example 2: decimal to binary (text)",
+      "type": "text",
+      "duration": 42.0,
+      "content_summary": "Convert 25₁₀ to binary using repeated division by 2: 25÷2=12 r1, 12÷2=6 r0, 6÷2=3 r0, 3÷2=1 r1, 1÷2=0 r1. Reading remainders bottom-to-top: 11001₂. Verification: 16+8+1=25 ✓"
+    },
+    {
+      "id": "CK12-CS-001-U011",
+      "label": "Division method diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Ladder diagram showing the repeated division-by-2 method for 25: each step shows dividend, divisor, quotient, remainder. Arrow shows reading direction bottom-to-top to get binary result."
+    },
+    {
+      "id": "CK12-CS-001-U012",
+      "label": "Binary addition rules (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Four binary addition rules: 0+0=0; 0+1=1; 1+0=1; 1+1=10 (write 0, carry 1). Extends to multi-digit: 1011+0110. Key: carrying works just like decimal but base 2."
+    },
+    {
+      "id": "CK12-CS-001-U013",
+      "label": "Binary addition worked example (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Column-format addition of 1011 + 0110 showing carry bits above. Result: 10001. Each column annotated with the rule applied (e.g. 1+1=0 carry 1)."
+    },
+    {
+      "id": "CK12-CS-001-U014",
+      "label": "Video: binary counting animation (video)",
+      "type": "video",
+      "duration": 90.0,
+      "content_summary": "Animated video showing binary counting from 0 to 15 (0000 to 1111). Shows each bit flipping like a binary odometer. Compares to a decimal odometer counting in parallel."
+    },
+    {
+      "id": "CK12-CS-001-U015",
+      "label": "Practice problems (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Six problems: convert binary to decimal (3 problems); convert decimal to binary (2 problems); add two binary numbers (1 problem). Answers to be shown with working."
+    },
+    {
+      "id": "CK12-CS-001-U016",
+      "label": "Lesson root: Binary Numbers lesson",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Top-level document container."
+    }
+  ],
+  "ecus": [
+    {
+      "id": "CK12-CS-001-ECU01",
+      "label": "Hook Block",
+      "members": ["CK12-CS-001-U002", "CK12-CS-001-U003"],
+      "main_unit_id": "CK12-CS-001-U002"
+    },
+    {
+      "id": "CK12-CS-001-ECU02",
+      "label": "Decimal Review Block",
+      "members": ["CK12-CS-001-U005", "CK12-CS-001-U006"],
+      "main_unit_id": "CK12-CS-001-U005"
+    },
+    {
+      "id": "CK12-CS-001-ECU03",
+      "label": "Binary Introduction Block",
+      "members": ["CK12-CS-001-U007", "CK12-CS-001-U008"],
+      "main_unit_id": "CK12-CS-001-U007"
+    },
+    {
+      "id": "CK12-CS-001-ECU04",
+      "label": "Binary-to-Decimal Block",
+      "members": ["CK12-CS-001-U009"],
+      "main_unit_id": "CK12-CS-001-U009"
+    },
+    {
+      "id": "CK12-CS-001-ECU05",
+      "label": "Decimal-to-Binary Block",
+      "members": ["CK12-CS-001-U010", "CK12-CS-001-U011"],
+      "main_unit_id": "CK12-CS-001-U010"
+    },
+    {
+      "id": "CK12-CS-001-ECU06",
+      "label": "Binary Addition Block",
+      "members": ["CK12-CS-001-U012", "CK12-CS-001-U013"],
+      "main_unit_id": "CK12-CS-001-U012"
+    }
+  ],
+  "relations": [
+    {
+      "id": "R001",
+      "type": "mononuclear",
+      "relation_name": "Identification",
+      "nucleus_id": "CK12-CS-001-U016",
+      "satellite_id": "CK12-CS-001-U001",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R002",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-CS-001-U016",
+      "satellite_id": "CK12-CS-001-ECU01",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R003",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-CS-001-U016",
+      "satellite_id": "CK12-CS-001-U004",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R004",
+      "type": "multinuclear",
+      "relation_name": "Joint",
+      "co_nuclei_ids": [
+        "CK12-CS-001-U016",
+        "CK12-CS-001-ECU02",
+        "CK12-CS-001-ECU03",
+        "CK12-CS-001-ECU04",
+        "CK12-CS-001-ECU05",
+        "CK12-CS-001-ECU06",
+        "CK12-CS-001-U014",
+        "CK12-CS-001-U015"
+      ]
+    },
+    {
+      "id": "R005",
+      "type": "mononuclear",
+      "relation_name": "Elaboration",
+      "nucleus_id": "CK12-CS-001-ECU01",
+      "satellite_id": "CK12-CS-001-U003",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R006",
+      "type": "mononuclear",
+      "relation_name": "Elaboration",
+      "nucleus_id": "CK12-CS-001-ECU02",
+      "satellite_id": "CK12-CS-001-U006",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R007",
+      "type": "mononuclear",
+      "relation_name": "Elaboration",
+      "nucleus_id": "CK12-CS-001-ECU03",
+      "satellite_id": "CK12-CS-001-U008",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R008",
+      "type": "mononuclear",
+      "relation_name": "Background",
+      "nucleus_id": "CK12-CS-001-ECU03",
+      "satellite_id": "CK12-CS-001-ECU02",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R009",
+      "type": "mononuclear",
+      "relation_name": "Demonstration",
+      "nucleus_id": "CK12-CS-001-ECU05",
+      "satellite_id": "CK12-CS-001-U011",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R010",
+      "type": "mononuclear",
+      "relation_name": "Demonstration",
+      "nucleus_id": "CK12-CS-001-ECU06",
+      "satellite_id": "CK12-CS-001-U013",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R011",
+      "type": "multinuclear",
+      "relation_name": "Sequence",
+      "co_nuclei_ids": ["CK12-CS-001-ECU04", "CK12-CS-001-ECU05"]
+    },
+    {
+      "id": "R012",
+      "type": "mononuclear",
+      "relation_name": "Reinforcement",
+      "nucleus_id": "CK12-CS-001-ECU03",
+      "satellite_id": "CK12-CS-001-ECU06",
+      "satellite_orbit": 1
+    }
+  ],
+  "root_unit_id": "CK12-CS-001-U016",
+  "computed": {
+    "weights": {
+      "CK12-CS-001-U016": 3.0,
+      "CK12-CS-001-U001": 2.0,
+      "CK12-CS-001-ECU01": 2.0,
+      "CK12-CS-001-U002": 2.0,
+      "CK12-CS-001-U003": 1.0,
+      "CK12-CS-001-U004": 1.5,
+      "CK12-CS-001-ECU02": 3.0,
+      "CK12-CS-001-U005": 3.0,
+      "CK12-CS-001-U006": 2.0,
+      "CK12-CS-001-ECU03": 3.0,
+      "CK12-CS-001-U007": 3.0,
+      "CK12-CS-001-U008": 2.0,
+      "CK12-CS-001-ECU06": 1.5,
+      "CK12-CS-001-U012": 1.5,
+      "CK12-CS-001-U013": 0.5,
+      "CK12-CS-001-ECU04": 1.5,
+      "CK12-CS-001-U009": 1.5,
+      "CK12-CS-001-ECU05": 1.5,
+      "CK12-CS-001-U010": 1.5,
+      "CK12-CS-001-U011": 0.5,
+      "CK12-CS-001-U014": 1.5,
+      "CK12-CS-001-U015": 1.5
+    },
+    "levels": {
+      "CK12-CS-001-U016": 1,
+      "CK12-CS-001-U001": 2,
+      "CK12-CS-001-ECU01": 2,
+      "CK12-CS-001-U002": 2,
+      "CK12-CS-001-U004": 2,
+      "CK12-CS-001-ECU02": 1,
+      "CK12-CS-001-ECU03": 1,
+      "CK12-CS-001-ECU04": 1,
+      "CK12-CS-001-ECU05": 1,
+      "CK12-CS-001-ECU06": 1,
+      "CK12-CS-001-U014": 1,
+      "CK12-CS-001-U015": 1,
+      "CK12-CS-001-U003": 3,
+      "CK12-CS-001-U006": 2,
+      "CK12-CS-001-U005": 1,
+      "CK12-CS-001-U008": 2,
+      "CK12-CS-001-U012": 2,
+      "CK12-CS-001-U007": 1,
+      "CK12-CS-001-U009": 1,
+      "CK12-CS-001-U011": 2,
+      "CK12-CS-001-U010": 1,
+      "CK12-CS-001-U013": 2
+    },
+    "max_orbit": 2,
+    "total_duration": 378.0,
+    "n_units": 16,
+    "n_ecus": 6,
+    "n_relations": 12
+  }
+}

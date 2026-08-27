@@ -1,0 +1,1234 @@
+{
+  "summary": {
+    "P1": {
+      "naive_rcr": 25.0,
+      "rc_rcr": 100.0,
+      "naive_ouc": 1.9,
+      "rc_ouc": 0.0,
+      "naive_cs": 0.164,
+      "rc_cs": 0.068,
+      "csr": 0.416
+    },
+    "P2": {
+      "naive_rcr": 97.5,
+      "rc_rcr": 100.0,
+      "naive_ouc": 0.03,
+      "rc_ouc": 0.0,
+      "naive_cs": 0.736,
+      "rc_cs": 0.729,
+      "csr": 0.991
+    },
+    "P3": {
+      "naive_rcr": 97.5,
+      "rc_rcr": 100.0,
+      "naive_ouc": 0.03,
+      "rc_ouc": 0.0,
+      "naive_cs": 0.781,
+      "rc_cs": 0.763,
+      "csr": 0.977
+    }
+  },
+  "per_doc": [
+    {
+      "doc": "BUILT-001",
+      "profile": "P1",
+      "naive_rc": false,
+      "naive_ouc": 3,
+      "naive_cs": 0.1675123502287305,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.07614197737669569
+    },
+    {
+      "doc": "BUILT-001",
+      "profile": "P2",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.548222237112209,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.548222237112209
+    },
+    {
+      "doc": "BUILT-001",
+      "profile": "P3",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.604060194801635,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.604060194801635
+    },
+    {
+      "doc": "BUILT-002",
+      "profile": "P1",
+      "naive_rc": false,
+      "naive_ouc": 7,
+      "naive_cs": 0.2226893086644465,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.050420125697373364
+    },
+    {
+      "doc": "BUILT-002",
+      "profile": "P2",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.6092440258453564,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.6008402513947467
+    },
+    {
+      "doc": "BUILT-002",
+      "profile": "P3",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.6596641515427298,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.5294113198224203
+    },
+    {
+      "doc": "CK12-ARTS-001",
+      "profile": "P1",
+      "naive_rc": false,
+      "naive_ouc": 2,
+      "naive_cs": 0.16,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.0
+    },
+    {
+      "doc": "CK12-ARTS-001",
+      "profile": "P2",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.68,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.68
+    },
+    {
+      "doc": "CK12-ARTS-001",
+      "profile": "P3",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 1.0,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 1.0
+    },
+    {
+      "doc": "CK12-ARTS-002",
+      "profile": "P1",
+      "naive_rc": false,
+      "naive_ouc": 2,
+      "naive_cs": 0.14728682170542634,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.0
+    },
+    {
+      "doc": "CK12-ARTS-002",
+      "profile": "P2",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.7713178294573643,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.6976744186046512
+    },
+    {
+      "doc": "CK12-ARTS-002",
+      "profile": "P3",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.8527131782945736,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.8527131782945736
+    },
+    {
+      "doc": "CK12-CS-001",
+      "profile": "P1",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.18518518518518517,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.18518518518518517
+    },
+    {
+      "doc": "CK12-CS-001",
+      "profile": "P2",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.6296296296296297,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.6296296296296297
+    },
+    {
+      "doc": "CK12-CS-001",
+      "profile": "P3",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.654320987654321,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.6049382716049383
+    },
+    {
+      "doc": "CK12-CS-002",
+      "profile": "P1",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.1574074074074074,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.1574074074074074
+    },
+    {
+      "doc": "CK12-CS-002",
+      "profile": "P2",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.6666666666666666,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.6296296296296297
+    },
+    {
+      "doc": "CK12-CS-002",
+      "profile": "P3",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.7129629629629629,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.6759259259259259
+    },
+    {
+      "doc": "CK12-CS-003",
+      "profile": "P1",
+      "naive_rc": false,
+      "naive_ouc": 3,
+      "naive_cs": 0.2242595204513399,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.0846262341325811
+    },
+    {
+      "doc": "CK12-CS-003",
+      "profile": "P2",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.8039492242595204,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.8039492242595204
+    },
+    {
+      "doc": "CK12-CS-003",
+      "profile": "P3",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.7334273624823695,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.7193229901269393
+    },
+    {
+      "doc": "CK12-CS-004",
+      "profile": "P1",
+      "naive_rc": false,
+      "naive_ouc": 4,
+      "naive_cs": 0.125,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.0
+    },
+    {
+      "doc": "CK12-CS-004",
+      "profile": "P2",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.875,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.875
+    },
+    {
+      "doc": "CK12-CS-004",
+      "profile": "P3",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 1.0,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 1.0
+    },
+    {
+      "doc": "CK12-ECON-001",
+      "profile": "P1",
+      "naive_rc": false,
+      "naive_ouc": 4,
+      "naive_cs": 0.21666666666666667,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.0
+    },
+    {
+      "doc": "CK12-ECON-001",
+      "profile": "P2",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.7833333333333333,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.7666666666666667
+    },
+    {
+      "doc": "CK12-ECON-001",
+      "profile": "P3",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.8333333333333334,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.8333333333333334
+    },
+    {
+      "doc": "CK12-ECON-002",
+      "profile": "P1",
+      "naive_rc": false,
+      "naive_ouc": 1,
+      "naive_cs": 0.06859205776173286,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.0
+    },
+    {
+      "doc": "CK12-ECON-002",
+      "profile": "P2",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.8628158844765342,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.8628158844765342
+    },
+    {
+      "doc": "CK12-ECON-002",
+      "profile": "P3",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.9314079422382672,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.9314079422382672
+    },
+    {
+      "doc": "CK12-GEO-001",
+      "profile": "P1",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.2268041237113402,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.2268041237113402
+    },
+    {
+      "doc": "CK12-GEO-001",
+      "profile": "P2",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.6494845360824743,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.6494845360824743
+    },
+    {
+      "doc": "CK12-GEO-001",
+      "profile": "P3",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.5773195876288659,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.5773195876288659
+    },
+    {
+      "doc": "CK12-GEO-002",
+      "profile": "P1",
+      "naive_rc": false,
+      "naive_ouc": 2,
+      "naive_cs": 0.14728682170542634,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.0
+    },
+    {
+      "doc": "CK12-GEO-002",
+      "profile": "P2",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.7713178294573643,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.7713178294573643
+    },
+    {
+      "doc": "CK12-GEO-002",
+      "profile": "P3",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.8527131782945736,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.8527131782945736
+    },
+    {
+      "doc": "CK12-GEO-003",
+      "profile": "P1",
+      "naive_rc": false,
+      "naive_ouc": 3,
+      "naive_cs": 0.1739894551845343,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.0
+    },
+    {
+      "doc": "CK12-GEO-003",
+      "profile": "P2",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.8242530755711776,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.8242530755711776
+    },
+    {
+      "doc": "CK12-GEO-003",
+      "profile": "P3",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.8084358523725835,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.8084358523725835
+    },
+    {
+      "doc": "CK12-HIST-001",
+      "profile": "P1",
+      "naive_rc": false,
+      "naive_ouc": 1,
+      "naive_cs": 0.16666666666666666,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.12962962962962962
+    },
+    {
+      "doc": "CK12-HIST-001",
+      "profile": "P2",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.5925925925925926,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.5185185185185185
+    },
+    {
+      "doc": "CK12-HIST-001",
+      "profile": "P3",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.6296296296296297,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.5833333333333334
+    },
+    {
+      "doc": "CK12-HIST-002",
+      "profile": "P1",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.17355371900826447,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.17355371900826447
+    },
+    {
+      "doc": "CK12-HIST-002",
+      "profile": "P2",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.512396694214876,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.512396694214876
+    },
+    {
+      "doc": "CK12-HIST-002",
+      "profile": "P3",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.6115702479338843,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.6115702479338843
+    },
+    {
+      "doc": "CK12-HIST-003",
+      "profile": "P1",
+      "naive_rc": false,
+      "naive_ouc": 2,
+      "naive_cs": 0.14728682170542634,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.0
+    },
+    {
+      "doc": "CK12-HIST-003",
+      "profile": "P2",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.6976744186046512,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.6976744186046512
+    },
+    {
+      "doc": "CK12-HIST-003",
+      "profile": "P3",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.8527131782945736,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.8527131782945736
+    },
+    {
+      "doc": "CK12-HIST-004",
+      "profile": "P1",
+      "naive_rc": false,
+      "naive_ouc": 3,
+      "naive_cs": 0.22388059701492538,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.05970149253731343
+    },
+    {
+      "doc": "CK12-HIST-004",
+      "profile": "P2",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.8208955223880597,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.8208955223880597
+    },
+    {
+      "doc": "CK12-HIST-004",
+      "profile": "P3",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.8656716417910447,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.8656716417910447
+    },
+    {
+      "doc": "CK12-LANG-001",
+      "profile": "P1",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.03508771929824561,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.03508771929824561
+    },
+    {
+      "doc": "CK12-LANG-001",
+      "profile": "P2",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.7719298245614035,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.7719298245614035
+    },
+    {
+      "doc": "CK12-LANG-001",
+      "profile": "P3",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.7894736842105263,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.7894736842105263
+    },
+    {
+      "doc": "CK12-LANG-002",
+      "profile": "P1",
+      "naive_rc": false,
+      "naive_ouc": 1,
+      "naive_cs": 0.05956112852664577,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.0
+    },
+    {
+      "doc": "CK12-LANG-002",
+      "profile": "P2",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.8150470219435737,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.8150470219435737
+    },
+    {
+      "doc": "CK12-LANG-002",
+      "profile": "P3",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.8150470219435737,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.8150470219435737
+    },
+    {
+      "doc": "CK12-LANG-003",
+      "profile": "P1",
+      "naive_rc": false,
+      "naive_ouc": 3,
+      "naive_cs": 0.15789473684210525,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.0
+    },
+    {
+      "doc": "CK12-LANG-003",
+      "profile": "P2",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.7894736842105263,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.7894736842105263
+    },
+    {
+      "doc": "CK12-LANG-003",
+      "profile": "P3",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.8947368421052632,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.8947368421052632
+    },
+    {
+      "doc": "CK12-MATH-001",
+      "profile": "P1",
+      "naive_rc": false,
+      "naive_ouc": 3,
+      "naive_cs": 0.30952380952380953,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.19047619047619047
+    },
+    {
+      "doc": "CK12-MATH-001",
+      "profile": "P2",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.6071428571428571,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.6071428571428571
+    },
+    {
+      "doc": "CK12-MATH-001",
+      "profile": "P3",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.6190476190476191,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.6190476190476191
+    },
+    {
+      "doc": "CK12-MATH-002",
+      "profile": "P1",
+      "naive_rc": false,
+      "naive_ouc": 1,
+      "naive_cs": 0.16346153846153846,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.1346153846153846
+    },
+    {
+      "doc": "CK12-MATH-002",
+      "profile": "P2",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.6442307692307693,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.6153846153846154
+    },
+    {
+      "doc": "CK12-MATH-002",
+      "profile": "P3",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.6730769230769231,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.6730769230769231
+    },
+    {
+      "doc": "CK12-MATH-003",
+      "profile": "P1",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.12345679012345678,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.12345679012345678
+    },
+    {
+      "doc": "CK12-MATH-003",
+      "profile": "P2",
+      "naive_rc": false,
+      "naive_ouc": 1,
+      "naive_cs": 0.5679012345679012,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.5308641975308642
+    },
+    {
+      "doc": "CK12-MATH-003",
+      "profile": "P3",
+      "naive_rc": false,
+      "naive_ouc": 1,
+      "naive_cs": 0.6172839506172839,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.6172839506172839
+    },
+    {
+      "doc": "CK12-MATH-004",
+      "profile": "P1",
+      "naive_rc": false,
+      "naive_ouc": 1,
+      "naive_cs": 0.1,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.07142857142857142
+    },
+    {
+      "doc": "CK12-MATH-004",
+      "profile": "P2",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.6,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.6
+    },
+    {
+      "doc": "CK12-MATH-004",
+      "profile": "P3",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.6714285714285714,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.6714285714285714
+    },
+    {
+      "doc": "CK12-MATH-005",
+      "profile": "P1",
+      "naive_rc": false,
+      "naive_ouc": 2,
+      "naive_cs": 0.1188118811881188,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.039603960396039604
+    },
+    {
+      "doc": "CK12-MATH-005",
+      "profile": "P2",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.5742574257425742,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.5742574257425742
+    },
+    {
+      "doc": "CK12-MATH-005",
+      "profile": "P3",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.6138613861386139,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.6534653465346535
+    },
+    {
+      "doc": "CK12-MATH-006",
+      "profile": "P1",
+      "naive_rc": false,
+      "naive_ouc": 1,
+      "naive_cs": 0.08715596330275228,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.0
+    },
+    {
+      "doc": "CK12-MATH-006",
+      "profile": "P2",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.9128440366972476,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.9128440366972476
+    },
+    {
+      "doc": "CK12-MATH-006",
+      "profile": "P3",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.9128440366972476,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.9128440366972476
+    },
+    {
+      "doc": "CK12-MATH-007",
+      "profile": "P1",
+      "naive_rc": false,
+      "naive_ouc": 4,
+      "naive_cs": 0.25,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.0
+    },
+    {
+      "doc": "CK12-MATH-007",
+      "profile": "P2",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.8928571428571429,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.8928571428571429
+    },
+    {
+      "doc": "CK12-MATH-007",
+      "profile": "P3",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 1.0,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 1.0
+    },
+    {
+      "doc": "CK12-SCI-001",
+      "profile": "P1",
+      "naive_rc": false,
+      "naive_ouc": 4,
+      "naive_cs": 0.16,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.0
+    },
+    {
+      "doc": "CK12-SCI-001",
+      "profile": "P2",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.7333333333333333,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.7333333333333333
+    },
+    {
+      "doc": "CK12-SCI-001",
+      "profile": "P3",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.7333333333333333,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.7333333333333333
+    },
+    {
+      "doc": "CK12-SCI-002",
+      "profile": "P1",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.20869565217391303,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.20869565217391303
+    },
+    {
+      "doc": "CK12-SCI-002",
+      "profile": "P2",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.6086956521739131,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.6086956521739131
+    },
+    {
+      "doc": "CK12-SCI-002",
+      "profile": "P3",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.591304347826087,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.591304347826087
+    },
+    {
+      "doc": "CK12-SCI-003",
+      "profile": "P1",
+      "naive_rc": false,
+      "naive_ouc": 1,
+      "naive_cs": 0.13333333333333333,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.044444444444444446
+    },
+    {
+      "doc": "CK12-SCI-003",
+      "profile": "P2",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.7333333333333333,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.7333333333333333
+    },
+    {
+      "doc": "CK12-SCI-003",
+      "profile": "P3",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.7333333333333333,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.7333333333333333
+    },
+    {
+      "doc": "CK12-SCI-004",
+      "profile": "P1",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.22900763358778625,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.22900763358778625
+    },
+    {
+      "doc": "CK12-SCI-004",
+      "profile": "P2",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.7557251908396947,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.7557251908396947
+    },
+    {
+      "doc": "CK12-SCI-004",
+      "profile": "P3",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.7557251908396947,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.7557251908396947
+    },
+    {
+      "doc": "CK12-SCI-005",
+      "profile": "P1",
+      "naive_rc": false,
+      "naive_ouc": 1,
+      "naive_cs": 0.18120793207521338,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.14093950272516595
+    },
+    {
+      "doc": "CK12-SCI-005",
+      "profile": "P2",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.6979867798746444,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.6979867798746444
+    },
+    {
+      "doc": "CK12-SCI-005",
+      "profile": "P3",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.7315444754735063,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.6577183505245969
+    },
+    {
+      "doc": "CK12-SCI-006",
+      "profile": "P1",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.16091954022988506,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.16091954022988506
+    },
+    {
+      "doc": "CK12-SCI-006",
+      "profile": "P2",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.7701149425287356,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.7701149425287356
+    },
+    {
+      "doc": "CK12-SCI-006",
+      "profile": "P3",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.7701149425287356,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.6091954022988506
+    },
+    {
+      "doc": "CK12-SCI-007",
+      "profile": "P1",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.1553398058252427,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.1553398058252427
+    },
+    {
+      "doc": "CK12-SCI-007",
+      "profile": "P2",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.6601941747572816,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.6601941747572816
+    },
+    {
+      "doc": "CK12-SCI-007",
+      "profile": "P3",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.7281553398058253,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.6213592233009708
+    },
+    {
+      "doc": "CK12-SCI-008",
+      "profile": "P1",
+      "naive_rc": false,
+      "naive_ouc": 1,
+      "naive_cs": 0.07364341085271317,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.0
+    },
+    {
+      "doc": "CK12-SCI-008",
+      "profile": "P2",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.9263565891472867,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.9263565891472867
+    },
+    {
+      "doc": "CK12-SCI-008",
+      "profile": "P3",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.9263565891472867,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.9263565891472867
+    },
+    {
+      "doc": "CK12-SCI-009",
+      "profile": "P1",
+      "naive_rc": false,
+      "naive_ouc": 1,
+      "naive_cs": 0.08715596330275228,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.0
+    },
+    {
+      "doc": "CK12-SCI-009",
+      "profile": "P2",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.9128440366972476,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.9128440366972476
+    },
+    {
+      "doc": "CK12-SCI-009",
+      "profile": "P3",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.9128440366972476,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.9128440366972476
+    },
+    {
+      "doc": "CK12-SCI-010",
+      "profile": "P1",
+      "naive_rc": false,
+      "naive_ouc": 4,
+      "naive_cs": 0.22950819672131148,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.0
+    },
+    {
+      "doc": "CK12-SCI-010",
+      "profile": "P2",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.7213114754098361,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.7213114754098361
+    },
+    {
+      "doc": "CK12-SCI-010",
+      "profile": "P3",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.7868852459016393,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.7868852459016393
+    },
+    {
+      "doc": "CK12-SCI-011",
+      "profile": "P1",
+      "naive_rc": false,
+      "naive_ouc": 4,
+      "naive_cs": 0.26865671641791045,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.05970149253731343
+    },
+    {
+      "doc": "CK12-SCI-011",
+      "profile": "P2",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.8507462686567164,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.8507462686567164
+    },
+    {
+      "doc": "CK12-SCI-011",
+      "profile": "P3",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.8805970149253731,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.746268656716418
+    },
+    {
+      "doc": "CK12-SCI-012",
+      "profile": "P1",
+      "naive_rc": false,
+      "naive_ouc": 4,
+      "naive_cs": 0.1935483870967742,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.0
+    },
+    {
+      "doc": "CK12-SCI-012",
+      "profile": "P2",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.9032258064516129,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.9032258064516129
+    },
+    {
+      "doc": "CK12-SCI-012",
+      "profile": "P3",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 1.0,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 1.0
+    },
+    {
+      "doc": "CK12-SCI-013",
+      "profile": "P1",
+      "naive_rc": false,
+      "naive_ouc": 3,
+      "naive_cs": 0.1524547803617571,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.0
+    },
+    {
+      "doc": "CK12-SCI-013",
+      "profile": "P2",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.8992248062015502,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.8992248062015502
+    },
+    {
+      "doc": "CK12-SCI-013",
+      "profile": "P3",
+      "naive_rc": true,
+      "naive_ouc": 0,
+      "naive_cs": 0.8992248062015502,
+      "rc_rc": true,
+      "rc_ouc": 0,
+      "rc_cs": 0.8992248062015502
+    }
+  ],
+  "n_docs": 40
+}

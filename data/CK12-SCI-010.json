@@ -1,0 +1,223 @@
+{
+  "doc_id": "CK12-SCI-010",
+  "doc_title": "Waves: Properties and Types",
+  "source": "CK-12 Physical Science Concepts for Middle School, Section 15.1, CC-BY-NC",
+  "source_url": "https://flexbooks.ck12.org/cbook/ck-12-physical-science-concepts-for-middle-school/section/15.1/",
+  "domain": "physics",
+  "annotator": "Sadallah M. ",
+  "annotation_date": "2026-07-10",
+  "notes": "Class B document (13 units). Covers wave properties (amplitude, wavelength, frequency) and transverse/longitudinal distinction. One ECU for the worked example.",
+  "units": [
+    {
+      "id": "CK12-SCI-010-U001",
+      "label": "Title: Waves: Properties and Types",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Lesson title"
+    },
+    {
+      "id": "CK12-SCI-010-U002",
+      "label": "Hook: slinky demonstration (video)",
+      "type": "video",
+      "duration": 30.0,
+      "content_summary": "Video of a slinky being shaken to produce visible transverse waves, then pushed/pulled to produce longitudinal (compression) waves side by side for comparison."
+    },
+    {
+      "id": "CK12-SCI-010-U003",
+      "label": "Learning Objectives (text)",
+      "type": "text",
+      "duration": 15.0,
+      "content_summary": "Objectives: define wave properties (amplitude, wavelength, frequency, period); distinguish transverse from longitudinal waves; calculate wave speed."
+    },
+    {
+      "id": "CK12-SCI-010-U004",
+      "label": "Wave properties definitions (text)",
+      "type": "text",
+      "duration": 30.0,
+      "content_summary": "Amplitude: maximum displacement from rest. Wavelength (λ): distance between two successive crests. Frequency (f): number of waves per second, in Hertz. Period (T): time for one full wave cycle, T=1/f."
+    },
+    {
+      "id": "CK12-SCI-010-U005",
+      "label": "Labeled wave diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Sine wave diagram with amplitude, wavelength, crest, and trough all labeled with arrows."
+    },
+    {
+      "id": "CK12-SCI-010-U006",
+      "label": "Transverse vs longitudinal (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Transverse wave: particles move perpendicular to wave direction (e.g. light, slinky shake). Longitudinal wave: particles move parallel to wave direction (e.g. sound, slinky push-pull)."
+    },
+    {
+      "id": "CK12-SCI-010-U007",
+      "label": "Transverse/longitudinal diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Side-by-side diagrams: transverse wave showing perpendicular particle motion; longitudinal wave showing compressions and rarefactions."
+    },
+    {
+      "id": "CK12-SCI-010-U008",
+      "label": "Wave speed formula (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Wave speed equation: v = f × λ (speed = frequency × wavelength). Units: m/s = Hz × m."
+    },
+    {
+      "id": "CK12-SCI-010-U009",
+      "label": "Worked example: calculate wave speed (text)",
+      "type": "text",
+      "duration": 30.0,
+      "content_summary": "Problem: a wave has frequency 5 Hz and wavelength 2m. Find speed. Solution: v = 5 × 2 = 10 m/s."
+    },
+    {
+      "id": "CK12-SCI-010-U010",
+      "label": "Worked example diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Wave diagram with wavelength marked as 2m and frequency label, showing calculation result v=10m/s annotated."
+    },
+    {
+      "id": "CK12-SCI-010-U011",
+      "label": "Real-world application: sound and light (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Sound waves are longitudinal, travel ~343 m/s in air. Light waves are transverse, travel at 3×10^8 m/s in vacuum. Both obey v=fλ, explaining why thunder is heard after lightning is seen."
+    },
+    {
+      "id": "CK12-SCI-010-U012",
+      "label": "Practice problems (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Three problems: calculate speed given f and λ; calculate wavelength given v and f; classify a described wave as transverse or longitudinal."
+    },
+    {
+      "id": "CK12-SCI-010-U013",
+      "label": "Lesson root: Waves lesson",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Top-level document container."
+    }
+  ],
+  "ecus": [
+    {
+      "id": "CK12-SCI-010-ECU01",
+      "label": "Worked Example Block",
+      "members": ["CK12-SCI-010-U009", "CK12-SCI-010-U010"],
+      "main_unit_id": "CK12-SCI-010-U009"
+    }
+  ],
+  "relations": [
+    {
+      "id": "R001",
+      "type": "mononuclear",
+      "relation_name": "Identification",
+      "nucleus_id": "CK12-SCI-010-U013",
+      "satellite_id": "CK12-SCI-010-U001",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R002",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-SCI-010-U013",
+      "satellite_id": "CK12-SCI-010-U002",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R003",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-SCI-010-U013",
+      "satellite_id": "CK12-SCI-010-U003",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R004",
+      "type": "multinuclear",
+      "relation_name": "Joint",
+      "co_nuclei_ids": [
+        "CK12-SCI-010-U013",
+        "CK12-SCI-010-U004",
+        "CK12-SCI-010-U006",
+        "CK12-SCI-010-U008",
+        "CK12-SCI-010-ECU01",
+        "CK12-SCI-010-U011",
+        "CK12-SCI-010-U012"
+      ]
+    },
+    {
+      "id": "R005",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "CK12-SCI-010-U004",
+      "satellite_id": "CK12-SCI-010-U005",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R006",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "CK12-SCI-010-U006",
+      "satellite_id": "CK12-SCI-010-U007",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R007",
+      "type": "mononuclear",
+      "relation_name": "Elaboration",
+      "nucleus_id": "CK12-SCI-010-U009",
+      "satellite_id": "CK12-SCI-010-U010",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R008",
+      "type": "mononuclear",
+      "relation_name": "Demonstration",
+      "nucleus_id": "CK12-SCI-010-U008",
+      "satellite_id": "CK12-SCI-010-ECU01",
+      "satellite_orbit": 0
+    }
+  ],
+  "root_unit_id": "CK12-SCI-010-U013",
+  "computed": {
+    "weights": {
+      "CK12-SCI-010-U013": 3.0,
+      "CK12-SCI-010-U001": 2.0,
+      "CK12-SCI-010-U002": 2.0,
+      "CK12-SCI-010-U003": 1.5,
+      "CK12-SCI-010-U004": 3.0,
+      "CK12-SCI-010-U005": 2.0,
+      "CK12-SCI-010-U006": 3.0,
+      "CK12-SCI-010-U007": 2.0,
+      "CK12-SCI-010-U008": 3.0,
+      "CK12-SCI-010-ECU01": 2.0,
+      "CK12-SCI-010-U009": 2.0,
+      "CK12-SCI-010-U010": 1.0,
+      "CK12-SCI-010-U011": 2.0,
+      "CK12-SCI-010-U012": 2.0
+    },
+    "levels": {
+      "CK12-SCI-010-U013": 1,
+      "CK12-SCI-010-U001": 2,
+      "CK12-SCI-010-U002": 2,
+      "CK12-SCI-010-U003": 2,
+      "CK12-SCI-010-U004": 1,
+      "CK12-SCI-010-U006": 1,
+      "CK12-SCI-010-U008": 1,
+      "CK12-SCI-010-ECU01": 1,
+      "CK12-SCI-010-U011": 1,
+      "CK12-SCI-010-U012": 1,
+      "CK12-SCI-010-U005": 2,
+      "CK12-SCI-010-U007": 2,
+      "CK12-SCI-010-U009": 2,
+      "CK12-SCI-010-U010": 3
+    },
+    "max_orbit": 2,
+    "total_duration": 240.0,
+    "n_units": 13,
+    "n_ecus": 1,
+    "n_relations": 8
+  }
+}

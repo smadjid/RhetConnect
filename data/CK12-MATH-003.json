@@ -1,0 +1,240 @@
+{
+  "doc_id": "CK12-MATH-003",
+  "doc_title": "Theoretical and Experimental Probability",
+  "source": "CK-12 Probability and Statistics Concepts, Section 6.1, CC-BY-NC",
+  "source_url": "https://flexbooks.ck12.org/cbook/ck-12-probability-and-statistics-concepts/section/6.1/",
+  "domain": "mathematics",
+  "annotator": "Sadallah M. ",
+  "annotation_date": "2026-06-22",
+  "notes": "Lesson introduces probability via coin/die experiments. Structure: hook (automotive industry) → sample space concept → theoretical vs experimental probability → formula → worked examples × 2 → practice exercises. Mixed text + image units.",
+  "units": [
+    {
+      "id": "CK12-MATH-003-U001",
+      "label": "Title: Theoretical and Experimental Probability",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Lesson title"
+    },
+    {
+      "id": "CK12-MATH-003-U002",
+      "label": "Hook: probability in the automotive industry (text)",
+      "type": "text",
+      "duration": 30.0,
+      "content_summary": "Introduction showing that almost all companies use probability. Automotive companies use it to predict vehicle sales likelihood. Establishes real-world relevance of probability."
+    },
+    {
+      "id": "CK12-MATH-003-U003",
+      "label": "Learning Objectives (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Students will: understand sample space, compute theoretical probability as a ratio, conduct experiments to find experimental probability, compare theoretical and experimental probability."
+    },
+    {
+      "id": "CK12-MATH-003-U004",
+      "label": "Sample space: coin flip experiment (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Definition of experiment (controlled study), sample space (set of all possible outcomes), and event (one possible outcome). Example: flipping a coin → sample space = {heads, tails}."
+    },
+    {
+      "id": "CK12-MATH-003-U005",
+      "label": "Sample space: die roll diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Diagram of a six-sided die with dots labeled 1-6. Shows that sample space for rolling a die = {1,2,3,4,5,6} with 6 equally likely outcomes."
+    },
+    {
+      "id": "CK12-MATH-003-U006",
+      "label": "Theoretical probability formula (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Definition: theoretical probability P(A) = (number of favorable outcomes) / (total number of outcomes in sample space). States that P(A) is always between 0 and 1."
+    },
+    {
+      "id": "CK12-MATH-003-U007",
+      "label": "Worked Example 1: probability of even number from bag (text)",
+      "type": "text",
+      "duration": 36.0,
+      "content_summary": "Problem: numbers 0-9 on paper slips in a bag; one chosen at random. (a) Theoretical probability of even number = 5/10 = 1/2. (b) If repeated 10 times and even chosen 6 times, experimental probability = 6/10 = 3/5. Compare the two."
+    },
+    {
+      "id": "CK12-MATH-003-U008",
+      "label": "Worked Example 2: coin toss experiment (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Tally chart showing results of 20 coin tosses: Heads=12, Tails=8. Used to compute experimental probability and compare with theoretical probability of 0.5."
+    },
+    {
+      "id": "CK12-MATH-003-U009",
+      "label": "Worked Example 2: analysis and comparison (text)",
+      "type": "text",
+      "duration": 30.0,
+      "content_summary": "Calculates experimental P(Heads)=12/20=0.6 vs theoretical 0.5. Explains that as number of trials increases, experimental approaches theoretical (Law of Large Numbers). Key insight articulated."
+    },
+    {
+      "id": "CK12-MATH-003-U010",
+      "label": "Practice: die roll probability questions (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Four practice questions: P(rolling 4), P(rolling even), P(rolling > 4), P(rolling 1 or 6). Students compute each theoretical probability."
+    },
+    {
+      "id": "CK12-MATH-003-U011",
+      "label": "Practice: spinner experiment (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Image of a spinner divided into 4 equal sections colored red, blue, green, yellow. Questions ask for theoretical probabilities and then experimental probabilities after 20 spins (results given)."
+    },
+    {
+      "id": "CK12-MATH-003-U012",
+      "label": "Lesson root: Probability lesson",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Top-level document container."
+    }
+  ],
+  "ecus": [
+    {
+      "id": "CK12-MATH-003-ECU01",
+      "label": "Sample Space Block",
+      "members": ["CK12-MATH-003-U004", "CK12-MATH-003-U005"],
+      "main_unit_id": "CK12-MATH-003-U004"
+    },
+    {
+      "id": "CK12-MATH-003-ECU02",
+      "label": "Worked Example 1 Block",
+      "members": ["CK12-MATH-003-U007"],
+      "main_unit_id": "CK12-MATH-003-U007"
+    },
+    {
+      "id": "CK12-MATH-003-ECU03",
+      "label": "Worked Example 2 Block",
+      "members": ["CK12-MATH-003-U008", "CK12-MATH-003-U009"],
+      "main_unit_id": "CK12-MATH-003-U009"
+    },
+    {
+      "id": "CK12-MATH-003-ECU04",
+      "label": "Practice Block",
+      "members": ["CK12-MATH-003-U010", "CK12-MATH-003-U011"],
+      "main_unit_id": "CK12-MATH-003-U010"
+    }
+  ],
+  "relations": [
+    {
+      "id": "R001",
+      "type": "mononuclear",
+      "relation_name": "Identification",
+      "nucleus_id": "CK12-MATH-003-U012",
+      "satellite_id": "CK12-MATH-003-U001",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R002",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-MATH-003-U012",
+      "satellite_id": "CK12-MATH-003-U002",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R003",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-MATH-003-U012",
+      "satellite_id": "CK12-MATH-003-U003",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R004",
+      "type": "multinuclear",
+      "relation_name": "Joint",
+      "co_nuclei_ids": [
+        "CK12-MATH-003-U012",
+        "CK12-MATH-003-ECU01",
+        "CK12-MATH-003-U006",
+        "CK12-MATH-003-ECU02",
+        "CK12-MATH-003-ECU03",
+        "CK12-MATH-003-ECU04"
+      ]
+    },
+    {
+      "id": "R005",
+      "type": "mononuclear",
+      "relation_name": "Elaboration",
+      "nucleus_id": "CK12-MATH-003-ECU01",
+      "satellite_id": "CK12-MATH-003-U005",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R006",
+      "type": "mononuclear",
+      "relation_name": "Evidence",
+      "nucleus_id": "CK12-MATH-003-U006",
+      "satellite_id": "CK12-MATH-003-ECU01",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R007",
+      "type": "mononuclear",
+      "relation_name": "Demonstration",
+      "nucleus_id": "CK12-MATH-003-U008",
+      "satellite_id": "CK12-MATH-003-U009",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R008",
+      "type": "multinuclear",
+      "relation_name": "Enumeration",
+      "co_nuclei_ids": ["CK12-MATH-003-ECU02", "CK12-MATH-003-ECU03"]
+    },
+    {
+      "id": "R009",
+      "type": "multinuclear",
+      "relation_name": "Enumeration",
+      "co_nuclei_ids": ["CK12-MATH-003-U010", "CK12-MATH-003-U011"]
+    }
+  ],
+  "root_unit_id": "CK12-MATH-003-U012",
+  "computed": {
+    "weights": {
+      "CK12-MATH-003-U012": 3.0,
+      "CK12-MATH-003-U001": 2.0,
+      "CK12-MATH-003-U002": 2.0,
+      "CK12-MATH-003-U003": 1.5,
+      "CK12-MATH-003-ECU01": 3.0,
+      "CK12-MATH-003-U004": 3.0,
+      "CK12-MATH-003-U005": 2.0,
+      "CK12-MATH-003-U006": 3.0,
+      "CK12-MATH-003-ECU02": 3.0,
+      "CK12-MATH-003-U007": 3.0,
+      "CK12-MATH-003-ECU03": 3.0,
+      "CK12-MATH-003-U009": 3.0,
+      "CK12-MATH-003-ECU04": 3.0,
+      "CK12-MATH-003-U010": 3.0,
+      "CK12-MATH-003-U011": 3.0,
+      "CK12-MATH-003-U008": 0.0
+    },
+    "levels": {
+      "CK12-MATH-003-U012": 1,
+      "CK12-MATH-003-U001": 2,
+      "CK12-MATH-003-U002": 2,
+      "CK12-MATH-003-U003": 2,
+      "CK12-MATH-003-ECU01": 1,
+      "CK12-MATH-003-U006": 1,
+      "CK12-MATH-003-ECU02": 1,
+      "CK12-MATH-003-ECU03": 1,
+      "CK12-MATH-003-ECU04": 1,
+      "CK12-MATH-003-U005": 2,
+      "CK12-MATH-003-U004": 1,
+      "CK12-MATH-003-U007": 1,
+      "CK12-MATH-003-U009": 1,
+      "CK12-MATH-003-U010": 1,
+      "CK12-MATH-003-U011": 1
+    },
+    "max_orbit": 2,
+    "total_duration": 225.0,
+    "n_units": 12,
+    "n_ecus": 4,
+    "n_relations": 9
+  }
+}

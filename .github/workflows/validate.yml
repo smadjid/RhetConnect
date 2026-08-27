@@ -1,0 +1,28 @@
+name: Validate corpus
+
+on:
+  push:
+    paths:
+      - "data/**"
+      - "code/**"
+  pull_request:
+    paths:
+      - "data/**"
+      - "code/**"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Structural validation (all 40 documents)
+        run: python code/erg_validator.py --all data/
+      - name: Corpus statistics (sanity check, non-blocking)
+        run: python code/erg_validator.py --stats data/
+      - name: Rebuild manifest and fail if out of date
+        run: |
+          python scripts/build_manifest.py
+          git diff --exit-code docs/manifest.json

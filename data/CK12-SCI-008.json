@@ -1,0 +1,138 @@
+{
+  "doc_id": "CK12-SCI-008",
+  "doc_title": "States of Matter",
+  "source": "CK-12 Physical Science Concepts for Middle School, Section 3.1, CC-BY-NC",
+  "source_url": "https://flexbooks.ck12.org/cbook/ck-12-physical-science-concepts-for-middle-school/section/3.1/",
+  "domain": "physics",
+  "annotator": "Sadallah M. ",
+  "annotation_date": "2026-07-10",
+  "notes": "Class A document (7 units). Simple three-state comparison lesson, no ECUs, no multinuclear relations.",
+  "units": [
+    {
+      "id": "CK12-SCI-008-U001",
+      "label": "Title: States of Matter",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Lesson title"
+    },
+    {
+      "id": "CK12-SCI-008-U002",
+      "label": "Definition: three common states (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Matter exists in three common states: solid (fixed shape and volume), liquid (fixed volume, takes shape of container), gas (no fixed shape or volume). State depends on particle arrangement and energy."
+    },
+    {
+      "id": "CK12-SCI-008-U003",
+      "label": "Particle arrangement diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Three-panel diagram: solid particles in tight fixed lattice, liquid particles close but mobile, gas particles far apart and moving freely."
+    },
+    {
+      "id": "CK12-SCI-008-U004",
+      "label": "Video: water changing states (video)",
+      "type": "video",
+      "duration": 60.0,
+      "content_summary": "Time-lapse video of ice melting into water then boiling into steam, showing the particle-level animation overlaid on the real footage."
+    },
+    {
+      "id": "CK12-SCI-008-U005",
+      "label": "State-change vocabulary (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Melting (solid→liquid), freezing (liquid→solid), evaporation (liquid→gas), condensation (gas→liquid), sublimation (solid→gas directly, e.g. dry ice)."
+    },
+    {
+      "id": "CK12-SCI-008-U006",
+      "label": "Practice: identify state changes (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Four scenarios: dew forming on grass, ice cubes melting, puddle drying up, dry ice fog. Identify the state change in each."
+    },
+    {
+      "id": "CK12-SCI-008-U007",
+      "label": "Lesson root: States of Matter",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Top-level document container."
+    }
+  ],
+  "ecus": [],
+  "relations": [
+    {
+      "id": "R001",
+      "type": "mononuclear",
+      "relation_name": "Identification",
+      "nucleus_id": "CK12-SCI-008-U007",
+      "satellite_id": "CK12-SCI-008-U001",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R002",
+      "type": "mononuclear",
+      "relation_name": "Elaboration",
+      "nucleus_id": "CK12-SCI-008-U007",
+      "satellite_id": "CK12-SCI-008-U002",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R003",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "CK12-SCI-008-U002",
+      "satellite_id": "CK12-SCI-008-U003",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R004",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "CK12-SCI-008-U002",
+      "satellite_id": "CK12-SCI-008-U004",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R005",
+      "type": "mononuclear",
+      "relation_name": "Elaboration",
+      "nucleus_id": "CK12-SCI-008-U007",
+      "satellite_id": "CK12-SCI-008-U005",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R006",
+      "type": "mononuclear",
+      "relation_name": "Reinforcement",
+      "nucleus_id": "CK12-SCI-008-U007",
+      "satellite_id": "CK12-SCI-008-U006",
+      "satellite_orbit": 0
+    }
+  ],
+  "root_unit_id": "CK12-SCI-008-U007",
+  "computed": {
+    "weights": {
+      "CK12-SCI-008-U007": 3.0,
+      "CK12-SCI-008-U001": 2.0,
+      "CK12-SCI-008-U002": 2.0,
+      "CK12-SCI-008-U003": 0.95,
+      "CK12-SCI-008-U004": 0.95,
+      "CK12-SCI-008-U005": 2.0,
+      "CK12-SCI-008-U006": 2.0
+    },
+    "levels": {
+      "CK12-SCI-008-U007": 1,
+      "CK12-SCI-008-U001": 2,
+      "CK12-SCI-008-U002": 2,
+      "CK12-SCI-008-U005": 2,
+      "CK12-SCI-008-U006": 2,
+      "CK12-SCI-008-U003": 3,
+      "CK12-SCI-008-U004": 3
+    },
+    "max_orbit": 2,
+    "total_duration": 147.0,
+    "n_units": 7,
+    "n_ecus": 0,
+    "n_relations": 6
+  }
+}

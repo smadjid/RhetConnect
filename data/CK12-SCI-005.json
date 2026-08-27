@@ -1,0 +1,310 @@
+{
+  "doc_id": "CK12-SCI-005",
+  "doc_title": "DNA and RNA",
+  "source": "CK-12 Life Science Concepts for Middle School, CC-BY-NC",
+  "source_url": "https://flexbooks.ck12.org/cbook/ck-12-life-science-concepts-for-middle-school/section/4.1/",
+  "domain": "biology",
+  "annotator": "Sadallah M. ",
+  "annotation_date": "2026-06-22",
+  "notes": "Lesson on genetic information. Structure: hook (genome size) → DNA structure → bases/base pairing → double helix diagram → RNA types → DNA vs RNA comparison → protein synthesis overview → video → practice.",
+  "units": [
+    {
+      "id": "CK12-SCI-005-U001",
+      "label": "Title: DNA and RNA",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Lesson title"
+    },
+    {
+      "id": "CK12-SCI-005-U002",
+      "label": "Hook: human genome facts (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "The human genome contains about 3 billion base pairs encoding ~20,000 genes. If uncoiled, the DNA in one cell would stretch 2 metres. Establishes the scale and importance of DNA."
+    },
+    {
+      "id": "CK12-SCI-005-U003",
+      "label": "Learning Objectives (text)",
+      "type": "text",
+      "duration": 15.0,
+      "content_summary": "Objectives: describe structure of DNA; explain base pairing rules; describe types of RNA and their roles; summarise protein synthesis."
+    },
+    {
+      "id": "CK12-SCI-005-U004",
+      "label": "DNA structure: nucleotide components (text)",
+      "type": "text",
+      "duration": 30.0,
+      "content_summary": "DNA is made of nucleotides. Each nucleotide has three parts: a sugar (deoxyribose), a phosphate group, and a nitrogenous base. Four bases: Adenine (A), Thymine (T), Guanine (G), Cytosine (C)."
+    },
+    {
+      "id": "CK12-SCI-005-U005",
+      "label": "Nucleotide diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Diagram showing a single nucleotide with deoxyribose sugar, phosphate group, and one of the four bases. Colour-coded: phosphate blue, sugar orange, base varies by type."
+    },
+    {
+      "id": "CK12-SCI-005-U006",
+      "label": "Base pairing rules (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Chargaff's rules: A always pairs with T (2 hydrogen bonds); G always pairs with C (3 hydrogen bonds). This complementary base pairing is fundamental to DNA replication and transcription."
+    },
+    {
+      "id": "CK12-SCI-005-U007",
+      "label": "Double helix structure diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Classic double helix diagram showing two antiparallel strands twisted around each other, base pairs in the middle (A-T and G-C), sugar-phosphate backbone on outside. Watson-Crick model (1953)."
+    },
+    {
+      "id": "CK12-SCI-005-U008",
+      "label": "Video: DNA structure animation (video)",
+      "type": "video",
+      "duration": 120.0,
+      "content_summary": "Animated video showing DNA double helix being unzipped to reveal base pairs, then re-zipped. Demonstrates complementary base pairing dynamically. Narrated with clear labels."
+    },
+    {
+      "id": "CK12-SCI-005-U009",
+      "label": "RNA: types and roles (text)",
+      "type": "text",
+      "duration": 36.0,
+      "content_summary": "Three types of RNA: (1) mRNA (messenger RNA) — carries genetic code from nucleus to ribosome; (2) tRNA (transfer RNA) — brings amino acids to ribosome; (3) rRNA (ribosomal RNA) — structural component of ribosome. RNA uses uracil (U) instead of thymine (T)."
+    },
+    {
+      "id": "CK12-SCI-005-U010",
+      "label": "DNA vs RNA comparison table (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Side-by-side comparison table: DNA vs RNA. Rows: sugar (deoxyribose vs ribose), bases (A,T,G,C vs A,U,G,C), strands (double vs single), location (nucleus vs nucleus+cytoplasm), function (stores info vs carries/uses info)."
+    },
+    {
+      "id": "CK12-SCI-005-U011",
+      "label": "Protein synthesis overview: transcription (text)",
+      "type": "text",
+      "duration": 30.0,
+      "content_summary": "Transcription: DNA → mRNA in nucleus. RNA polymerase unzips DNA and builds complementary mRNA strand. mRNA leaves nucleus and travels to ribosome. Key enzyme: RNA polymerase."
+    },
+    {
+      "id": "CK12-SCI-005-U012",
+      "label": "Protein synthesis overview: translation (text)",
+      "type": "text",
+      "duration": 30.0,
+      "content_summary": "Translation: mRNA → protein at ribosome. tRNA reads codons (3-base sequences) on mRNA and brings matching amino acids. Amino acids linked into polypeptide chain = protein."
+    },
+    {
+      "id": "CK12-SCI-005-U013",
+      "label": "Protein synthesis diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Diagram showing nucleus (DNA → mRNA via transcription) connected by arrow to ribosome (mRNA + tRNA → protein via translation). Shows flow of genetic information."
+    },
+    {
+      "id": "CK12-SCI-005-U014",
+      "label": "Practice: base pairing questions (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Five questions: given one strand (e.g. ATGCCA), write the complementary strand; identify base pairs; determine the mRNA sequence transcribed from a DNA template."
+    },
+    {
+      "id": "CK12-SCI-005-U015",
+      "label": "Practice: DNA vs RNA identification (text)",
+      "type": "text",
+      "duration": 15.0,
+      "content_summary": "Four questions asking students to identify whether a description refers to DNA or RNA, and explain which type of RNA (mRNA, tRNA, rRNA) is described in each scenario."
+    },
+    {
+      "id": "CK12-SCI-005-U016",
+      "label": "Lesson root: DNA and RNA lesson",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Top-level document container."
+    }
+  ],
+  "ecus": [
+    {
+      "id": "CK12-SCI-005-ECU01",
+      "label": "DNA Structure Block",
+      "members": [
+        "CK12-SCI-005-U004",
+        "CK12-SCI-005-U005",
+        "CK12-SCI-005-U006",
+        "CK12-SCI-005-U007",
+        "CK12-SCI-005-U008"
+      ],
+      "main_unit_id": "CK12-SCI-005-U004"
+    },
+    {
+      "id": "CK12-SCI-005-ECU02",
+      "label": "RNA Block",
+      "members": ["CK12-SCI-005-U009", "CK12-SCI-005-U010"],
+      "main_unit_id": "CK12-SCI-005-U009"
+    },
+    {
+      "id": "CK12-SCI-005-ECU03",
+      "label": "Protein Synthesis Block",
+      "members": [
+        "CK12-SCI-005-U011",
+        "CK12-SCI-005-U012",
+        "CK12-SCI-005-U013"
+      ],
+      "main_unit_id": "CK12-SCI-005-U011"
+    },
+    {
+      "id": "CK12-SCI-005-ECU04",
+      "label": "Practice Block",
+      "members": ["CK12-SCI-005-U014", "CK12-SCI-005-U015"],
+      "main_unit_id": "CK12-SCI-005-U014"
+    }
+  ],
+  "relations": [
+    {
+      "id": "R001",
+      "type": "mononuclear",
+      "relation_name": "Identification",
+      "nucleus_id": "CK12-SCI-005-U016",
+      "satellite_id": "CK12-SCI-005-U001",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R002",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-SCI-005-U016",
+      "satellite_id": "CK12-SCI-005-U002",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R003",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-SCI-005-U016",
+      "satellite_id": "CK12-SCI-005-U003",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R004",
+      "type": "multinuclear",
+      "relation_name": "Joint",
+      "co_nuclei_ids": [
+        "CK12-SCI-005-U016",
+        "CK12-SCI-005-ECU01",
+        "CK12-SCI-005-ECU02",
+        "CK12-SCI-005-ECU03",
+        "CK12-SCI-005-ECU04"
+      ]
+    },
+    {
+      "id": "R005",
+      "type": "mononuclear",
+      "relation_name": "Elaboration",
+      "nucleus_id": "CK12-SCI-005-U004",
+      "satellite_id": "CK12-SCI-005-U005",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R006",
+      "type": "mononuclear",
+      "relation_name": "Evidence",
+      "nucleus_id": "CK12-SCI-005-ECU01",
+      "satellite_id": "CK12-SCI-005-U006",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R007",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "CK12-SCI-005-ECU01",
+      "satellite_id": "CK12-SCI-005-U007",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R008",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "CK12-SCI-005-ECU01",
+      "satellite_id": "CK12-SCI-005-U008",
+      "satellite_orbit": 2
+    },
+    {
+      "id": "R009",
+      "type": "mononuclear",
+      "relation_name": "Elaboration",
+      "nucleus_id": "CK12-SCI-005-ECU02",
+      "satellite_id": "CK12-SCI-005-U010",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R010",
+      "type": "multinuclear",
+      "relation_name": "Sequence",
+      "co_nuclei_ids": ["CK12-SCI-005-U011", "CK12-SCI-005-U012"]
+    },
+    {
+      "id": "R011",
+      "type": "mononuclear",
+      "relation_name": "Elaboration",
+      "nucleus_id": "CK12-SCI-005-ECU03",
+      "satellite_id": "CK12-SCI-005-U013",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R012",
+      "type": "multinuclear",
+      "relation_name": "List",
+      "co_nuclei_ids": ["CK12-SCI-005-U014", "CK12-SCI-005-U015"]
+    }
+  ],
+  "root_unit_id": "CK12-SCI-005-U016",
+  "computed": {
+    "weights": {
+      "CK12-SCI-005-U016": 3.0,
+      "CK12-SCI-005-U001": 2.0,
+      "CK12-SCI-005-U002": 2.0,
+      "CK12-SCI-005-U003": 1.6667,
+      "CK12-SCI-005-ECU01": 3.0,
+      "CK12-SCI-005-U004": 3.0,
+      "CK12-SCI-005-U005": 2.0,
+      "CK12-SCI-005-U006": 2.0,
+      "CK12-SCI-005-U007": 1.6667,
+      "CK12-SCI-005-U008": 1.3333,
+      "CK12-SCI-005-ECU02": 3.0,
+      "CK12-SCI-005-U009": 3.0,
+      "CK12-SCI-005-U010": 2.0,
+      "CK12-SCI-005-ECU03": 3.0,
+      "CK12-SCI-005-U011": 3.0,
+      "CK12-SCI-005-U012": 3.0,
+      "CK12-SCI-005-U013": 2.0,
+      "CK12-SCI-005-ECU04": 3.0,
+      "CK12-SCI-005-U014": 3.0,
+      "CK12-SCI-005-U015": 3.0
+    },
+    "levels": {
+      "CK12-SCI-005-U016": 1,
+      "CK12-SCI-005-U001": 2,
+      "CK12-SCI-005-U002": 2,
+      "CK12-SCI-005-U003": 2,
+      "CK12-SCI-005-ECU01": 1,
+      "CK12-SCI-005-ECU02": 1,
+      "CK12-SCI-005-ECU03": 1,
+      "CK12-SCI-005-ECU04": 1,
+      "CK12-SCI-005-U006": 2,
+      "CK12-SCI-005-U007": 2,
+      "CK12-SCI-005-U008": 2,
+      "CK12-SCI-005-U004": 1,
+      "CK12-SCI-005-U010": 2,
+      "CK12-SCI-005-U009": 1,
+      "CK12-SCI-005-U013": 2,
+      "CK12-SCI-005-U011": 1,
+      "CK12-SCI-005-U014": 1,
+      "CK12-SCI-005-U005": 2,
+      "CK12-SCI-005-U012": 1,
+      "CK12-SCI-005-U015": 1
+    },
+    "max_orbit": 3,
+    "total_duration": 408.0,
+    "n_units": 16,
+    "n_ecus": 4,
+    "n_relations": 12
+  }
+}

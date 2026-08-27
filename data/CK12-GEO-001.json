@@ -1,0 +1,379 @@
+{
+  "doc_id": "CK12-GEO-001",
+  "doc_title": "Plate Tectonics",
+  "source": "CK-12 Earth Science Concepts for Middle School, CC-BY-NC",
+  "source_url": "https://flexbooks.ck12.org/cbook/ck-12-earth-science-concepts-for-middle-school/section/7.1/",
+  "domain": "geography",
+  "annotator": "Sadallah M. ",
+  "annotation_date": "2026-06-22",
+  "notes": "Lesson on tectonic plate movement. Hook: Pangaea puzzle. Three types of plate boundaries with diagrams. Geological evidence section. Video of tectonic simulation. Higher-complexity structure (Class B: 20 units, 6 ECUs).",
+  "units": [
+    {
+      "id": "CK12-GEO-001-U001",
+      "label": "Title: Plate Tectonics",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Lesson title"
+    },
+    {
+      "id": "CK12-GEO-001-U002",
+      "label": "Hook: Wegener and continental drift (text)",
+      "type": "text",
+      "duration": 30.0,
+      "content_summary": "Alfred Wegener (1912) proposed that continents were once joined as Pangaea and slowly drifted apart over millions of years. Evidence: matching coastlines, identical fossils on different continents, similar rock formations across oceans."
+    },
+    {
+      "id": "CK12-GEO-001-U003",
+      "label": "Pangaea reconstruction map (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "World map showing modern continents on one side, and Pangaea reconstruction on other side. Matching colour-coded coastlines show how South America fits into Africa. Labels show today's continents in their Pangaea positions."
+    },
+    {
+      "id": "CK12-GEO-001-U004",
+      "label": "Learning Objectives (text)",
+      "type": "text",
+      "duration": 15.0,
+      "content_summary": "Objectives: describe the theory of plate tectonics; identify the three types of plate boundaries; explain evidence for continental drift; describe geological features at each boundary type."
+    },
+    {
+      "id": "CK12-GEO-001-U005",
+      "label": "Tectonic plates overview (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Earth's lithosphere is divided into ~15 major tectonic plates that move on the plastic asthenosphere. Movement driven by convection currents in mantle. Average speed: 2-10 cm/year (roughly fingernail growth rate)."
+    },
+    {
+      "id": "CK12-GEO-001-U006",
+      "label": "World tectonic plates map (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "World map showing all major tectonic plates with names: Pacific, North American, Eurasian, African, Indo-Australian, Antarctic, South American, Nazca, Caribbean, Philippine, Juan de Fuca, Arabian, Cocos, Scotia. Boundaries marked."
+    },
+    {
+      "id": "CK12-GEO-001-U007",
+      "label": "Boundary Type 1: Divergent (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Divergent boundaries: plates move apart. New oceanic crust forms as magma rises and solidifies. Creates mid-ocean ridges (e.g. Mid-Atlantic Ridge). On land: rift valleys (e.g. East African Rift). Results in seafloor spreading."
+    },
+    {
+      "id": "CK12-GEO-001-U008",
+      "label": "Divergent boundary diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Cross-section diagram showing two plates moving apart, magma rising in the gap, forming a mid-ocean ridge. Arrows show plate movement direction and magma upwelling. Labels: divergent boundary, mid-ocean ridge, new crust, magma."
+    },
+    {
+      "id": "CK12-GEO-001-U009",
+      "label": "Boundary Type 2: Convergent (text)",
+      "type": "text",
+      "duration": 30.0,
+      "content_summary": "Convergent boundaries: plates move toward each other. Three subtypes: (1) oceanic-continental: oceanic plate subducts → trench + volcanic mountain chain; (2) oceanic-oceanic: subduction → volcanic island arc; (3) continental-continental: collision → mountain range (no subduction)."
+    },
+    {
+      "id": "CK12-GEO-001-U010",
+      "label": "Convergent boundary diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Three-panel diagram showing the three convergent subtypes: (1) Cascades/Andes-type with oceanic subduction and volcanoes; (2) island arc with two oceanic plates; (3) Himalayas-type with two continental plates colliding and buckling upward."
+    },
+    {
+      "id": "CK12-GEO-001-U011",
+      "label": "Boundary Type 3: Transform (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Transform boundaries: plates slide horizontally past each other. No crust created or destroyed. Causes earthquakes. Famous example: San Andreas Fault (California) — Pacific plate sliding north past North American plate. ~7cm/year."
+    },
+    {
+      "id": "CK12-GEO-001-U012",
+      "label": "Transform boundary diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Map and cross-section of the San Andreas Fault. Arrows show Pacific plate moving northwest relative to North American plate. Aerial photo inset showing the visible fault line through California landscape."
+    },
+    {
+      "id": "CK12-GEO-001-U013",
+      "label": "Evidence for plate tectonics: fossils and rocks (text)",
+      "type": "text",
+      "duration": 30.0,
+      "content_summary": "Four lines of evidence: (1) matching coastlines; (2) identical fossil species on separate continents (Mesosaurus, Glossopteris); (3) matching rock formations and mountain ranges across oceans; (4) paleomagnetism — symmetric magnetic striping on seafloor records reversals."
+    },
+    {
+      "id": "CK12-GEO-001-U014",
+      "label": "Fossil evidence map (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "World map showing identical fossils found on multiple continents: Mesosaurus (South America and Africa), Glossopteris plant (Antarctica, India, Africa, Australia, South America). Confirms Wegener's Pangaea hypothesis."
+    },
+    {
+      "id": "CK12-GEO-001-U015",
+      "label": "Video: tectonic plates simulation (video)",
+      "type": "video",
+      "duration": 120.0,
+      "content_summary": "Animation showing 250 million years of plate movement from Pangaea to present day. Shows formation and splitting of continents in fast-forward. Narrated with timeline markers at key geological events."
+    },
+    {
+      "id": "CK12-GEO-001-U016",
+      "label": "Geological features summary table (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Summary table: Boundary Type | Movement | Features | Examples. Rows: Divergent (apart, ridges/rifts, Mid-Atlantic Ridge), Convergent (together, trenches/mountains/arcs, Himalayas/Mariana Trench), Transform (sliding, earthquakes, San Andreas)."
+    },
+    {
+      "id": "CK12-GEO-001-U017",
+      "label": "Real-world connection: volcanoes and earthquakes distribution (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Volcanoes and earthquakes occur predominantly along plate boundaries — the 'Ring of Fire' around the Pacific. This geographical pattern is strong evidence for plate tectonics and explains why certain regions (Japan, Chile, western USA) experience frequent seismic activity."
+    },
+    {
+      "id": "CK12-GEO-001-U018",
+      "label": "Ring of Fire map (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "World map showing the Ring of Fire — the zone of frequent earthquakes and volcanoes encircling the Pacific Ocean. Red dots mark earthquake epicentres; triangles mark volcanoes. Coincides closely with plate boundaries shown in U006."
+    },
+    {
+      "id": "CK12-GEO-001-U019",
+      "label": "Practice problems (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Five questions: identify boundary type from description; explain why the Himalayas are still growing; predict what would happen at a specified boundary; describe two pieces of evidence for plate tectonics; identify the boundary type responsible for a given earthquake."
+    },
+    {
+      "id": "CK12-GEO-001-U020",
+      "label": "Lesson root: Plate Tectonics lesson",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Top-level document container."
+    }
+  ],
+  "ecus": [
+    {
+      "id": "CK12-GEO-001-ECU01",
+      "label": "Hook Block",
+      "members": ["CK12-GEO-001-U002", "CK12-GEO-001-U003"],
+      "main_unit_id": "CK12-GEO-001-U002"
+    },
+    {
+      "id": "CK12-GEO-001-ECU02",
+      "label": "Plates Overview Block",
+      "members": ["CK12-GEO-001-U005", "CK12-GEO-001-U006"],
+      "main_unit_id": "CK12-GEO-001-U005"
+    },
+    {
+      "id": "CK12-GEO-001-ECU03",
+      "label": "Divergent Boundary Block",
+      "members": ["CK12-GEO-001-U007", "CK12-GEO-001-U008"],
+      "main_unit_id": "CK12-GEO-001-U007"
+    },
+    {
+      "id": "CK12-GEO-001-ECU04",
+      "label": "Convergent Boundary Block",
+      "members": ["CK12-GEO-001-U009", "CK12-GEO-001-U010"],
+      "main_unit_id": "CK12-GEO-001-U009"
+    },
+    {
+      "id": "CK12-GEO-001-ECU05",
+      "label": "Transform Boundary Block",
+      "members": ["CK12-GEO-001-U011", "CK12-GEO-001-U012"],
+      "main_unit_id": "CK12-GEO-001-U011"
+    },
+    {
+      "id": "CK12-GEO-001-ECU06",
+      "label": "Evidence Block",
+      "members": ["CK12-GEO-001-U013", "CK12-GEO-001-U014"],
+      "main_unit_id": "CK12-GEO-001-U013"
+    }
+  ],
+  "relations": [
+    {
+      "id": "R001",
+      "type": "mononuclear",
+      "relation_name": "Identification",
+      "nucleus_id": "CK12-GEO-001-U020",
+      "satellite_id": "CK12-GEO-001-U001",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R002",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-GEO-001-U020",
+      "satellite_id": "CK12-GEO-001-ECU01",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R003",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-GEO-001-U020",
+      "satellite_id": "CK12-GEO-001-U004",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R004",
+      "type": "multinuclear",
+      "relation_name": "Joint",
+      "co_nuclei_ids": [
+        "CK12-GEO-001-U020",
+        "CK12-GEO-001-ECU02",
+        "CK12-GEO-001-ECU03",
+        "CK12-GEO-001-ECU04",
+        "CK12-GEO-001-ECU05",
+        "CK12-GEO-001-ECU06",
+        "CK12-GEO-001-U015",
+        "CK12-GEO-001-U016",
+        "CK12-GEO-001-U017",
+        "CK12-GEO-001-U019"
+      ]
+    },
+    {
+      "id": "R005",
+      "type": "mononuclear",
+      "relation_name": "Elaboration",
+      "nucleus_id": "CK12-GEO-001-ECU01",
+      "satellite_id": "CK12-GEO-001-U003",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R006",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "CK12-GEO-001-ECU02",
+      "satellite_id": "CK12-GEO-001-U006",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R007",
+      "type": "multinuclear",
+      "relation_name": "List",
+      "co_nuclei_ids": [
+        "CK12-GEO-001-ECU03",
+        "CK12-GEO-001-ECU04",
+        "CK12-GEO-001-ECU05"
+      ]
+    },
+    {
+      "id": "R008",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "CK12-GEO-001-ECU03",
+      "satellite_id": "CK12-GEO-001-U008",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R009",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "CK12-GEO-001-ECU04",
+      "satellite_id": "CK12-GEO-001-U010",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R010",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "CK12-GEO-001-ECU05",
+      "satellite_id": "CK12-GEO-001-U012",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R011",
+      "type": "mononuclear",
+      "relation_name": "Evidence",
+      "nucleus_id": "CK12-GEO-001-ECU06",
+      "satellite_id": "CK12-GEO-001-U014",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R012",
+      "type": "mononuclear",
+      "relation_name": "Evidence",
+      "nucleus_id": "CK12-GEO-001-ECU02",
+      "satellite_id": "CK12-GEO-001-ECU06",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R013",
+      "type": "mononuclear",
+      "relation_name": "Elaboration",
+      "nucleus_id": "CK12-GEO-001-U017",
+      "satellite_id": "CK12-GEO-001-U018",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R014",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "CK12-GEO-001-U016",
+      "satellite_id": "CK12-GEO-001-ECU03",
+      "satellite_orbit": 0
+    }
+  ],
+  "root_unit_id": "CK12-GEO-001-U020",
+  "computed": {
+    "weights": {
+      "CK12-GEO-001-U020": 3.0,
+      "CK12-GEO-001-U001": 2.0,
+      "CK12-GEO-001-ECU01": 2.0,
+      "CK12-GEO-001-U002": 2.0,
+      "CK12-GEO-001-U003": 1.0,
+      "CK12-GEO-001-U004": 1.5,
+      "CK12-GEO-001-ECU02": 3.0,
+      "CK12-GEO-001-U005": 3.0,
+      "CK12-GEO-001-U006": 2.0,
+      "CK12-GEO-001-ECU06": 2.0,
+      "CK12-GEO-001-U013": 2.0,
+      "CK12-GEO-001-U014": 1.0,
+      "CK12-GEO-001-ECU03": 2.0,
+      "CK12-GEO-001-U007": 2.0,
+      "CK12-GEO-001-U008": 1.0,
+      "CK12-GEO-001-ECU04": 2.0,
+      "CK12-GEO-001-U009": 2.0,
+      "CK12-GEO-001-U010": 1.0,
+      "CK12-GEO-001-ECU05": 2.0,
+      "CK12-GEO-001-U011": 2.0,
+      "CK12-GEO-001-U012": 1.0,
+      "CK12-GEO-001-U015": 2.0,
+      "CK12-GEO-001-U016": 2.0,
+      "CK12-GEO-001-U017": 2.0,
+      "CK12-GEO-001-U018": 1.0,
+      "CK12-GEO-001-U019": 2.0
+    },
+    "levels": {
+      "CK12-GEO-001-U020": 1,
+      "CK12-GEO-001-U001": 2,
+      "CK12-GEO-001-ECU01": 2,
+      "CK12-GEO-001-U002": 2,
+      "CK12-GEO-001-U004": 2,
+      "CK12-GEO-001-ECU02": 1,
+      "CK12-GEO-001-ECU03": 1,
+      "CK12-GEO-001-ECU04": 1,
+      "CK12-GEO-001-ECU05": 1,
+      "CK12-GEO-001-ECU06": 1,
+      "CK12-GEO-001-U015": 1,
+      "CK12-GEO-001-U016": 1,
+      "CK12-GEO-001-U017": 1,
+      "CK12-GEO-001-U019": 1,
+      "CK12-GEO-001-U003": 3,
+      "CK12-GEO-001-U006": 2,
+      "CK12-GEO-001-U013": 2,
+      "CK12-GEO-001-U005": 1,
+      "CK12-GEO-001-U008": 2,
+      "CK12-GEO-001-U007": 1,
+      "CK12-GEO-001-U010": 2,
+      "CK12-GEO-001-U009": 1,
+      "CK12-GEO-001-U012": 2,
+      "CK12-GEO-001-U011": 1,
+      "CK12-GEO-001-U014": 2,
+      "CK12-GEO-001-U018": 2
+    },
+    "max_orbit": 2,
+    "total_duration": 459.0,
+    "n_units": 20,
+    "n_ecus": 6,
+    "n_relations": 14
+  }
+}

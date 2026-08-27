@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RhetConnect Corpus v1.0 — explorer</title>
+<style>
+  :root{
+    --bg:#faf9f6; --panel:#ffffff; --border:#e4e1d8; --border-strong:#c9c5b7;
+    --text:#242320; --text-2:#6b6857; --text-3:#9a9787;
+    --accent:#185fa5; --accent-bg:#e6f1fb; --accent-strong:#0c447c;
+    --mono: "SFMono-Regular", Consolas, Menlo, monospace;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    --serif: Georgia, "Times New Roman", serif;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#17160f; --panel:#201f18; --border:#38362a; --border-strong:#4c4938;
+      --text:#ece9dd; --text-2:#b1ad9c; --text-3:#7d795f;
+      --accent:#5aa2e0; --accent-bg:#1c2c3c; --accent-strong:#8ec0ee;
+    }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:var(--sans);line-height:1.5}
+  .wrap{max-width:1120px;margin:0 auto;padding:2.5rem 1.5rem 5rem}
+  header{margin-bottom:2rem}
+  .eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--text-3)}
+  h1{font-family:var(--serif);font-weight:400;font-size:34px;margin:.35rem 0 .5rem;letter-spacing:-.01em}
+  .lede{color:var(--text-2);max-width:640px;font-size:15px}
+  .links{margin-top:1rem;display:flex;gap:1.25rem;font-size:13px;font-family:var(--mono)}
+  .links a{color:var(--accent-strong);text-decoration:none;border-bottom:1px solid transparent}
+  .links a:hover{border-color:var(--accent-strong)}
+
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:1px;background:var(--border);border:1px solid var(--border);border-radius:10px;overflow:hidden;margin-bottom:2rem}
+  .stat{background:var(--panel);padding:14px 16px}
+  .stat .n{font-family:var(--mono);font-size:22px;font-weight:600}
+  .stat .l{font-size:11px;color:var(--text-2);text-transform:uppercase;letter-spacing:.05em;margin-top:2px}
+
+  .layout{display:grid;grid-template-columns:minmax(0,1fr);gap:1.5rem}
+  @media (min-width:900px){ .layout{grid-template-columns:420px minmax(0,1fr)} }
+
+  .panel{background:var(--panel);border:1px solid var(--border);border-radius:10px}
+
+  .toolbar{display:flex;gap:8px;padding:12px;border-bottom:1px solid var(--border);flex-wrap:wrap}
+  select,input[type=search]{
+    font:13px var(--sans);padding:6px 9px;border:1px solid var(--border-strong);
+    border-radius:6px;background:var(--bg);color:var(--text)
+  }
+  input[type=search]{flex:1;min-width:120px}
+
+  table{width:100%;border-collapse:collapse;font-size:13px}
+  thead th{text-align:left;font-size:11px;text-transform:uppercase;letter-spacing:.04em;color:var(--text-3);padding:8px 12px;border-bottom:1px solid var(--border);cursor:pointer;user-select:none}
+  tbody td{padding:8px 12px;border-bottom:1px solid var(--border);vertical-align:top}
+  tbody tr{cursor:pointer}
+  tbody tr:hover{background:var(--accent-bg)}
+  tbody tr.active{background:var(--accent-bg);box-shadow:inset 3px 0 0 var(--accent)}
+  .doctitle{font-weight:600}
+  .docid{font-family:var(--mono);font-size:11px;color:var(--text-3)}
+  .class-pill{display:inline-block;font-family:var(--mono);font-size:10px;padding:1px 6px;border-radius:99px;border:1px solid var(--border-strong);color:var(--text-2)}
+  .list-scroll{max-height:640px;overflow:auto}
+
+  .viewer{min-height:640px;display:flex;flex-direction:column}
+  .viewer-head{padding:16px 18px;border-bottom:1px solid var(--border)}
+  .viewer-head h2{font-family:var(--serif);font-weight:400;font-size:20px;margin:0 0 4px}
+  .meta-row{display:flex;flex-wrap:wrap;gap:14px;font-size:12px;color:var(--text-2);font-family:var(--mono)}
+  .legend{display:flex;gap:14px;flex-wrap:wrap;padding:10px 18px;border-bottom:1px solid var(--border);font-size:11px;color:var(--text-2)}
+  .legend span{display:inline-flex;align-items:center;gap:5px}
+  .sw{width:9px;height:9px;border-radius:2px;display:inline-block}
+  .graph-scroll{overflow:auto;padding:8px}
+  .empty{padding:4rem 2rem;text-align:center;color:var(--text-3);font-size:14px}
+
+  text{font-family:var(--sans)}
+  .node-box{stroke-width:1}
+  .node-label{font-size:11px;fill:var(--text)}
+  .node-sub{font-size:9px;fill:var(--text-2)}
+  .edge{stroke:var(--border-strong);stroke-width:1;fill:none}
+  .edge-label{font-size:8px;fill:var(--text-3)}
+  footer{margin-top:3rem;font-size:12px;color:var(--text-3);border-top:1px solid var(--border);padding-top:1rem}
+  footer a{color:var(--text-3)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="eyebrow">RhetConnect Corpus &middot; v1.0</div>
+    <h1>40 documents, cross-media rhetorical structure</h1>
+    <p class="lede">Browse the corpus and open any document to see its Extended Rhetorical Graph
+    (ESUs, ECUs, and the relations connecting them across text, image, video, and audio).
+    Data loads directly from <code>data/*.json</code> in this repository — nothing is precomputed
+    beyond the summary table below.</p>
+    <div class="links">
+      <a href="https://github.com/smadjid/RhetConnect/blob/main/README.md">README</a>
+      <a href="https://github.com/smadjid/RhetConnect/blob/main/docs/CORPUS_DESCRIPTION.md">Corpus description</a>
+      <a href="https://github.com/smadjid/RhetConnect/blob/main/docs/DATA_DICTIONARY.md">Data dictionary</a>
+      <a href="https://github.com/smadjid/RhetConnect/blob/main/docs/ANNOTATION_GUIDE.md">Annotation guide</a>
+    </div>
+  </header>
+
+  <div id="stats" class="stats"></div>
+
+  <div class="layout">
+    <div class="panel">
+      <div class="toolbar">
+        <input type="search" id="search" placeholder="Filter by title or id&hellip;">
+        <select id="domainFilter"><option value="">All domains</option></select>
+        <select id="classFilter">
+          <option value="">All classes</option>
+          <option value="A">Class A (5&ndash;8 ESUs)</option>
+          <option value="B">Class B (9&ndash;15 ESUs)</option>
+          <option value="C">Class C (16&ndash;30 ESUs)</option>
+        </select>
+      </div>
+      <div class="list-scroll">
+        <table>
+          <thead>
+            <tr>
+              <th data-sort="title">Document</th>
+              <th data-sort="n_esu">ESUs</th>
+              <th data-sort="n_relations">Rels</th>
+            </tr>
+          </thead>
+          <tbody id="tbody"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="panel viewer">
+      <div id="viewerHead" class="viewer-head">
+        <h2>Select a document</h2>
+        <div class="meta-row">Click any row on the left to render its rhetorical graph.</div>
+      </div>
+      <div id="legend" class="legend"></div>
+      <div id="graphHolder" class="graph-scroll">
+        <div class="empty">No document selected yet.</div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    Generated from <code>docs/manifest.json</code> (see <code>scripts/build_manifest.py</code>).
+    Annotations &copy; the authors, CC BY 4.0. Source lesson content adapted from
+    CK-12 Foundation FlexBooks, CC BY-NC 4.0 &mdash; see <a href="https://github.com/smadjid/RhetConnect/blob/main/LICENSES/CK12-ATTRIBUTION.md">attribution</a>.
+  </footer>
+</div>
+
+<script>
+const MEDIA_COLOR = {
+  text:  {fill:'#e6f1fb', stroke:'#185fa5', text:'#0c447c'},
+  image: {fill:'#eaf3de', stroke:'#3b8bd4', text:'#27500a'},
+  video: {fill:'#faece7', stroke:'#d85a30', text:'#712b13'},
+  audio: {fill:'#fbeaf0', stroke:'#d4537e', text:'#72243e'}
+};
+MEDIA_COLOR.image = {fill:'#eaf3de', stroke:'#639922', text:'#27500a'};
+
+let manifest = null;
+let allDocs = [];
+let activeId = null;
+
+async function init(){
+  manifest = await fetch('manifest.json').then(r => r.json());
+  allDocs = manifest.documents;
+  renderStats();
+  populateFilters();
+  renderTable();
+  document.getElementById('search').addEventListener('input', renderTable);
+  document.getElementById('domainFilter').addEventListener('change', renderTable);
+  document.getElementById('classFilter').addEventListener('change', renderTable);
+  document.querySelectorAll('th[data-sort]').forEach(th => {
+    th.addEventListener('click', () => { sortKey = th.dataset.sort; sortDir *= -1; renderTable(); });
+  });
+}
+
+function renderStats(){
+  const el = document.getElementById('stats');
+  const items = [
+    [manifest.n_documents, 'Documents'],
+    [manifest.n_esu_total, 'ESUs'],
+    [manifest.n_ecu_total, 'ECUs'],
+    [manifest.n_relations_total, 'Relations'],
+    [new Set(allDocs.map(d=>d.domain)).size, 'Domains']
+  ];
+  el.innerHTML = items.map(([n,l]) => `<div class="stat"><div class="n">${n}</div><div class="l">${l}</div></div>`).join('');
+}
+
+function populateFilters(){
+  const domains = [...new Set(allDocs.map(d => d.domain))].sort();
+  const sel = document.getElementById('domainFilter');
+  domains.forEach(d => {
+    const o = document.createElement('option');
+    o.value = d; o.textContent = d[0].toUpperCase() + d.slice(1);
+    sel.appendChild(o);
+  });
+}
+
+let sortKey = 'title', sortDir = 1;
+
+function renderTable(){
+  const q = document.getElementById('search').value.toLowerCase();
+  const domain = document.getElementById('domainFilter').value;
+  const cls = document.getElementById('classFilter').value;
+  let rows = allDocs.filter(d =>
+    (!q || d.title.toLowerCase().includes(q) || d.doc_id.toLowerCase().includes(q)) &&
+    (!domain || d.domain === domain) &&
+    (!cls || d.complexity_class === cls)
+  );
+  rows.sort((a,b) => (a[sortKey] > b[sortKey] ? 1 : -1) * sortDir);
+
+  const tbody = document.getElementById('tbody');
+  if (rows.length === 0){
+    tbody.innerHTML = `<tr><td colspan="3" style="padding:2rem;text-align:center;color:var(--text-3)">No documents match.</td></tr>`;
+    return;
+  }
+  tbody.innerHTML = rows.map(d => `
+    <tr data-id="${d.doc_id}" class="${d.doc_id === activeId ? 'active' : ''}">
+      <td>
+        <div class="doctitle">${d.title}</div>
+        <div class="docid">${d.doc_id} &middot; ${d.domain} &middot; <span class="class-pill">class ${d.complexity_class}</span></div>
+      </td>
+      <td>${d.n_esu}</td>
+      <td>${d.n_relations}</td>
+    </tr>
+  `).join('');
+  tbody.querySelectorAll('tr[data-id]').forEach(tr => {
+    tr.addEventListener('click', () => openDoc(tr.dataset.id));
+  });
+}
+
+async function openDoc(docId){
+  activeId = docId;
+  renderTable();
+  const meta = allDocs.find(d => d.doc_id === docId);
+  document.getElementById('viewerHead').innerHTML = `
+    <h2>${meta.title}</h2>
+    <div class="meta-row">
+      <span>${meta.doc_id}</span>
+      <span>${meta.domain}</span>
+      <span>${meta.n_esu} ESUs &middot; ${meta.n_ecu} ECUs &middot; ${meta.n_relations} relations</span>
+      <span>class ${meta.complexity_class}</span>
+      <span>${Math.round(meta.duration_s)}s</span>
+    </div>`;
+  document.getElementById('legend').innerHTML = Object.entries(MEDIA_COLOR).map(([k,c]) =>
+    `<span><span class="sw" style="background:${c.fill};border:1px solid ${c.stroke}"></span>${k}</span>`
+  ).join('');
+  document.getElementById('graphHolder').innerHTML = `<div class="empty">Loading&hellip;</div>`;
+
+  const doc = await fetch(meta.file).then(r => r.json());
+  renderGraph(doc);
+}
+
+function renderGraph(doc){
+  const units = {};
+  doc.units.forEach(u => units[u.id] = u);
+  const ecus = {};
+  doc.ecus.forEach(e => ecus[e.id] = e);
+  const allNodeIds = new Set([...doc.units.map(u=>u.id), ...doc.ecus.map(e=>e.id)]);
+
+  // Build adjacency (nucleus -> children) from relations
+  const children = {};
+  allNodeIds.forEach(id => children[id] = []);
+  const hasParent = new Set();
+  doc.relations.forEach(r => {
+    if (r.type === 'mononuclear'){
+      if (!children[r.nucleus_id]) children[r.nucleus_id] = [];
+      children[r.nucleus_id].push({id:r.satellite_id, rel:r.relation_name});
+      hasParent.add(r.satellite_id);
+    } else if (r.type === 'multinuclear' && r.co_nuclei_ids && r.co_nuclei_ids.length){
+      const [head, ...rest] = r.co_nuclei_ids;
+      if (!children[head]) children[head] = [];
+      rest.forEach(cid => {
+        children[head].push({id:cid, rel:r.relation_name});
+        hasParent.add(cid);
+      });
+    }
+  });
+
+  const rootId = doc.root_unit_id && allNodeIds.has(doc.root_unit_id)
+    ? doc.root_unit_id
+    : [...allNodeIds].find(id => !hasParent.has(id)) || [...allNodeIds][0];
+
+  // BFS layout: level = depth, x = order within level
+  const levels = [];
+  const visited = new Set();
+  let frontier = [rootId];
+  visited.add(rootId);
+  while (frontier.length){
+    levels.push(frontier);
+    const next = [];
+    frontier.forEach(id => {
+      (children[id] || []).forEach(c => {
+        if (!visited.has(c.id)){ visited.add(c.id); next.push(c.id); }
+      });
+    });
+    frontier = next;
+  }
+  // orphaned nodes (not reached from root) appended as an extra level
+  const orphans = [...allNodeIds].filter(id => !visited.has(id));
+  if (orphans.length) levels.push(orphans);
+
+  const NODE_W = 168, NODE_H = 44, ROW_GAP = 76, COL_GAP = 20;
+  const maxCols = Math.max(...levels.map(l => l.length));
+  const width = Math.max(680, maxCols * (NODE_W + COL_GAP));
+  const height = levels.length * ROW_GAP + NODE_H + 20;
+
+  const pos = {};
+  levels.forEach((lvl, li) => {
+    const rowW = lvl.length * (NODE_W + COL_GAP) - COL_GAP;
+    const startX = (width - rowW) / 2;
+    lvl.forEach((id, ci) => {
+      pos[id] = { x: startX + ci * (NODE_W + COL_GAP), y: 20 + li * ROW_GAP };
+    });
+  });
+
+  const edgeLines = [];
+  const parentOf = {};
+  doc.relations.forEach(r => {
+    if (r.type === 'mononuclear' && pos[r.nucleus_id] && pos[r.satellite_id]){
+      edgeLines.push([r.nucleus_id, r.satellite_id, r.relation_name]);
+    } else if (r.type === 'multinuclear' && r.co_nuclei_ids && r.co_nuclei_ids.length > 1){
+      const [head, ...rest] = r.co_nuclei_ids;
+      rest.forEach(cid => { if (pos[head] && pos[cid]) edgeLines.push([head, cid, r.relation_name]); });
+    }
+  });
+
+  let svg = `<svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg">`;
+  svg += `<defs><marker id="arrowhead" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="var(--border-strong,#c9c5b7)"/></marker></defs>`;
+
+  edgeLines.forEach(([a,b,label]) => {
+    const p1 = pos[a], p2 = pos[b];
+    const x1 = p1.x + NODE_W/2, y1 = p1.y + NODE_H;
+    const x2 = p2.x + NODE_W/2, y2 = p2.y;
+    const midY = (y1 + y2) / 2;
+    svg += `<path class="edge" d="M${x1} ${y1} C ${x1} ${midY}, ${x2} ${midY}, ${x2} ${y2}" marker-end="url(#arrowhead)"/>`;
+    svg += `<text class="edge-label" x="${(x1+x2)/2 + 4}" y="${midY}">${label}</text>`;
+  });
+
+  Object.entries(pos).forEach(([id, p]) => {
+    const unit = units[id];
+    const ecu = ecus[id];
+    const isEcu = !!ecu;
+    const type = isEcu ? null : unit.type;
+    const col = MEDIA_COLOR[type] || {fill:'var(--bg)', stroke:'var(--border-strong)', text:'var(--text)'};
+    const strokeDash = isEcu ? 'stroke-dasharray="3 2"' : '';
+    const fillColor = isEcu ? 'transparent' : col.fill;
+    const strokeColor = isEcu ? 'var(--border-strong)' : col.stroke;
+    const label = isEcu ? (ecu.label || ecu.id) : (unit.label || unit.id);
+    const truncated = label.length > 26 ? label.slice(0,24) + '…' : label;
+    const sub = isEcu ? `ECU · ${ecu.members.length} members` : `${unit.type}${unit.duration ? ' · ' + unit.duration + 's' : ''}`;
+    svg += `<g>
+      <rect class="node-box" x="${p.x}" y="${p.y}" width="${NODE_W}" height="${NODE_H}" rx="6"
+        fill="${fillColor}" stroke="${strokeColor}" ${strokeDash}>
+        <title>${label}</title>
+      </rect>
+      <text class="node-label" x="${p.x+10}" y="${p.y+18}">${truncated}</text>
+      <text class="node-sub" x="${p.x+10}" y="${p.y+33}">${sub}</text>
+    </g>`;
+  });
+
+  svg += `</svg>`;
+  document.getElementById('graphHolder').innerHTML = svg;
+}
+
+init();
+</script>
+</body>
+</html>

@@ -1,0 +1,292 @@
+{
+  "doc_id": "CK12-MATH-005",
+  "doc_title": "Area and Perimeter of Polygons",
+  "source": "CK-12 Middle School Math - Grade 6, CC-BY-NC",
+  "source_url": "https://flexbooks.ck12.org/cbook/ck-12-middle-school-math-concepts-grade-6/section/9.1/",
+  "domain": "mathematics",
+  "annotator": "Sadallah M. ",
+  "annotation_date": "2026-06-22",
+  "notes": "Foundation geometry lesson. Hook: fencing a garden. Covers perimeter and area formulas for rectangle, triangle, parallelogram. Three separate worked examples, each with diagram. Real-world application and practice set. Simple structure (Class A: 14 units, 4 ECUs).",
+  "units": [
+    {
+      "id": "CK12-MATH-005-U001",
+      "label": "Title: Area and Perimeter of Polygons",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Lesson title"
+    },
+    {
+      "id": "CK12-MATH-005-U002",
+      "label": "Hook: fencing a garden (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "A family wants to build a fence around their rectangular garden (8m × 5m) and also calculate how much soil to buy. Introduces perimeter (fence length) and area (soil coverage) as distinct measures with practical meaning."
+    },
+    {
+      "id": "CK12-MATH-005-U003",
+      "label": "Learning Objectives (text)",
+      "type": "text",
+      "duration": 12.0,
+      "content_summary": "Objectives: define and calculate perimeter of any polygon; calculate area of rectangles, triangles, and parallelograms; solve real-world problems involving area and perimeter."
+    },
+    {
+      "id": "CK12-MATH-005-U004",
+      "label": "Perimeter: definition and formula (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Perimeter is the total distance around the outside of a shape. P = sum of all side lengths. For a rectangle: P = 2l + 2w. Units: same as length (m, cm, ft). Analogous to the fence around a garden."
+    },
+    {
+      "id": "CK12-MATH-005-U005",
+      "label": "Rectangle area formula (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Area of a rectangle = length × width (A = lw). Units: square units (m², cm², ft²). Area represents the number of unit squares that fit inside the shape. Distinct from perimeter: area fills, perimeter borders."
+    },
+    {
+      "id": "CK12-MATH-005-U006",
+      "label": "Rectangle diagram with labels (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Diagram of a rectangle with length l and width w labeled. Grid of unit squares shown inside to illustrate area as counting squares. Perimeter path highlighted around the outside."
+    },
+    {
+      "id": "CK12-MATH-005-U007",
+      "label": "Triangle area formula (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Area of a triangle = ½ × base × height (A = ½bh). The height must be perpendicular to the base. Derived from the fact that a triangle is exactly half of a parallelogram with the same base and height."
+    },
+    {
+      "id": "CK12-MATH-005-U008",
+      "label": "Triangle area diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Diagram showing a triangle with base b and perpendicular height h labeled. Dashed line shows the height dropping from apex to base. Dotted parallelogram superimposed to show the ½ relationship."
+    },
+    {
+      "id": "CK12-MATH-005-U009",
+      "label": "Parallelogram area formula (text)",
+      "type": "text",
+      "duration": 15.0,
+      "content_summary": "Area of a parallelogram = base × height (A = bh). The height is the perpendicular distance between the two parallel sides, NOT the slant side length. Key common mistake addressed."
+    },
+    {
+      "id": "CK12-MATH-005-U010",
+      "label": "Worked Example 1: garden fencing (text)",
+      "type": "text",
+      "duration": 30.0,
+      "content_summary": "Returns to opening problem. Garden 8m × 5m. Perimeter = 2(8)+2(5) = 26m of fencing needed. Area = 8×5 = 40m² of soil needed. Both calculations shown with units. Closes the narrative."
+    },
+    {
+      "id": "CK12-MATH-005-U011",
+      "label": "Worked Example 2: triangle area (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Problem: triangle with base=12cm and height=7cm. Area = ½×12×7 = 42cm². Common mistake shown: using slant side instead of perpendicular height gives wrong answer."
+    },
+    {
+      "id": "CK12-MATH-005-U012",
+      "label": "Worked Example 3: composite shape (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "L-shaped composite figure with all dimensions labeled. Shows decomposition into two rectangles. Students find total area by summing the two rectangle areas."
+    },
+    {
+      "id": "CK12-MATH-005-U013",
+      "label": "Worked Example 3: composite shape solution (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Solution to composite L-shape: decompose into Rectangle A (6×4=24) and Rectangle B (3×2=6). Total area = 24+6 = 30 square units. Strategy: decompose complex shapes into simpler ones."
+    },
+    {
+      "id": "CK12-MATH-005-U014",
+      "label": "Practice problems (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Six problems: find perimeter of given polygons; find area of rectangles, triangles, parallelograms; solve real-world problem (cost of carpet for a room at $5/m²); find missing dimension given area."
+    },
+    {
+      "id": "CK12-MATH-005-U015",
+      "label": "Lesson root: Area and Perimeter lesson",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Top-level document container."
+    }
+  ],
+  "ecus": [
+    {
+      "id": "CK12-MATH-005-ECU01",
+      "label": "Formulas Block",
+      "members": [
+        "CK12-MATH-005-U004",
+        "CK12-MATH-005-U005",
+        "CK12-MATH-005-U006",
+        "CK12-MATH-005-U007",
+        "CK12-MATH-005-U008",
+        "CK12-MATH-005-U009"
+      ],
+      "main_unit_id": "CK12-MATH-005-U004"
+    },
+    {
+      "id": "CK12-MATH-005-ECU02",
+      "label": "Worked Example 1 Block",
+      "members": ["CK12-MATH-005-U010"],
+      "main_unit_id": "CK12-MATH-005-U010"
+    },
+    {
+      "id": "CK12-MATH-005-ECU03",
+      "label": "Worked Example 2 Block",
+      "members": ["CK12-MATH-005-U011"],
+      "main_unit_id": "CK12-MATH-005-U011"
+    },
+    {
+      "id": "CK12-MATH-005-ECU04",
+      "label": "Worked Example 3 Block",
+      "members": ["CK12-MATH-005-U012", "CK12-MATH-005-U013"],
+      "main_unit_id": "CK12-MATH-005-U013"
+    }
+  ],
+  "relations": [
+    {
+      "id": "R001",
+      "type": "mononuclear",
+      "relation_name": "Identification",
+      "nucleus_id": "CK12-MATH-005-U015",
+      "satellite_id": "CK12-MATH-005-U001",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R002",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-MATH-005-U015",
+      "satellite_id": "CK12-MATH-005-U002",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R003",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-MATH-005-U015",
+      "satellite_id": "CK12-MATH-005-U003",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R004",
+      "type": "multinuclear",
+      "relation_name": "Joint",
+      "co_nuclei_ids": [
+        "CK12-MATH-005-U015",
+        "CK12-MATH-005-ECU01",
+        "CK12-MATH-005-ECU02",
+        "CK12-MATH-005-ECU03",
+        "CK12-MATH-005-ECU04",
+        "CK12-MATH-005-U014"
+      ]
+    },
+    {
+      "id": "R005",
+      "type": "mononuclear",
+      "relation_name": "Elaboration",
+      "nucleus_id": "CK12-MATH-005-U005",
+      "satellite_id": "CK12-MATH-005-U006",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R006",
+      "type": "mononuclear",
+      "relation_name": "Evidence",
+      "nucleus_id": "CK12-MATH-005-U007",
+      "satellite_id": "CK12-MATH-005-U008",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R007",
+      "type": "multinuclear",
+      "relation_name": "List",
+      "co_nuclei_ids": [
+        "CK12-MATH-005-U004",
+        "CK12-MATH-005-U005",
+        "CK12-MATH-005-U007",
+        "CK12-MATH-005-U009"
+      ]
+    },
+    {
+      "id": "R008",
+      "type": "multinuclear",
+      "relation_name": "Enumeration",
+      "co_nuclei_ids": [
+        "CK12-MATH-005-ECU02",
+        "CK12-MATH-005-ECU03",
+        "CK12-MATH-005-ECU04"
+      ]
+    },
+    {
+      "id": "R009",
+      "type": "mononuclear",
+      "relation_name": "Elaboration",
+      "nucleus_id": "CK12-MATH-005-ECU04",
+      "satellite_id": "CK12-MATH-005-U012",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R010",
+      "type": "mononuclear",
+      "relation_name": "Motivation",
+      "nucleus_id": "CK12-MATH-005-ECU02",
+      "satellite_id": "CK12-MATH-005-U002",
+      "satellite_orbit": 0
+    }
+  ],
+  "root_unit_id": "CK12-MATH-005-U015",
+  "computed": {
+    "weights": {
+      "CK12-MATH-005-U015": 3.0,
+      "CK12-MATH-005-U001": 2.0,
+      "CK12-MATH-005-U002": 2.0,
+      "CK12-MATH-005-U003": 1.5,
+      "CK12-MATH-005-ECU01": 3.0,
+      "CK12-MATH-005-U004": 3.0,
+      "CK12-MATH-005-U005": 3.0,
+      "CK12-MATH-005-U006": 2.0,
+      "CK12-MATH-005-U007": 3.0,
+      "CK12-MATH-005-U008": 2.0,
+      "CK12-MATH-005-U009": 3.0,
+      "CK12-MATH-005-ECU02": 3.0,
+      "CK12-MATH-005-U010": 3.0,
+      "CK12-MATH-005-ECU03": 3.0,
+      "CK12-MATH-005-U011": 3.0,
+      "CK12-MATH-005-ECU04": 3.0,
+      "CK12-MATH-005-U013": 3.0,
+      "CK12-MATH-005-U012": 2.0,
+      "CK12-MATH-005-U014": 3.0
+    },
+    "levels": {
+      "CK12-MATH-005-U015": 1,
+      "CK12-MATH-005-U001": 2,
+      "CK12-MATH-005-U002": 2,
+      "CK12-MATH-005-U003": 2,
+      "CK12-MATH-005-ECU01": 1,
+      "CK12-MATH-005-ECU02": 1,
+      "CK12-MATH-005-ECU03": 1,
+      "CK12-MATH-005-ECU04": 1,
+      "CK12-MATH-005-U014": 1,
+      "CK12-MATH-005-U004": 1,
+      "CK12-MATH-005-U010": 1,
+      "CK12-MATH-005-U011": 1,
+      "CK12-MATH-005-U012": 2,
+      "CK12-MATH-005-U013": 1,
+      "CK12-MATH-005-U005": 1,
+      "CK12-MATH-005-U007": 1,
+      "CK12-MATH-005-U009": 1,
+      "CK12-MATH-005-U006": 2,
+      "CK12-MATH-005-U008": 2
+    },
+    "max_orbit": 2,
+    "total_duration": 252.0,
+    "n_units": 15,
+    "n_ecus": 4,
+    "n_relations": 10
+  }
+}

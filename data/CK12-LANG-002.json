@@ -1,0 +1,155 @@
+{
+  "doc_id": "CK12-LANG-002",
+  "doc_title": "Parts of Speech",
+  "source": "CK-12 Language Arts Grade 6 Concepts, Section 2.1, CC-BY-NC",
+  "source_url": "https://flexbooks.ck12.org/cbook/ck-12-language-arts-grade-6-concepts/section/2.1/",
+  "domain": "language_arts",
+  "annotator": "Sadallah M. ",
+  "annotation_date": "2026-07-10",
+  "notes": "Class A document (8 units). Adds a second language arts document (previously only 1). No ECUs, no multinuclear relations.",
+  "units": [
+    {
+      "id": "CK12-LANG-002-U001",
+      "label": "Title: Parts of Speech",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Lesson title"
+    },
+    {
+      "id": "CK12-LANG-002-U002",
+      "label": "Overview: eight parts of speech (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "English words are grouped into eight parts of speech based on their function: noun, pronoun, verb, adjective, adverb, preposition, conjunction, interjection. This lesson introduces the four most common."
+    },
+    {
+      "id": "CK12-LANG-002-U003",
+      "label": "Noun and verb definitions (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Noun: names a person, place, thing, or idea (dog, city, happiness). Verb: expresses an action or state of being (run, is, seems)."
+    },
+    {
+      "id": "CK12-LANG-002-U004",
+      "label": "Adjective and adverb definitions (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Adjective: describes a noun (blue, tall, happy). Adverb: describes a verb, adjective, or another adverb, often ending in -ly (quickly, very, well)."
+    },
+    {
+      "id": "CK12-LANG-002-U005",
+      "label": "Parts of speech chart (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Colour-coded chart with an example sentence 'The quick fox jumps gracefully' with each word labeled: The(article), quick(adjective), fox(noun), jumps(verb), gracefully(adverb)."
+    },
+    {
+      "id": "CK12-LANG-002-U006",
+      "label": "Worked example: label a sentence (text)",
+      "type": "text",
+      "duration": 30.0,
+      "content_summary": "Sentence 'She sings beautifully in the old theater' is labeled word-by-word: She(pronoun), sings(verb), beautifully(adverb), old(adjective), theater(noun)."
+    },
+    {
+      "id": "CK12-LANG-002-U007",
+      "label": "Practice: identify parts of speech (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Five sentences given; students identify the noun, verb, adjective, and adverb in each."
+    },
+    {
+      "id": "CK12-LANG-002-U008",
+      "label": "Lesson root: Parts of Speech",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Top-level document container."
+    }
+  ],
+  "ecus": [],
+  "relations": [
+    {
+      "id": "R001",
+      "type": "mononuclear",
+      "relation_name": "Identification",
+      "nucleus_id": "CK12-LANG-002-U008",
+      "satellite_id": "CK12-LANG-002-U001",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R002",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-LANG-002-U008",
+      "satellite_id": "CK12-LANG-002-U002",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R003",
+      "type": "mononuclear",
+      "relation_name": "Elaboration",
+      "nucleus_id": "CK12-LANG-002-U008",
+      "satellite_id": "CK12-LANG-002-U003",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R004",
+      "type": "mononuclear",
+      "relation_name": "Elaboration",
+      "nucleus_id": "CK12-LANG-002-U008",
+      "satellite_id": "CK12-LANG-002-U004",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R005",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "CK12-LANG-002-U004",
+      "satellite_id": "CK12-LANG-002-U005",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R006",
+      "type": "mononuclear",
+      "relation_name": "Demonstration",
+      "nucleus_id": "CK12-LANG-002-U008",
+      "satellite_id": "CK12-LANG-002-U006",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R007",
+      "type": "mononuclear",
+      "relation_name": "Reinforcement",
+      "nucleus_id": "CK12-LANG-002-U008",
+      "satellite_id": "CK12-LANG-002-U007",
+      "satellite_orbit": 0
+    }
+  ],
+  "root_unit_id": "CK12-LANG-002-U008",
+  "computed": {
+    "weights": {
+      "CK12-LANG-002-U008": 3.0,
+      "CK12-LANG-002-U001": 2.0,
+      "CK12-LANG-002-U002": 2.0,
+      "CK12-LANG-002-U003": 2.0,
+      "CK12-LANG-002-U004": 2.0,
+      "CK12-LANG-002-U005": 0.95,
+      "CK12-LANG-002-U006": 2.0,
+      "CK12-LANG-002-U007": 2.0
+    },
+    "levels": {
+      "CK12-LANG-002-U008": 1,
+      "CK12-LANG-002-U001": 2,
+      "CK12-LANG-002-U002": 2,
+      "CK12-LANG-002-U003": 2,
+      "CK12-LANG-002-U004": 2,
+      "CK12-LANG-002-U006": 2,
+      "CK12-LANG-002-U007": 2,
+      "CK12-LANG-002-U005": 3
+    },
+    "max_orbit": 2,
+    "total_duration": 141.0,
+    "n_units": 8,
+    "n_ecus": 0,
+    "n_relations": 7
+  }
+}

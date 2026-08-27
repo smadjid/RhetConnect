@@ -1,0 +1,231 @@
+{
+  "doc_id": "CK12-LANG-003",
+  "doc_title": "Persuasive Writing: Building an Argument",
+  "source": "CK-12 Language Arts Grade 8 Concepts, Section 6.1, CC-BY-NC",
+  "source_url": "https://flexbooks.ck12.org/cbook/ck-12-language-arts-grade-8-concepts/section/6.1/",
+  "domain": "language_arts",
+  "annotator": "Sadallah M. ",
+  "annotation_date": "2026-07-10",
+  "notes": "Class B document (13 units). Third language arts document. Covers claim/evidence/reasoning structure and counterargument. One ECU for the worked example analysis.",
+  "units": [
+    {
+      "id": "CK12-LANG-003-U001",
+      "label": "Title: Persuasive Writing: Building an Argument",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Lesson title"
+    },
+    {
+      "id": "CK12-LANG-003-U002",
+      "label": "Hook: a debate clip (video)",
+      "type": "video",
+      "duration": 30.0,
+      "content_summary": "Short video clip of two students debating whether school should start later, showing one making a much more convincing case than the other. Prompts: what made one argument stronger?"
+    },
+    {
+      "id": "CK12-LANG-003-U003",
+      "label": "Learning Objectives (text)",
+      "type": "text",
+      "duration": 15.0,
+      "content_summary": "Objectives: state a clear claim; support a claim with evidence and reasoning; address a counterargument; structure a persuasive paragraph."
+    },
+    {
+      "id": "CK12-LANG-003-U004",
+      "label": "Claim: the foundation (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "A claim is the main argument or position you are defending — a debatable statement, not a fact. Example: 'School should start at 9am instead of 7:30am.' A strong claim is specific and arguable."
+    },
+    {
+      "id": "CK12-LANG-003-U005",
+      "label": "Evidence: supporting the claim (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Evidence is factual support: statistics, expert quotes, research findings, or documented examples. Strong evidence comes from credible, relevant sources — not personal opinion alone."
+    },
+    {
+      "id": "CK12-LANG-003-U006",
+      "label": "Reasoning: connecting evidence to claim (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Reasoning explains HOW the evidence supports the claim — it's the logical bridge. Evidence alone doesn't persuade; the writer must explain why that evidence matters for the argument."
+    },
+    {
+      "id": "CK12-LANG-003-U007",
+      "label": "Claim-Evidence-Reasoning diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Three-block diagram showing Claim → Evidence → Reasoning as connected building blocks, with arrows showing how each supports the next, forming a complete argument."
+    },
+    {
+      "id": "CK12-LANG-003-U008",
+      "label": "Counterargument and rebuttal (text)",
+      "type": "text",
+      "duration": 30.0,
+      "content_summary": "A strong persuasive piece acknowledges the opposing view (counterargument) and then explains why the writer's position is still stronger (rebuttal). This shows the writer has considered multiple sides, building credibility."
+    },
+    {
+      "id": "CK12-LANG-003-U009",
+      "label": "Worked example: school start times (text)",
+      "type": "text",
+      "duration": 36.0,
+      "content_summary": "Full annotated paragraph: Claim (school should start later) + Evidence (CDC study: teens need 8-10 hours sleep, early start times cause chronic sleep deprivation) + Reasoning (later start aligns school with teen sleep biology) + Counterargument (parents' work schedules) + Rebuttal (staggered bus schedules could address this)."
+    },
+    {
+      "id": "CK12-LANG-003-U010",
+      "label": "Worked example annotated diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "The worked example paragraph shown with colour-coded highlighting: claim in blue, evidence in green, reasoning in yellow, counterargument/rebuttal in orange, matching the CER diagram structure."
+    },
+    {
+      "id": "CK12-LANG-003-U011",
+      "label": "Common weaknesses to avoid (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Common mistakes: claim too vague or factual (not debatable); evidence from unreliable sources; missing reasoning (evidence just 'dropped in' without explanation); ignoring the counterargument entirely."
+    },
+    {
+      "id": "CK12-LANG-003-U012",
+      "label": "Practice: write your own argument (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Writing task: choose one of three provided topics and write a persuasive paragraph including claim, evidence, reasoning, and at least one counterargument with rebuttal."
+    },
+    {
+      "id": "CK12-LANG-003-U013",
+      "label": "Lesson root: Persuasive Writing lesson",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Top-level document container."
+    }
+  ],
+  "ecus": [
+    {
+      "id": "CK12-LANG-003-ECU01",
+      "label": "Worked Example Block",
+      "members": ["CK12-LANG-003-U009", "CK12-LANG-003-U010"],
+      "main_unit_id": "CK12-LANG-003-U009"
+    }
+  ],
+  "relations": [
+    {
+      "id": "R001",
+      "type": "mononuclear",
+      "relation_name": "Identification",
+      "nucleus_id": "CK12-LANG-003-U013",
+      "satellite_id": "CK12-LANG-003-U001",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R002",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-LANG-003-U013",
+      "satellite_id": "CK12-LANG-003-U002",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R003",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-LANG-003-U013",
+      "satellite_id": "CK12-LANG-003-U003",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R004",
+      "type": "multinuclear",
+      "relation_name": "Sequence",
+      "co_nuclei_ids": [
+        "CK12-LANG-003-U004",
+        "CK12-LANG-003-U005",
+        "CK12-LANG-003-U006"
+      ]
+    },
+    {
+      "id": "R005",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "CK12-LANG-003-U006",
+      "satellite_id": "CK12-LANG-003-U007",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R006",
+      "type": "mononuclear",
+      "relation_name": "Elaboration",
+      "nucleus_id": "CK12-LANG-003-U013",
+      "satellite_id": "CK12-LANG-003-U008",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R007",
+      "type": "mononuclear",
+      "relation_name": "Demonstration",
+      "nucleus_id": "CK12-LANG-003-U013",
+      "satellite_id": "CK12-LANG-003-ECU01",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R008",
+      "type": "mononuclear",
+      "relation_name": "Elaboration",
+      "nucleus_id": "CK12-LANG-003-U009",
+      "satellite_id": "CK12-LANG-003-U010",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R009",
+      "type": "mononuclear",
+      "relation_name": "Background",
+      "nucleus_id": "CK12-LANG-003-U013",
+      "satellite_id": "CK12-LANG-003-U011",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R010",
+      "type": "mononuclear",
+      "relation_name": "Reinforcement",
+      "nucleus_id": "CK12-LANG-003-U013",
+      "satellite_id": "CK12-LANG-003-U012",
+      "satellite_orbit": 0
+    }
+  ],
+  "root_unit_id": "CK12-LANG-003-U013",
+  "computed": {
+    "weights": {
+      "CK12-LANG-003-U013": 3.0,
+      "CK12-LANG-003-U001": 2.0,
+      "CK12-LANG-003-U002": 2.0,
+      "CK12-LANG-003-U003": 1.5,
+      "CK12-LANG-003-U008": 2.0,
+      "CK12-LANG-003-ECU01": 2.0,
+      "CK12-LANG-003-U009": 2.0,
+      "CK12-LANG-003-U010": 1.0,
+      "CK12-LANG-003-U011": 1.5,
+      "CK12-LANG-003-U012": 2.0,
+      "CK12-LANG-003-U005": 0.0,
+      "CK12-LANG-003-U006": 0.0,
+      "CK12-LANG-003-U004": 0.0,
+      "CK12-LANG-003-U007": 0.0
+    },
+    "levels": {
+      "CK12-LANG-003-U013": 1,
+      "CK12-LANG-003-U001": 2,
+      "CK12-LANG-003-U002": 2,
+      "CK12-LANG-003-U003": 2,
+      "CK12-LANG-003-U008": 2,
+      "CK12-LANG-003-ECU01": 2,
+      "CK12-LANG-003-U009": 2,
+      "CK12-LANG-003-U011": 2,
+      "CK12-LANG-003-U012": 2,
+      "CK12-LANG-003-U010": 3
+    },
+    "max_orbit": 2,
+    "total_duration": 261.0,
+    "n_units": 13,
+    "n_ecus": 1,
+    "n_relations": 10
+  }
+}

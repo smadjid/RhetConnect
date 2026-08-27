@@ -1,0 +1,45 @@
+{
+  "doc_id": "CK12-DOMAIN-NNN",
+  "doc_title": "Title of the lesson",
+  "source": "CK-12 Foundation, CC-BY-NC",
+  "source_url": "https://www.ck12.org/...",
+  "domain": "mathematics",
+  "annotator": "Sadallah M.",
+  "annotation_date": "YYYY-MM-DD",
+  "notes": "Any annotation notes or difficulties encountered",
+
+  "units": [
+    {
+      "id": "CK12-DOMAIN-NNN-U001",
+      "label": "Title: <lesson title>",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Title of the lesson"
+    },
+    {
+      "id": "CK12-DOMAIN-NNN-U002",
+      "label": "<descriptive name>",
+      "type": "text",
+      "duration": 0.0,
+      "content_summary": "<what this unit contains>"
+    }
+  ],
+
+  "ecus": [
+  ],
+
+  "relations": [
+    {
+      "id": "R001",
+      "type": "mononuclear",
+      "relation_name": "Identification",
+      "nucleus_id": "CK12-DOMAIN-NNN-UNNN",
+      "satellite_id": "CK12-DOMAIN-NNN-U001",
+      "satellite_orbit": 0
+    }
+  ],
+
+  "root_unit_id": "CK12-DOMAIN-NNN-UNNN",
+
+  "computed": {}
+}

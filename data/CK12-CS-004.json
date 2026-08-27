@@ -1,0 +1,220 @@
+{
+  "doc_id": "CK12-CS-004",
+  "doc_title": "Introduction to Conditional Statements",
+  "source": "CK-12 Computer Science Concepts, Section 5.1, CC-BY-NC",
+  "source_url": "https://flexbooks.ck12.org/cbook/ck-12-computer-science/section/5.1/",
+  "domain": "computer_science",
+  "annotator": "Sadallah M. ",
+  "annotation_date": "2026-07-10",
+  "notes": "Class B document (13 units). Covers if/else logic with flowchart and traced example. One ECU for the worked example.",
+  "units": [
+    {
+      "id": "CK12-CS-004-U001",
+      "label": "Title: Introduction to Conditional Statements",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Lesson title"
+    },
+    {
+      "id": "CK12-CS-004-U002",
+      "label": "Hook: deciding what to wear (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Every day you make conditional decisions: 'IF it's raining, THEN take an umbrella, ELSE wear sunglasses.' Programs make similar decisions using conditional statements."
+    },
+    {
+      "id": "CK12-CS-004-U003",
+      "label": "Learning Objectives (text)",
+      "type": "text",
+      "duration": 15.0,
+      "content_summary": "Objectives: write a basic if statement; add an else clause; use comparison operators; trace program flow through a conditional."
+    },
+    {
+      "id": "CK12-CS-004-U004",
+      "label": "if statement syntax (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Basic syntax: `if (condition) { do this }`. The code inside the braces only runs if the condition evaluates to true. Example: `if (age >= 18) { print(\"Adult\"); }`"
+    },
+    {
+      "id": "CK12-CS-004-U005",
+      "label": "if-else syntax (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "Adding else: `if (condition) { do this } else { do that }`. Exactly one branch executes. Example: `if (age >= 18) { print(\"Adult\"); } else { print(\"Minor\"); }`"
+    },
+    {
+      "id": "CK12-CS-004-U006",
+      "label": "Comparison operators table (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Table listing comparison operators: == (equal), != (not equal), > (greater than), < (less than), >= (greater or equal), <= (less or equal), each with a short example."
+    },
+    {
+      "id": "CK12-CS-004-U007",
+      "label": "Flowchart of if-else logic (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Flowchart showing: START → decision diamond (condition?) → Yes branch and No branch → both merge → END. Standard if-else visual representation."
+    },
+    {
+      "id": "CK12-CS-004-U008",
+      "label": "Worked example: age checker (text)",
+      "type": "text",
+      "duration": 36.0,
+      "content_summary": "Full code: `int age = 15; if (age >= 18) { print(\"Adult\"); } else { print(\"Minor\"); }`. Trace: age=15, condition (15>=18) is false, else branch runs, prints \"Minor\"."
+    },
+    {
+      "id": "CK12-CS-004-U009",
+      "label": "Worked example trace diagram (image)",
+      "type": "image",
+      "duration": 15.0,
+      "content_summary": "Step-by-step trace diagram showing the age checker code execution: variable assignment, condition evaluation (false), branch taken (else), output produced."
+    },
+    {
+      "id": "CK12-CS-004-U010",
+      "label": "else if for multiple conditions (text)",
+      "type": "text",
+      "duration": 24.0,
+      "content_summary": "For more than two outcomes, use else if: `if (score>=90) {A} else if (score>=80) {B} else {C}`. Conditions checked in order; first true one runs, rest are skipped."
+    },
+    {
+      "id": "CK12-CS-004-U011",
+      "label": "Video: conditionals in a game (video)",
+      "type": "video",
+      "duration": 90.0,
+      "content_summary": "Video showing a simple game where conditional statements determine outcomes (win/lose/tie) based on player input, with the corresponding code shown alongside the running game."
+    },
+    {
+      "id": "CK12-CS-004-U012",
+      "label": "Practice problems (text)",
+      "type": "text",
+      "duration": 18.0,
+      "content_summary": "Four problems: write an if statement for a given scenario; trace a conditional program with given inputs; convert a described decision into if-else code; identify the bug in a given conditional."
+    },
+    {
+      "id": "CK12-CS-004-U013",
+      "label": "Lesson root: Conditional Statements",
+      "type": "text",
+      "duration": 3.0,
+      "content_summary": "Top-level document container."
+    }
+  ],
+  "ecus": [
+    {
+      "id": "CK12-CS-004-ECU01",
+      "label": "Worked Example Block",
+      "members": ["CK12-CS-004-U008", "CK12-CS-004-U009"],
+      "main_unit_id": "CK12-CS-004-U008"
+    }
+  ],
+  "relations": [
+    {
+      "id": "R001",
+      "type": "mononuclear",
+      "relation_name": "Identification",
+      "nucleus_id": "CK12-CS-004-U013",
+      "satellite_id": "CK12-CS-004-U001",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R002",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-CS-004-U013",
+      "satellite_id": "CK12-CS-004-U002",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R003",
+      "type": "mononuclear",
+      "relation_name": "Preparation",
+      "nucleus_id": "CK12-CS-004-U013",
+      "satellite_id": "CK12-CS-004-U003",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R004",
+      "type": "multinuclear",
+      "relation_name": "Sequence",
+      "co_nuclei_ids": [
+        "CK12-CS-004-U004",
+        "CK12-CS-004-U005",
+        "CK12-CS-004-ECU01",
+        "CK12-CS-004-U010"
+      ]
+    },
+    {
+      "id": "R005",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "CK12-CS-004-U005",
+      "satellite_id": "CK12-CS-004-U006",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R006",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "CK12-CS-004-U005",
+      "satellite_id": "CK12-CS-004-U007",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R007",
+      "type": "mononuclear",
+      "relation_name": "Elaboration",
+      "nucleus_id": "CK12-CS-004-U008",
+      "satellite_id": "CK12-CS-004-U009",
+      "satellite_orbit": 0
+    },
+    {
+      "id": "R008",
+      "type": "mononuclear",
+      "relation_name": "Clarification",
+      "nucleus_id": "CK12-CS-004-U013",
+      "satellite_id": "CK12-CS-004-U011",
+      "satellite_orbit": 1
+    },
+    {
+      "id": "R009",
+      "type": "mononuclear",
+      "relation_name": "Reinforcement",
+      "nucleus_id": "CK12-CS-004-U013",
+      "satellite_id": "CK12-CS-004-U012",
+      "satellite_orbit": 0
+    }
+  ],
+  "root_unit_id": "CK12-CS-004-U013",
+  "computed": {
+    "weights": {
+      "CK12-CS-004-U013": 3.0,
+      "CK12-CS-004-U001": 2.0,
+      "CK12-CS-004-U002": 2.0,
+      "CK12-CS-004-U003": 1.5,
+      "CK12-CS-004-U011": 1.5,
+      "CK12-CS-004-U012": 2.0,
+      "CK12-CS-004-U007": 0.0,
+      "CK12-CS-004-U009": 0.0,
+      "CK12-CS-004-U006": 0.0,
+      "CK12-CS-004-U010": 0.0,
+      "CK12-CS-004-U005": 0.0,
+      "CK12-CS-004-ECU01": 0.0,
+      "CK12-CS-004-U008": 0.0,
+      "CK12-CS-004-U004": 0.0
+    },
+    "levels": {
+      "CK12-CS-004-U013": 1,
+      "CK12-CS-004-U001": 2,
+      "CK12-CS-004-U002": 2,
+      "CK12-CS-004-U003": 2,
+      "CK12-CS-004-U011": 2,
+      "CK12-CS-004-U012": 2
+    },
+    "max_orbit": 2,
+    "total_duration": 306.0,
+    "n_units": 13,
+    "n_ecus": 1,
+    "n_relations": 9
+  }
+}
